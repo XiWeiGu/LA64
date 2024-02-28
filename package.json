@@ -1,0 +1,43 @@
+{
+  "name": "la64",
+  "displayName": "la64",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "la64",
+        "aliases": [
+          "la64",
+          "la64"
+        ],
+        "extensions": [
+          ".S"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "la64",
+        "scopeName": "source.S",
+        "path": "./syntaxes/la64.tmLanguage.json"
+      }
+    ],
+    "snippets" :[
+      {
+        "language": "la64",
+        "path": "./src/snippets.json"
+      }    
+    ]
+  },
+  "dependencies": {
+    "vscode": "^1.1.37"
+  }
+}

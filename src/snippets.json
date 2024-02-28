@@ -1,0 +1,9 @@
+{
+	"Arithmetic Operation Instructions": {
+		"prefix": "add.w",
+		"body": [
+			"add.w"
+		],
+		"description": "add.w rd, rj, rk"
+	}
+}
