@@ -1,9 +1,505 @@
 {
-	"Arithmetic Operation Instructions": {
+	"add.w": {
 		"prefix": "add.w",
 		"body": [
 			"add.w"
 		],
 		"description": "add.w rd, rj, rk"
+	},
+
+	"add.d": {
+		"prefix": "add.d",
+		"body": [
+			"add.d"
+		],
+		"description": "add.d rd, rj, rk"
+	},
+
+	"sub.w": {
+		"prefix": "sub.w",
+		"body": [
+			"sub.w"
+		],
+		"description": "sub.w rd, rj, rk"
+	},
+
+	"sub.d": {
+		"prefix": "sub.d",
+		"body": [
+			"sub.d"
+		],
+		"description": "sub.d rd, rj, rk"
+	},
+
+	"addi.w": {
+		"prefix": "addi.w",
+		"body": [
+			"addi.w"
+		],
+		"description": "addi.w rd, rj, rk"
+	},
+
+	"addi.d": {
+		"prefix": "addi.d",
+		"body": [
+			"addi.d"
+		],
+		"description": "addi.d rd, rj, rk"
+	},
+
+	"alsl.w": {
+		"prefix": "alsl.w",
+		"body": [
+			"alsl.w"
+		],
+		"description": "alsl.w rd, rj, rk, sa2"
+	},
+
+	"alsl.d": {
+		"prefix": "alsl.d",
+		"body": [
+			"alsl.d"
+		],
+		"description": "alsl.d rd, rj, rk, sa2"
+	},
+
+	"lu12i.w": {
+		"prefix": "lu12i.w",
+		"body": [
+			"lu12i.w"
+		],
+		"description": "lu12i.w rd, si20"
+	},
+
+	"mul.w": {
+		"prefix": "mul.w",
+		"body": [
+			"mul.w"
+		],
+		"description": "mul.w rd, rj, rk"
+	},
+
+	"mul.d": {
+		"prefix": "mul.d",
+		"body": [
+			"mul.d"
+		],
+		"description": "mul.d rd, rj, rk"
+	},
+
+	"mulh.w": {
+		"prefix": "mulh.w",
+		"body": [
+			"mulh.w"
+		],
+		"description": "mulh.w rd, rj, rk"
+	},
+
+	"mulh.d": {
+		"prefix": "mulh.d",
+		"body": [
+			"mulh.d"
+		],
+		"description": "mulh.d rd, rj, rk"
+	},
+
+	"div.w": {
+		"prefix": "div.w",
+		"body": [
+			"div.w"
+		],
+		"description": "div.w rd, rj, rk"
+	},
+
+	"div.d": {
+		"prefix": "div.d",
+		"body": [
+			"div.d"
+		],
+		"description": "div.d rd, rj, rk"
+	},
+
+	"mod.w": {
+		"prefix": "mod.w",
+		"body": [
+			"mod.w"
+		],
+		"description": "mod.w rd, rj, rk"
+	},
+
+	"mod.d": {
+		"prefix": "mod.d",
+		"body": [
+			"mod.d"
+		],
+		"description": "mod.d rd, rj, rk"
+	},
+
+	"addu16i.d": {
+		"prefix": "addu16i.d",
+		"body": [
+			"addu16i.d"
+		],
+		"description": "addu16i.d rd, rj, si16"
+	},
+
+	"alsl.wu": {
+		"prefix": "alsl.wu",
+		"body": [
+			"alsl.wu"
+		],
+		"description": "alsl.wu rd, rj, rk, sa2"
+	},
+
+	"lu52i.d": {
+		"prefix": "lu52i.d",
+		"body": [
+			"lu52i.d"
+		],
+		"description": "lu52i.d rd, rj, si12"
+	},
+
+	"lu32i.d": {
+		"prefix": "lu32i.d",
+		"body": [
+			"lu32i.d"
+		],
+		"description": "lu32i.d rd, si20"
+	},
+
+	"slt": {
+		"prefix": "slt",
+		"body": [
+			"slt"
+		],
+		"description": "slt rd, rj, rk"
+	},
+
+	"sltu": {
+		"prefix": "sltu",
+		"body": [
+			"sltu"
+		],
+		"description": "sltu rd, rj, rk"
+	},
+
+	"slti": {
+		"prefix": "slti",
+		"body": [
+			"slti"
+		],
+		"description": "slti rd, rj, si12"
+	},
+
+	"sltui": {
+		"prefix": "sltui",
+		"body": [
+			"sltui"
+		],
+		"description": "sltui rd, rj, si12"
+	},
+
+	"pcaddi": {
+		"prefix": "pcaddi",
+		"body": [
+			"pcaddi"
+		],
+		"description": "pcaddi rd, si20"
+	},
+
+	"pcaddu12i": {
+		"prefix": "pcaddu12i",
+		"body": [
+			"pcaddu12i"
+		],
+		"description": "pcaddu12i rd, si20"
+	},
+
+	"pcaddu18i": {
+		"prefix": "pcaddu18i",
+		"body": [
+			"pcaddu18i"
+		],
+		"description": "pcaddu18i rd, si20"
+	},
+
+	"pcalau12i": {
+		"prefix": "pcalau12i",
+		"body": [
+			"pcalau12i"
+		],
+		"description": "pcalau12i rd, si20"
+	},
+
+	"and": {
+		"prefix": "and",
+		"body": [
+			"and"
+		],
+		"description": "and rd, rj, rk"
+	},
+
+	"or": {
+		"prefix": "or",
+		"body": [
+			"or"
+		],
+		"description": "or rd, rj, rk"
+	},
+
+	"nor": {
+		"prefix": "nor",
+		"body": [
+			"nor"
+		],
+		"description": "nor rd, rj, rk"
+	},
+
+	"xor": {
+		"prefix": "xor",
+		"body": [
+			"xor"
+		],
+		"description": "xor rd, rj, rk"
+	},
+
+	"andn": {
+		"prefix": "andn",
+		"body": [
+			"andn"
+		],
+		"description": "andn rd, rj, rk"
+	},
+
+	"orn": {
+		"prefix": "orn",
+		"body": [
+			"orn"
+		],
+		"description": "orn rd, rj, rk"
+	},
+
+	"andi": {
+		"prefix": "andi",
+		"body": [
+			"andi"
+		],
+		"description": "andi rd, rj, ui12"
+	},
+
+	"ori": {
+		"prefix": "ori",
+		"body": [
+			"ori"
+		],
+		"description": "ori rd, rj, ui12"
+	},
+
+	"xori": {
+		"prefix": "xori",
+		"body": [
+			"xori"
+		],
+		"description": "xori rd, rj, ui12"
+	},
+
+	"mulh.wu": {
+		"prefix": "mulh.wu",
+		"body": [
+			"mulh.wu"
+		],
+		"description": "mulh.wu rd, rj, rk"
+	},
+
+	"mulh.du": {
+		"prefix": "mulh.du",
+		"body": [
+			"mulh.du"
+		],
+		"description": "mulh.du rd, rj, rk"
+	},
+
+	"div.wu": {
+		"prefix": "div.wu",
+		"body": [
+			"div.wu"
+		],
+		"description": "div.wu rd, rj, rk"
+	},
+
+	"div.du": {
+		"prefix": "div.du",
+		"body": [
+			"div.du"
+		],
+		"description": "div.du rd, rj, rk"
+	},
+
+	"mod.wu": {
+		"prefix": "mod.wu",
+		"body": [
+			"mod.wu"
+		],
+		"description": "mod.wu rd, rj, rk"
+	},
+
+	"mod.du": {
+		"prefix": "mod.du",
+		"body": [
+			"mod.du"
+		],
+		"description": "mod.du rd, rj, rk"
+	},
+
+	"mulw.d.w": {
+		"prefix": "mulw.d.w",
+		"body": [
+			"mulw.d.w"
+		],
+		"description": "mulw.d.w rd, rj, rk"
+	},
+
+	"mulw.d.wu": {
+		"prefix": "mulw.d.wu",
+		"body": [
+			"mulw.d.wu"
+		],
+		"description": "mulw.d.wu rd, rj, rk"
+	},
+
+	"nop": {
+		"prefix": "nop",
+		"body": [
+			"nop"
+		],
+		"description": "nop"
+	},
+
+	"sll.w": {
+		"prefix": "sll.w",
+		"body": [
+			"sll.w"
+		],
+		"description": "sll.w rd, rj, rk"
+	},
+
+	"srl.w": {
+		"prefix": "srl.w",
+		"body": [
+			"srl.w"
+		],
+		"description": "srl.w rd, rj, rk"
+	},
+
+	"sra.w": {
+		"prefix": "sra.w",
+		"body": [
+			"sra.w"
+		],
+		"description": "sra.w rd, rj, rk"
+	},
+
+	"rotr.w": {
+		"prefix": "rotr.w",
+		"body": [
+			"rotr.w"
+		],
+		"description": "rotr.w rd, rj, rk"
+	},
+
+	"sll.d": {
+		"prefix": "sll.d",
+		"body": [
+			"sll.d"
+		],
+		"description": "sll.d rd, rj, rk"
+	},
+
+	"srl.d": {
+		"prefix": "srl.d",
+		"body": [
+			"srl.d"
+		],
+		"description": "srl.d rd, rj, rk"
+	},
+
+	"sra.d": {
+		"prefix": "sra.d",
+		"body": [
+			"sra.d"
+		],
+		"description": "sra.d rd, rj, rk"
+	},
+
+	"rotr.d": {
+		"prefix": "rotr.d",
+		"body": [
+			"rotr.d"
+		],
+		"description": "rotr.d rd, rj, rk"
+	},
+
+	"slli.w": {
+		"prefix": "slli.w",
+		"body": [
+			"slli.w"
+		],
+		"description": "slli.w rd, rj, ui5"
+	},
+
+	"srli.w": {
+		"prefix": "srli.w",
+		"body": [
+			"srli.w"
+		],
+		"description": "srli.w rd, rj, ui5"
+	},
+
+	"srai.w": {
+		"prefix": "srai.w",
+		"body": [
+			"srai.w"
+		],
+		"description": "srai.w rd, rj, ui5"
+	},
+
+	"rotri.w": {
+		"prefix": "rotri.w",
+		"body": [
+			"rotri.w"
+		],
+		"description": "rotri.w rd, rj, ui5"
+	},
+
+	"slli.d": {
+		"prefix": "slli.d",
+		"body": [
+			"slli.d"
+		],
+		"description": "slli.d rd, rj, ui6"
+	},
+
+	"srli.d": {
+		"prefix": "srli.d",
+		"body": [
+			"srli.d"
+		],
+		"description": "srli.d rd, rj, ui6"
+	},
+
+	"srai.d": {
+		"prefix": "srai.d",
+		"body": [
+			"srai.d"
+		],
+		"description": "srai.d rd, rj, ui6"
+	},
+
+	"rotri.d": {
+		"prefix": "rotri.d",
+		"body": [
+			"rotri.d"
+		],
+		"description": "rotri.d rd, rj, ui6"
 	}
 }

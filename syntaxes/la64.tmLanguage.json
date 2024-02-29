@@ -8,10 +8,44 @@
 	],
 	"repository": {
 		"keywordsBase": {
-			"patterns": [{
-				"name": "keyword.control.la64",
-				"match": "\\b(add\\.(w|d))\\b"
-			}]
+			"patterns": [
+				{
+					"include": "#Bitwise_Op"
+				},
+				{
+					"include": "#Shift_Op"
+				},
+				{
+					"include": "#Arithmetic_Op"
+				}
+			]
+		},
+
+		"Arithmetic_Op" : {
+			"patterns": [
+				{
+					"name": "invalid.illegal.la64",
+					"match": "\\b((add|sub|addi|alsl|mul|mulh|div|mod)\\.(w|d))\\b|\\b(addu16i|lu52i|lu32i)\\.d\\b|\\balsl.wu\\b|\\blu12i\\.w\\b|\\b(slt|sltu|slti|sltui|pcaddi|pcaddu12i|pcaddu18i|pcalau12i|and|or|nor|xor|andn|orn|andi|ori|xori)\\b|\\b(mulh|div|mod)\\.(wu|du)\\b|\\bmulw\\.d\\.(w|wu)\\b|\\bnop\\b"
+				}
+			]
+		},
+
+		"Shift_Op" : {
+			"patterns": [
+				{
+					"name": "invalid.illegal.la64",
+					"match": "\\b(sll|srl|sra|rotr|slli|srli|srai|rotri)\\.(w|d)\\b"
+				}
+			]
+		},
+
+		"Bitwise_Op" : {
+			"patterns": [
+				{
+					"name": "invalid.illegal.la64",
+					"match": "\\b(gxw)\\b"
+				}
+			]
 		}
 	},
 	"scopeName": "source.S"
