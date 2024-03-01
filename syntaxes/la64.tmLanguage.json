@@ -10,6 +10,9 @@
 		"keywordsBase": {
 			"patterns": [
 				{
+					"include": "#Base_reg"
+				},
+				{
 					"include": "#Bitwise_Op"
 				},
 				{
@@ -21,6 +24,14 @@
 			]
 		},
 
+		"Base_reg" : {
+			"patterns": [
+				{
+					"name": "string.regexp.la64",
+					"match": "\\$(r)(?:[12]?[0-9]|30)"
+				}
+			]
+		},
 		"Arithmetic_Op" : {
 			"patterns": [
 				{
