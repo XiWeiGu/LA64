@@ -20,6 +20,18 @@
 				},
 				{
 					"include": "#Arithmetic_Op"
+				},
+				{
+					"include": "#Jump_Op"
+				},
+				{
+					"include": "#Regular_Memory_Access_Op"
+				},
+				{
+					"include": "#Bounds_Checking_Memory_Access_Op"
+				},
+				{
+					"include": "#Atomic_Memory_Access"
 				}
 			]
 		},
@@ -54,7 +66,43 @@
 			"patterns": [
 				{
 					"name": "invalid.illegal.la64",
-					"match": "\\b(gxw)\\b"
+					"match": "\\bext\\.w\\.(b|h)\\b|\\b(clo|clz|cto|ctz|bitrev|bstrins|bstrpick)\\.(w|d)\\b|\\bbytepick\\.(w|d)\\b|\\brevb\\.(2h|4h|2w|d)\\b|\\brevh\\.(2w|d)\\b|\\bbitrev\\.(4b|8b)\\b|\\b(maskeqz|masknez)\\b"
+				}
+			]
+		},
+
+		"Jump_Op" : {
+			"patterns": [
+				{
+					"name": "invalid.illegal.la64",
+					"match": "\\b(beq|bne|blt|bge|bltu|bgeu|beqz|bnez|b|bl|jirl)\\b"
+				}
+			]
+		},
+
+		"Regular_Memory_Access_Op" :{
+			"patterns": [
+				{
+					"name": "invalid.illegal.la64",
+					"match": "\\b(ld|st|ldx|stx)\\.(b|h|w|d)\\b|\\b(st|ldx)\\.(bu|hu|wu)\\b|\\b(ldptr|stptr)\\.(w|d)\\b|\\b(preld|preldx)\\b"
+				}
+			]
+		},
+
+		"Bounds_Checking_Memory_Access_Op" :{
+			"patterns": [
+				{
+					"name": "invalid.illegal.la64",
+					"match": "\\b(ld|st)(gt|le)\\.(b|h|w|d)\\b"
+				}
+			]
+		},
+
+		"Atomic_Memory_Access" :{
+			"patterns": [
+				{
+					"name": "invalid.illegal.la64",
+					"match": "\\bam(swap|add|and|or|xor|max|min)\\.(w|d)\\b|\\bam(swap|add|and|or|xor|max|min)_db\\.(w|d)\\b|\\bam(max|min)\\.(wu|du)\\b|\\bam(max|min)_db\\.(wu|du)\\b|\\bam(swap|add)\\.(b|h)\\b|\\bam(swap|add)_db\\.(b|h)\\b|\\bamcas\\.(b|h|w|d)\\b|\\bamcas_db\\.(b|h|w|d)\\b|\\b(ll|sc)\\.(w|d)\\b|\\bsc\\.q\\b|\\bll\\.acq\\.(w|d)\\b|\\bsc\\.rel\\.(w|d)\\b"
 				}
 			]
 		}
