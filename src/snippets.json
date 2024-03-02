@@ -1861,5 +1861,150 @@
 			"sc.rel.d"
 		],
 		"description": "sc.rel.d rd, rj"
+	},
+
+	"dbar": {
+		"prefix": "dbar",
+		"body": [
+			"dbar"
+		],
+		"description": "dbar hint"
+	},
+
+	"ibar": {
+		"prefix": "ibar",
+		"body": [
+			"ibar"
+		],
+		"description": "ibar hint"
+	},
+
+	"crc.w.b.w": {
+		"prefix": "crc.w.b.w",
+		"body": [
+			"crc.w.b.w"
+		],
+		"description": "crc.w.b.w rd, rj, rk"
+	},
+
+	"crc.w.h.w": {
+		"prefix": "crc.w.h.w",
+		"body": [
+			"crc.w.h.w"
+		],
+		"description": "crc.w.h.w rd, rj, rk"
+	},
+
+	"crc.w.w.w": {
+		"prefix": "crc.w.w.w",
+		"body": [
+			"crc.w.w.w"
+		],
+		"description": "crc.w.w.w rd, rj, rk"
+	},
+
+	"crc.w.d.w": {
+		"prefix": "crc.w.d.w",
+		"body": [
+			"crc.w.d.w"
+		],
+		"description": "crc.w.d.w rd, rj, rk"
+	},
+
+
+	"crcc.w.b.w": {
+		"prefix": "crcc.w.b.w",
+		"body": [
+			"crcc.w.b.w"
+		],
+		"description": "crcc.w.b.w rd, rj, rk"
+	},
+
+	"crcc.w.h.w": {
+		"prefix": "crcc.w.h.w",
+		"body": [
+			"crcc.w.h.w"
+		],
+		"description": "crcc.w.h.w rd, rj, rk"
+	},
+
+	"crcc.w.w.w": {
+		"prefix": "crcc.w.w.w",
+		"body": [
+			"crcc.w.w.w"
+		],
+		"description": "crcc.w.w.w rd, rj, rk"
+	},
+
+	"crcc.w.d.w": {
+		"prefix": "crcc.w.d.w",
+		"body": [
+			"crcc.w.d.w"
+		],
+		"description": "crcc.w.d.w rd, rj, rk"
+	},
+
+	"syscall": {
+		"prefix": "syscall",
+		"body": [
+			"syscall"
+		],
+		"description": "syscall code"
+	},
+
+	"break": {
+		"prefix": "break",
+		"body": [
+			"break"
+		],
+		"description": "break code"
+	},
+
+	"asrtle.d": {
+		"prefix": "asrtle.d",
+		"body": [
+			"asrtle.d"
+		],
+		"description": "asrtle.d ri, rk"
+	},
+
+	"asrtgt.d": {
+		"prefix": "asrtgt.d",
+		"body": [
+			"asrtgt.d"
+		],
+		"description": "asrtgt.d ri, rk"
+	},
+
+	"rdtimel.w": {
+		"prefix": "rdtimel.w",
+		"body": [
+			"rdtimel.w"
+		],
+		"description": "rdtimel.w rd, rj"
+	},
+
+	"rdtimeh.w": {
+		"prefix": "rdtimeh.w",
+		"body": [
+			"rdtimeh.w"
+		],
+		"description": "rdtimeh.w rd, rj"
+	},
+
+	"rdtime.d": {
+		"prefix": "rdtime.d",
+		"body": [
+			"rdtime.d"
+		],
+		"description": "rdtime.d rd, rj"
+	},
+
+	"cpucfg": {
+		"prefix": "cpucfg",
+		"body": [
+			"cpucfg"
+		],
+		"description": "cpucfg rd, rj"
 	}
 }

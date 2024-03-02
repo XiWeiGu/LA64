@@ -32,6 +32,15 @@
 				},
 				{
 					"include": "#Atomic_Memory_Access"
+				},
+				{
+					"include": "#Barrier_Op"
+				},
+				{
+					"include": "#CRC_Checksum_Op"
+				},
+				{
+					"include": "#Other_Misc_Op"
 				}
 			]
 		},
@@ -103,6 +112,33 @@
 				{
 					"name": "invalid.illegal.la64",
 					"match": "\\bam(swap|add|and|or|xor|max|min)\\.(w|d)\\b|\\bam(swap|add|and|or|xor|max|min)_db\\.(w|d)\\b|\\bam(max|min)\\.(wu|du)\\b|\\bam(max|min)_db\\.(wu|du)\\b|\\bam(swap|add)\\.(b|h)\\b|\\bam(swap|add)_db\\.(b|h)\\b|\\bamcas\\.(b|h|w|d)\\b|\\bamcas_db\\.(b|h|w|d)\\b|\\b(ll|sc)\\.(w|d)\\b|\\bsc\\.q\\b|\\bll\\.acq\\.(w|d)\\b|\\bsc\\.rel\\.(w|d)\\b"
+				}
+			]
+		},
+
+		"Barrier_Op":{
+			"patterns": [
+				{
+					"name": "invalid.illegal.la64",
+					"match": "\\b(dbar|ibar)\\b"
+				}
+			]
+		},
+
+		"CRC_Checksum_Op":{
+			"patterns": [
+				{
+					"name": "invalid.illegal.la64",
+					"match": "\\b(crc|crcc)\\.w\\.(b|h|w|d)\\.w\\b"
+				}
+			]
+		},
+
+		"Other_Misc_Op" :{
+			"patterns": [
+				{
+					"name": "invalid.illegal.la64",
+					"match": "\\b(syscall|break|cpucfg)\\b|\\basrt(le|gt)\\.d\\b|\\brdtime(l|h)\\.w\\b|\\brdtime\\.d\\b"
 				}
 			]
 		}
