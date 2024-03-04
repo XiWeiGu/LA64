@@ -41,6 +41,15 @@
 				},
 				{
 					"include": "#Other_Misc_Op"
+				},
+				{
+					"include": "#Float_Reg"
+				},
+				{
+					"include": "#Float_Arithmetic_Op"
+				},
+				{
+					"include": "#Float_Comp_Op"
 				}
 			]
 		},
@@ -139,6 +148,33 @@
 				{
 					"name": "invalid.illegal.la64",
 					"match": "\\b(syscall|break|cpucfg)\\b|\\basrt(le|gt)\\.d\\b|\\brdtime(l|h)\\.w\\b|\\brdtime\\.d\\b"
+				}
+			]
+		},
+
+		"Float_Reg":{
+			"patterns": [
+				{
+					"name": "support.class.la64",
+					"match": "\\$?f[123]?[0-9]"
+				}
+			]
+		},
+
+		"Float_Arithmetic_Op":{
+			"patterns": [
+				{
+					"name": "support.class.la64",
+					"match": "\\bf(add|sub|mul|div|madd|msub|nmadd|nmsub|max|min|maxa|mina|abs|neg|sqrt|recip|rsqrt|scaleb|logb|copysign|class|recipe|rsqrte)\\.(s|d)\\b"
+				}
+			]
+		},
+
+		"Float_Comp_Op":{
+			"patterns": [
+				{
+					"name":"support.class.la64",
+					"match": "\\bfcmp\\.(caf|cun|ceq|cueq|clt|cult|cle|cule|cne|cor|cune|saf|sun|seq|sueq|slt|sult|sle|sule|sne|sor|sune)\\.(s|d)\\b"
 				}
 			]
 		}

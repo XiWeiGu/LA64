@@ -1,0 +1,977 @@
+{
+	"$f0": {
+		"prefix": "$f0",
+		"body": [
+			"\\$f0"
+		],
+		"description": "Name $f0; Alias: $fa0; Meaning: Argument registers / Return value registers; Preserved across calls: No"
+	},
+
+	"$f1": {
+		"prefix": "$f1",
+		"body": [
+			"\\$f1"
+		],
+		"description": "Name $f1; Alias: $fa1; Meaning: Argument registers / Return value registers; Preserved across calls: No"
+	},
+
+	"$f2": {
+		"prefix": "$f2",
+		"body": [
+			"\\$f2"
+		],
+		"description": "Name $f2; Alias: $fa2; Meaning: Argument registers; Preserved across calls: No"
+	},
+
+	"$f3": {
+		"prefix": "$f3",
+		"body": [
+			"\\$f3"
+		],
+		"description": "Name $f3; Alias: $fa3; Meaning: Argument registers; Preserved across calls: No"
+	},
+
+	"$f4": {
+		"prefix": "$f4",
+		"body": [
+			"\\$f4"
+		],
+		"description": "Name $f4; Alias: $fa4; Meaning: Argument registers; Preserved across calls: No"
+	},
+
+	"$f5": {
+		"prefix": "$f5",
+		"body": [
+			"\\$f5"
+		],
+		"description": "Name $f5; Alias: $fa5; Meaning: Argument registers; Preserved across calls: No"
+	},
+
+	"$f6": {
+		"prefix": "$f6",
+		"body": [
+			"\\$f6"
+		],
+		"description": "Name $f6; Alias: $fa6; Meaning: Argument registers; Preserved across calls: No"
+	},
+
+	"$f7": {
+		"prefix": "$f7",
+		"body": [
+			"\\$f7"
+		],
+		"description": "Name $f7; Alias: $fa7; Meaning: Argument registers; Preserved across calls: No"
+	},
+
+	"$f8": {
+		"prefix": "$f8",
+		"body": [
+			"\\$f8"
+		],
+		"description": "Name $f8; Alias: $ft0; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"$f9": {
+		"prefix": "$f9",
+		"body": [
+			"\\$f9"
+		],
+		"description": "Name $f9; Alias: $ft1; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"$f10": {
+		"prefix": "$f10",
+		"body": [
+			"\\$f10"
+		],
+		"description": "Name $f10; Alias: $ft2; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"$f11": {
+		"prefix": "$f11",
+		"body": [
+			"\\$f11"
+		],
+		"description": "Name $f11; Alias: $ft3; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"$f12": {
+		"prefix": "$f12",
+		"body": [
+			"\\$f12"
+		],
+		"description": "Name $f12; Alias: $ft4; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"$f13": {
+		"prefix": "$f13",
+		"body": [
+			"\\$f13"
+		],
+		"description": "Name $f13; Alias: $ft5; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"$f14": {
+		"prefix": "$f14",
+		"body": [
+			"\\$f14"
+		],
+		"description": "Name $f14; Alias: $ft6; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"$f15": {
+		"prefix": "$f15",
+		"body": [
+			"\\$f15"
+		],
+		"description": "Name $f15; Alias: $ft7; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"$f16": {
+		"prefix": "$f16",
+		"body": [
+			"\\$f16"
+		],
+		"description": "Name $f16; Alias: $ft8; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"$f17": {
+		"prefix": "$f17",
+		"body": [
+			"\\$f17"
+		],
+		"description": "Name $f17; Alias: $ft9; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"$f18": {
+		"prefix": "$f18",
+		"body": [
+			"\\$f18"
+		],
+		"description": "Name $f18; Alias: $ft10; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"$f19": {
+		"prefix": "$f19",
+		"body": [
+			"\\$f19"
+		],
+		"description": "Name $f19; Alias: $ft11; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"$f20": {
+		"prefix": "$f20",
+		"body": [
+			"\\$f20"
+		],
+		"description": "Name $f20; Alias: $ft12; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"$f21": {
+		"prefix": "$f21",
+		"body": [
+			"\\$f21"
+		],
+		"description": "Name $f21; Alias: $ft13; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"$f22": {
+		"prefix": "$f22",
+		"body": [
+			"\\$f22"
+		],
+		"description": "Name $f22; Alias: $ft14; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"$f23": {
+		"prefix": "$f23",
+		"body": [
+			"\\$f23"
+		],
+		"description": "Name $f23; Alias: $ft15; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"$f24": {
+		"prefix": "$f24",
+		"body": [
+			"\\$f24"
+		],
+		"description": "Name $f24; Alias: $fs0; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"$f25": {
+		"prefix": "$f25",
+		"body": [
+			"\\$f25"
+		],
+		"description": "Name $f25; Alias: $fs1; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"$f26": {
+		"prefix": "$f26",
+		"body": [
+			"\\$f26"
+		],
+		"description": "Name $f26; Alias: $fs2; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"$f27": {
+		"prefix": "$f27",
+		"body": [
+			"\\$f27"
+		],
+		"description": "Name $f27; Alias: $fs3; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"$f28": {
+		"prefix": "$f28",
+		"body": [
+			"\\$f28"
+		],
+		"description": "Name $f28; Alias: $fs4; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"$f29": {
+		"prefix": "$f29",
+		"body": [
+			"\\$f29"
+		],
+		"description": "Name $f29; Alias: $fs5; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"$f30": {
+		"prefix": "$f30",
+		"body": [
+			"\\$f30"
+		],
+		"description": "Name $f30; Alias: $fs6; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"$f31": {
+		"prefix": "$f31",
+		"body": [
+			"\\$f31"
+		],
+		"description": "Name $f31; Alias: $fs7; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"fadd.s": {
+		"prefix": "fadd.s",
+		"body": [
+			"fadd.s"
+		],
+		"description": "fadd.s fd, fj, fk"
+	},
+
+	"fadd.d": {
+		"prefix": "fadd.d",
+		"body": [
+			"fadd.d"
+		],
+		"description": "fadd.d fd, fj, fk"
+	},
+
+	"fsub.s": {
+		"prefix": "fsub.s",
+		"body": [
+			"fsub.s"
+		],
+		"description": "fsub.s fd, fj, fk"
+	},
+
+	"fsub.d": {
+		"prefix": "fsub.d",
+		"body": [
+			"fsub.d"
+		],
+		"description": "fsub.d fd, fj, fk"
+	},
+
+	"fmul.s": {
+		"prefix": "fmul.s",
+		"body": [
+			"fmul.s"
+		],
+		"description": "fmul.s fd, fj, fk"
+	},
+
+	"fmul.d": {
+		"prefix": "fmul.d",
+		"body": [
+			"fmul.d"
+		],
+		"description": "fmul.d fd, fj, fk"
+	},
+
+	"fdiv.s": {
+		"prefix": "fdiv.s",
+		"body": [
+			"fdiv.s"
+		],
+		"description": "fdiv.s fd, fj, fk"
+	},
+
+	"fdiv.d": {
+		"prefix": "fdiv.d",
+		"body": [
+			"fdiv.d"
+		],
+		"description": "fdiv.d fd, fj, fk"
+	},
+
+	"fmadd.s": {
+		"prefix": "fmadd.s",
+		"body": [
+			"fmadd.s"
+		],
+		"description": "fmadd.s fd, fj, fk, fa"
+	},
+
+	"fmadd.d": {
+		"prefix": "fmadd.d",
+		"body": [
+			"fmadd.d"
+		],
+		"description": "fmadd.d fd, fj, fk, fa"
+	},
+
+	"fmsub.s": {
+		"prefix": "fmsub.s",
+		"body": [
+			"fmsub.s"
+		],
+		"description": "fmsub.s fd, fj, fk, fa"
+	},
+
+	"fmsub.d": {
+		"prefix": "fmsub.d",
+		"body": [
+			"fmsub.d"
+		],
+		"description": "fmsub.d fd, fj, fk, fa"
+	},
+
+	"fnmadd.s": {
+		"prefix": "fnmadd.s",
+		"body": [
+			"fnmadd.s"
+		],
+		"description": "fnmadd.s fd, fj, fk, fa"
+	},
+
+	"fnmadd.d": {
+		"prefix": "fnmadd.d",
+		"body": [
+			"fnmadd.d"
+		],
+		"description": "fnmadd.d fd, fj, fk, fa"
+	},
+
+	"fnmsub.s": {
+		"prefix": "fnmsub.s",
+		"body": [
+			"fnmsub.s"
+		],
+		"description": "fnmsub.s fd, fj, fk, fa"
+	},
+
+	"fnmsub.d": {
+		"prefix": "fnmsub.d",
+		"body": [
+			"fnmsub.d"
+		],
+		"description": "fnmsub.d fd, fj, fk, fa"
+	},
+
+	"fmax.s": {
+		"prefix": "fmax.s",
+		"body": [
+			"fmax.s"
+		],
+		"description": "fmax.s fd, fj, fk"
+	},
+
+	"fmax.d": {
+		"prefix": "fmax.d",
+		"body": [
+			"fmax.d"
+		],
+		"description": "fmax.d fd, fj, fk"
+	},
+
+	"fmin.s": {
+		"prefix": "fmin.s",
+		"body": [
+			"fmin.s"
+		],
+		"description": "fmin.s fd, fj, fk"
+	},
+
+	"fmin.d": {
+		"prefix": "fmin.d",
+		"body": [
+			"fmin.d"
+		],
+		"description": "fmin.d fd, fj, fk"
+	},
+
+	"fmaxa.s": {
+		"prefix": "fmaxa.s",
+		"body": [
+			"fmaxa.s"
+		],
+		"description": "fmaxa.s fd, fj, fk"
+	},
+
+	"fmaxa.d": {
+		"prefix": "fmaxa.d",
+		"body": [
+			"fmaxa.d"
+		],
+		"description": "fmaxa.d fd, fj, fk"
+	},
+
+	"fmina.s": {
+		"prefix": "fmina.s",
+		"body": [
+			"fmina.s"
+		],
+		"description": "fmina.s fd, fj, fk"
+	},
+
+	"fmina.d": {
+		"prefix": "fmina.d",
+		"body": [
+			"fmina.d"
+		],
+		"description": "fmina.d fd, fj, fk"
+	},
+
+	"fabs.s": {
+		"prefix": "fabs.s",
+		"body": [
+			"fabs.s"
+		],
+		"description": "fabs.s fd, fj"
+	},
+
+	"fabs.d": {
+		"prefix": "fabs.d",
+		"body": [
+			"fabs.d"
+		],
+		"description": "fabs.d fd, fj"
+	},
+
+	"fneg.s": {
+		"prefix": "fneg.s",
+		"body": [
+			"fneg.s"
+		],
+		"description": "fneg.s fd, fj"
+	},
+
+	"fneg.d": {
+		"prefix": "fneg.d",
+		"body": [
+			"fneg.d"
+		],
+		"description": "fneg.d fd, fj"
+	},
+
+	"fsqrt.s": {
+		"prefix": "fsqrt.s",
+		"body": [
+			"fsqrt.s"
+		],
+		"description": "fsqrt.s fd, fj"
+	},
+
+	"fsqrt.d": {
+		"prefix": "fsqrt.d",
+		"body": [
+			"fsqrt.d"
+		],
+		"description": "fsqrt.d fd, fj"
+	},
+
+	"frecip.s": {
+		"prefix": "frecip.s",
+		"body": [
+			"frecip.s"
+		],
+		"description": "frecip.s fd, fj"
+	},
+
+	"frecip.d": {
+		"prefix": "frecip.d",
+		"body": [
+			"frecip.d"
+		],
+		"description": "frecip.d fd, fj"
+	},
+
+	"frsqrt.s": {
+		"prefix": "frsqrt.s",
+		"body": [
+			"frsqrt.s"
+		],
+		"description": "frsqrt.s fd, fj"
+	},
+
+	"frsqrt.d": {
+		"prefix": "frsqrt.d",
+		"body": [
+			"frsqrt.d"
+		],
+		"description": "frsqrt.d fd, fj"
+	},
+
+	"flogb.s": {
+		"prefix": "flogb.s",
+		"body": [
+			"flogb.s"
+		],
+		"description": "flogb.s fd, fj"
+	},
+
+	"flogb.d": {
+		"prefix": "flogb.d",
+		"body": [
+			"flogb.d"
+		],
+		"description": "flogb.d fd, fj"
+	},
+
+	"fclass.s": {
+		"prefix": "fclass.s",
+		"body": [
+			"fclass.s"
+		],
+		"description": "fclass.s fd, fj"
+	},
+
+	"fclass.d": {
+		"prefix": "fclass.d",
+		"body": [
+			"fclass.d"
+		],
+		"description": "fclass.d fd, fj"
+	},
+
+	"frecipe.s": {
+		"prefix": "frecipe.s",
+		"body": [
+			"frecipe.s"
+		],
+		"description": "frecipe.s fd, fj"
+	},
+
+	"frecipe.d": {
+		"prefix": "frecipe.d",
+		"body": [
+			"frecipe.d"
+		],
+		"description": "frecipe.d fd, fj"
+	},
+
+	"frsqrte.s": {
+		"prefix": "frsqrte.s",
+		"body": [
+			"frsqrte.s"
+		],
+		"description": "frsqrte.s fd, fj"
+	},
+
+	"frsqrte.d": {
+		"prefix": "frsqrte.d",
+		"body": [
+			"frsqrte.d"
+		],
+		"description": "frsqrte.d fd, fj"
+	},
+
+	"fscaleb.s": {
+		"prefix": "fscaleb.s",
+		"body": [
+			"fscaleb.s"
+		],
+		"description": "fscaleb.s fd, fj, fk"
+	},
+
+	"fscaleb.d": {
+		"prefix": "fscaleb.d",
+		"body": [
+			"fscaleb.d"
+		],
+		"description": "fscaleb.d fd, fj, fk"
+	},
+
+	"fcopysign.s": {
+		"prefix": "fcopysign.s",
+		"body": [
+			"fcopysign.s"
+		],
+		"description": "fcopysign.s fd, fj, fk"
+	},
+
+	"fcopysign.d": {
+		"prefix": "fcopysign.d",
+		"body": [
+			"fcopysign.d"
+		],
+		"description": "fcopysign.d fd, fj, fk"
+	},
+
+	"fcmp.caf.s": {
+		"prefix": "fcmp.caf.s",
+		"body": [
+			"fcmp.caf.s"
+		],
+		"description": "fcmp.caf.s cc, fj, fk"
+	},
+
+	"fcmp.cun.s": {
+		"prefix": "fcmp.cun.s",
+		"body": [
+			"fcmp.cun.s"
+		],
+		"description": "fcmp.cun.s cc, fj, fk"
+	},
+
+	"fcmp.ceq.s": {
+		"prefix": "fcmp.ceq.s",
+		"body": [
+			"fcmp.ceq.s"
+		],
+		"description": "fcmp.ceq.s cc, fj, fk"
+	},
+
+	"fcmp.cueq.s": {
+		"prefix": "fcmp.cueq.s",
+		"body": [
+			"fcmp.cueq.s"
+		],
+		"description": "fcmp.cueq.s cc, fj, fk"
+	},
+
+	"fcmp.clt.s": {
+		"prefix": "fcmp.clt.s",
+		"body": [
+			"fcmp.clt.s"
+		],
+		"description": "fcmp.clt.s cc, fj, fk"
+	},
+
+	"fcmp.cult.s": {
+		"prefix": "fcmp.cult.s",
+		"body": [
+			"fcmp.cult.s"
+		],
+		"description": "fcmp.cult.s cc, fj, fk"
+	},
+
+	"fcmp.cle.s": {
+		"prefix": "fcmp.cle.s",
+		"body": [
+			"fcmp.cle.s"
+		],
+		"description": "fcmp.cle.s cc, fj, fk"
+	},
+
+	"fcmp.cule.s": {
+		"prefix": "fcmp.cule.s",
+		"body": [
+			"fcmp.cule.s"
+		],
+		"description": "fcmp.cule.s cc, fj, fk"
+	},
+
+	"fcmp.cne.s": {
+		"prefix": "fcmp.cne.s",
+		"body": [
+			"fcmp.cne.s"
+		],
+		"description": "fcmp.cne.s cc, fj, fk"
+	},
+
+	"fcmp.cor.s": {
+		"prefix": "fcmp.cor.s",
+		"body": [
+			"fcmp.cor.s"
+		],
+		"description": "fcmp.cor.s cc, fj, fk"
+	},
+
+	"fcmp.cune.s": {
+		"prefix": "fcmp.cune.s",
+		"body": [
+			"fcmp.cune.s"
+		],
+		"description": "fcmp.cune.s cc, fj, fk"
+	},
+
+	"fcmp.saf.s": {
+		"prefix": "fcmp.saf.s",
+		"body": [
+			"fcmp.saf.s"
+		],
+		"description": "fcmp.saf.s cc, fj, fk"
+	},
+
+	"fcmp.sun.s": {
+		"prefix": "fcmp.sun.s",
+		"body": [
+			"fcmp.sun.s"
+		],
+		"description": "fcmp.sun.s cc, fj, fk"
+	},
+
+	"fcmp.seq.s": {
+		"prefix": "fcmp.seq.s",
+		"body": [
+			"fcmp.seq.s"
+		],
+		"description": "fcmp.seq.s cc, fj, fk"
+	},
+
+	"fcmp.sueq.s": {
+		"prefix": "fcmp.sueq.s",
+		"body": [
+			"fcmp.sueq.s"
+		],
+		"description": "fcmp.sueq.s cc, fj, fk"
+	},
+
+	"fcmp.slt.s": {
+		"prefix": "fcmp.slt.s",
+		"body": [
+			"fcmp.slt.s"
+		],
+		"description": "fcmp.slt.s cc, fj, fk"
+	},
+
+	"fcmp.sult.s": {
+		"prefix": "fcmp.sult.s",
+		"body": [
+			"fcmp.sult.s"
+		],
+		"description": "fcmp.sult.s cc, fj, fk"
+	},
+
+	"fcmp.sle.s": {
+		"prefix": "fcmp.sle.s",
+		"body": [
+			"fcmp.sle.s"
+		],
+		"description": "fcmp.sle.s cc, fj, fk"
+	},
+
+	"fcmp.sule.s": {
+		"prefix": "fcmp.sule.s",
+		"body": [
+			"fcmp.sule.s"
+		],
+		"description": "fcmp.sule.s cc, fj, fk"
+	},
+
+	"fcmp.sne.s": {
+		"prefix": "fcmp.sne.s",
+		"body": [
+			"fcmp.sne.s"
+		],
+		"description": "fcmp.sne.s cc, fj, fk"
+	},
+
+	"fcmp.sor.s": {
+		"prefix": "fcmp.sor.s",
+		"body": [
+			"fcmp.sor.s"
+		],
+		"description": "fcmp.sor.s cc, fj, fk"
+	},
+
+	"fcmp.sune.s": {
+		"prefix": "fcmp.sune.s",
+		"body": [
+			"fcmp.sune.s"
+		],
+		"description": "fcmp.sune.s cc, fj, fk"
+	},
+
+	"fcmp.caf.d": {
+		"prefix": "fcmp.caf.d",
+		"body": [
+			"fcmp.caf.d"
+		],
+		"description": "fcmp.caf.d cc, fj, fk"
+	},
+
+	"fcmp.cun.d": {
+		"prefix": "fcmp.cun.d",
+		"body": [
+			"fcmp.cun.d"
+		],
+		"description": "fcmp.cun.d cc, fj, fk"
+	},
+
+	"fcmp.ceq.d": {
+		"prefix": "fcmp.ceq.d",
+		"body": [
+			"fcmp.ceq.d"
+		],
+		"description": "fcmp.ceq.d cc, fj, fk"
+	},
+
+	"fcmp.cueq.d": {
+		"prefix": "fcmp.cueq.d",
+		"body": [
+			"fcmp.cueq.d"
+		],
+		"description": "fcmp.cueq.d cc, fj, fk"
+	},
+
+	"fcmp.clt.d": {
+		"prefix": "fcmp.clt.d",
+		"body": [
+			"fcmp.clt.d"
+		],
+		"description": "fcmp.clt.d cc, fj, fk"
+	},
+
+	"fcmp.cult.d": {
+		"prefix": "fcmp.cult.d",
+		"body": [
+			"fcmp.cult.d"
+		],
+		"description": "fcmp.cult.d cc, fj, fk"
+	},
+
+	"fcmp.cle.d": {
+		"prefix": "fcmp.cle.d",
+		"body": [
+			"fcmp.cle.d"
+		],
+		"description": "fcmp.cle.d cc, fj, fk"
+	},
+
+	"fcmp.cule.d": {
+		"prefix": "fcmp.cule.d",
+		"body": [
+			"fcmp.cule.d"
+		],
+		"description": "fcmp.cule.d cc, fj, fk"
+	},
+
+	"fcmp.cne.d": {
+		"prefix": "fcmp.cne.d",
+		"body": [
+			"fcmp.cne.d"
+		],
+		"description": "fcmp.cne.d cc, fj, fk"
+	},
+
+	"fcmp.cor.d": {
+		"prefix": "fcmp.cor.d",
+		"body": [
+			"fcmp.cor.d"
+		],
+		"description": "fcmp.cor.d cc, fj, fk"
+	},
+
+	"fcmp.cune.d": {
+		"prefix": "fcmp.cune.d",
+		"body": [
+			"fcmp.cune.d"
+		],
+		"description": "fcmp.cune.d cc, fj, fk"
+	},
+
+	"fcmp.saf.d": {
+		"prefix": "fcmp.saf.d",
+		"body": [
+			"fcmp.saf.d"
+		],
+		"description": "fcmp.saf.d cc, fj, fk"
+	},
+
+	"fcmp.sun.d": {
+		"prefix": "fcmp.sun.d",
+		"body": [
+			"fcmp.sun.d"
+		],
+		"description": "fcmp.sun.d cc, fj, fk"
+	},
+
+	"fcmp.seq.d": {
+		"prefix": "fcmp.seq.d",
+		"body": [
+			"fcmp.seq.d"
+		],
+		"description": "fcmp.seq.d cc, fj, fk"
+	},
+
+	"fcmp.sueq.d": {
+		"prefix": "fcmp.sueq.d",
+		"body": [
+			"fcmp.sueq.d"
+		],
+		"description": "fcmp.sueq.d cc, fj, fk"
+	},
+
+	"fcmp.slt.d": {
+		"prefix": "fcmp.slt.d",
+		"body": [
+			"fcmp.slt.d"
+		],
+		"description": "fcmp.slt.d cc, fj, fk"
+	},
+
+	"fcmp.sult.d": {
+		"prefix": "fcmp.sult.d",
+		"body": [
+			"fcmp.sult.d"
+		],
+		"description": "fcmp.sult.d cc, fj, fk"
+	},
+
+	"fcmp.sle.d": {
+		"prefix": "fcmp.sle.d",
+		"body": [
+			"fcmp.sle.d"
+		],
+		"description": "fcmp.sle.d cc, fj, fk"
+	},
+
+	"fcmp.sule.d": {
+		"prefix": "fcmp.sule.d",
+		"body": [
+			"fcmp.sule.d"
+		],
+		"description": "fcmp.sule.d cc, fj, fk"
+	},
+
+	"fcmp.sne.d": {
+		"prefix": "fcmp.sne.d",
+		"body": [
+			"fcmp.sne.d"
+		],
+		"description": "fcmp.sne.d cc, fj, fk"
+	},
+
+	"fcmp.sor.d": {
+		"prefix": "fcmp.sor.d",
+		"body": [
+			"fcmp.sor.d"
+		],
+		"description": "fcmp.sor.d cc, fj, fk"
+	},
+
+	"fcmp.sune.d": {
+		"prefix": "fcmp.sune.d",
+		"body": [
+			"fcmp.sune.d"
+		],
+		"description": "fcmp.sune.d cc, fj, fk"
+	}
+}

@@ -34,7 +34,11 @@
       {
         "language": "la64",
         "path": "./src/snippets.json"
-      }    
+      },
+      {
+        "language": "la64",
+        "path": "./src/float_snippets.json"
+      }
     ]
   },
   "dependencies": {
