@@ -3,6 +3,7 @@
   "displayName": "la64",
   "description": "",
   "version": "0.0.1",
+  "publisher": "guxiwei",
   "engines": {
     "vscode": "^1.86.0"
   },
@@ -30,7 +31,7 @@
         "path": "./syntaxes/la64.tmLanguage.json"
       }
     ],
-    "snippets" :[
+    "snippets": [
       {
         "language": "la64",
         "path": "./src/snippets.json"
@@ -41,7 +42,10 @@
       }
     ]
   },
-  "dependencies": {
-    "vscode": "^1.1.37"
+  "scripts": {
+    "package": "pnpm vsce package --no-dependencies"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.24.0"
   }
 }

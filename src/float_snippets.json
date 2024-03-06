@@ -973,5 +973,494 @@
 			"fcmp.sune.d"
 		],
 		"description": "fcmp.sune.d cc, fj, fk"
+	},
+
+	"fcvt.s.d": {
+		"prefix": "fcvt.s.d",
+		"body": [
+			"fcvt.s.d"
+		],
+		"description": "fcvt.s.d fd, fj"
+	},
+
+	"fcvt.d.s": {
+		"prefix": "fcvt.d.s",
+		"body": [
+			"fcvt.d.s"
+		],
+		"description": "fcvt.d.s fd, fj"
+	},
+
+	"ffint.s.w": {
+		"prefix": "ffint.s.w",
+		"body": [
+			"ffint.s.w"
+		],
+		"description": "ffint.s.w fd, fj"
+	},
+
+	"ffint.s.l": {
+		"prefix": "ffint.s.l",
+		"body": [
+			"ffint.s.l"
+		],
+		"description": "ffint.s.l fd, fj"
+	},
+
+	"ffint.d.w": {
+		"prefix": "ffint.d.w",
+		"body": [
+			"ffint.d.w"
+		],
+		"description": "ffint.d.w fd, fj"
+	},
+
+	"ffint.d.l": {
+		"prefix": "ffint.d.l",
+		"body": [
+			"ffint.d.l"
+		],
+		"description": "ffint.d.l fd, fj"
+	},
+
+	"ftint.w.s": {
+		"prefix": "ftint.w.s",
+		"body": [
+			"ftint.w.s"
+		],
+		"description": "ftint.w.s fd, fj"
+	},
+
+	"ftint.l.s": {
+		"prefix": "ftint.l.s",
+		"body": [
+			"ftint.l.s"
+		],
+		"description": "ftint.l.s fd, fj"
+	},
+
+	"ftint.w.d": {
+		"prefix": "ftint.w.d",
+		"body": [
+			"ftint.w.d"
+		],
+		"description": "ftint.w.d fd, fj"
+	},
+
+	"ftint.l.d": {
+		"prefix": "ftint.l.d",
+		"body": [
+			"ftint.l.d"
+		],
+		"description": "ftint.l.d fd, fj"
+	},
+
+	"ftintrm.w.s": {
+		"prefix": "ftintrm.w.s",
+		"body": [
+			"ftintrm.w.s"
+		],
+		"description": "ftintrm.w.s fd, fj"
+	},
+
+	"ftintrm.w.d": {
+		"prefix": "ftintrm.w.d",
+		"body": [
+			"ftintrm.w.d"
+		],
+		"description": "ftintrm.w.d fd, fj"
+	},
+
+	"ftintrm.l.s": {
+		"prefix": "ftintrm.l.s",
+		"body": [
+			"ftintrm.l.s"
+		],
+		"description": "ftintrm.l.s fd, fj"
+	},
+
+	"ftintrm.l.d": {
+		"prefix": "ftintrm.l.d",
+		"body": [
+			"ftintrm.l.d"
+		],
+		"description": "ftintrm.l.d fd, fj"
+	},
+
+	"ftintrp.w.s": {
+		"prefix": "ftintrp.w.s",
+		"body": [
+			"ftintrp.w.s"
+		],
+		"description": "ftintrp.w.s fd, fj"
+	},
+
+	"ftintrp.w.d": {
+		"prefix": "ftintrp.w.d",
+		"body": [
+			"ftintrp.w.d"
+		],
+		"description": "ftintrp.w.d fd, fj"
+	},
+
+	"ftintrp.l.s": {
+		"prefix": "ftintrp.l.s",
+		"body": [
+			"ftintrp.l.s"
+		],
+		"description": "ftintrp.l.s fd, fj"
+	},
+
+	"ftintrp.l.d": {
+		"prefix": "ftintrp.l.d",
+		"body": [
+			"ftintrp.l.d"
+		],
+		"description": "ftintrp.l.d fd, fj"
+	},
+
+	"ftintrz.w.s": {
+		"prefix": "ftintrz.w.s",
+		"body": [
+			"ftintrz.w.s"
+		],
+		"description": "ftintrz.w.s fd, fj"
+	},
+
+	"ftintrz.w.d": {
+		"prefix": "ftintrz.w.d",
+		"body": [
+			"ftintrz.w.d"
+		],
+		"description": "ftintrz.w.d fd, fj"
+	},
+
+	"ftintrz.l.s": {
+		"prefix": "ftintrz.l.s",
+		"body": [
+			"ftintrz.l.s"
+		],
+		"description": "ftintrz.l.s fd, fj"
+	},
+
+	"ftintrz.l.d": {
+		"prefix": "ftintrz.l.d",
+		"body": [
+			"ftintrz.l.d"
+		],
+		"description": "ftintrz.l.d fd, fj"
+	},
+
+	"ftintrne.w.s": {
+		"prefix": "ftintrne.w.s",
+		"body": [
+			"ftintrne.w.s"
+		],
+		"description": "ftintrne.w.s fd, fj"
+	},
+
+	"ftintrne.w.d": {
+		"prefix": "ftintrne.w.d",
+		"body": [
+			"ftintrne.w.d"
+		],
+		"description": "ftintrne.w.d fd, fj"
+	},
+
+	"ftintrne.l.s": {
+		"prefix": "ftintrne.l.s",
+		"body": [
+			"ftintrne.l.s"
+		],
+		"description": "ftintrne.l.s fd, fj"
+	},
+
+	"ftintrne.l.d": {
+		"prefix": "ftintrne.l.d",
+		"body": [
+			"ftintrne.l.d"
+		],
+		"description": "ftintrne.l.d fd, fj"
+	},
+
+	"frint.s": {
+		"prefix": "frint.s",
+		"body": [
+			"frint.s"
+		],
+		"description": "frint.s fd, fj"
+	},
+
+	"frint.d": {
+		"prefix": "frint.d",
+		"body": [
+			"frint.d"
+		],
+		"description": "frint.d fd, fj"
+	},
+
+	"fmov.s": {
+		"prefix": "fmov.s",
+		"body": [
+			"fmov.s"
+		],
+		"description": "fmov.s fd, fj"
+	},
+
+	"fmov.d": {
+		"prefix": "fmov.d",
+		"body": [
+			"fmov.d"
+		],
+		"description": "fmov.d fd, fj"
+	},
+
+	"fsel": {
+		"prefix": "fsel",
+		"body": [
+			"fsel"
+		],
+		"description": "fsel fd, fj, fk, ca"
+	},
+
+	"movgr2fr.w": {
+		"prefix": "movgr2fr.w",
+		"body": [
+			"movgr2fr.w"
+		],
+		"description": "movgr2fr.w fd, rj"
+	},
+
+	"movgr2fr.d": {
+		"prefix": "movgr2fr.d",
+		"body": [
+			"movgr2fr.d"
+		],
+		"description": "movgr2fr.d fd, rj"
+	},
+
+	"movgr2frh.w": {
+		"prefix": "movgr2frh.w",
+		"body": [
+			"movgr2frh.w"
+		],
+		"description": "movgr2frh.w fd, rj"
+	},
+
+	"movfr2gr.s": {
+		"prefix": "movfr2gr.s",
+		"body": [
+			"movfr2gr.s"
+		],
+		"description": "movfr2gr.s rd, fj"
+	},
+
+	"movfr2gr.d": {
+		"prefix": "movfr2gr.d",
+		"body": [
+			"movfr2gr.d"
+		],
+		"description": "movfr2gr.d rd, fj"
+	},
+
+	"movfrh2gr.s": {
+		"prefix": "movfrh2gr.s",
+		"body": [
+			"movfrh2gr.s"
+		],
+		"description": "movfrh2gr.s rd, fj"
+	},
+
+
+	"movgr2fcsr": {
+		"prefix": "movgr2fcsr",
+		"body": [
+			"movgr2fcsr"
+		],
+		"description": "movgr2fcsr fcsr, rj"
+	},
+
+	"movfcsr2gr": {
+		"prefix": "movfcsr2gr",
+		"body": [
+			"movfcsr2gr"
+		],
+		"description": "movfcsr2gr rd, fcsr"
+	},
+
+	"movfr2cf": {
+		"prefix": "movfr2cf",
+		"body": [
+			"movfr2cf"
+		],
+		"description": "movfr2cf cd, fj"
+	},
+
+	"movcf2cr": {
+		"prefix": "movcf2cr",
+		"body": [
+			"movcf2cr"
+		],
+		"description": "movcf2cr fd, cj"
+	},
+
+	"movgr2cf": {
+		"prefix": "movgr2cf",
+		"body": [
+			"movgr2cf"
+		],
+		"description": "movgr2cf cd, rj"
+	},
+
+	"movcf2gr": {
+		"prefix": "movcf2gr",
+		"body": [
+			"movcf2gr"
+		],
+		"description": "movcf2gr rd, cj"
+	},
+
+	"bceqz": {
+		"prefix": "bceqz",
+		"body": [
+			"bceqz"
+		],
+		"description": "bceqz cj, offs21"
+	},
+
+	"bcnez": {
+		"prefix": "bcnez",
+		"body": [
+			"bcnez"
+		],
+		"description": "bcnez cj, offs21"
+	},
+
+	"fld.s": {
+		"prefix": "fld.s",
+		"body": [
+			"fld.s"
+		],
+		"description": "fld.s fd, rj, si12"
+	},
+
+	"fld.d": {
+		"prefix": "fld.d",
+		"body": [
+			"fld.d"
+		],
+		"description": "fld.d fd, rj, si12"
+	},
+
+	"fldx.s": {
+		"prefix": "fldx.s",
+		"body": [
+			"fldx.s"
+		],
+		"description": "fldx.s fd, rj, rk"
+	},
+
+	"fldx.d": {
+		"prefix": "fldx.d",
+		"body": [
+			"fldx.d"
+		],
+		"description": "fldx.d fd, rj, rk"
+	},
+
+	"fst.s": {
+		"prefix": "fst.s",
+		"body": [
+			"fst.s"
+		],
+		"description": "fst.s fd, rj, si12"
+	},
+
+	"fst.d": {
+		"prefix": "fst.d",
+		"body": [
+			"fst.d"
+		],
+		"description": "fst.d fd, rj, si12"
+	},
+
+	"fstx.s": {
+		"prefix": "fstx.s",
+		"body": [
+			"fstx.s"
+		],
+		"description": "fstx.s fd, rj, rk"
+	},
+
+	"fstx.d": {
+		"prefix": "fstx.d",
+		"body": [
+			"fstx.d"
+		],
+		"description": "fstx.d fd, rj, rk"
+	},
+	
+	"fldgt.s": {
+		"prefix": "fldgt.s",
+		"body": [
+			"fldgt.s"
+		],
+		"description": "fldgt.s fd, rj, rk"
+	},
+
+	"fldgt.d": {
+		"prefix": "fldgt.d",
+		"body": [
+			"fldgt.d"
+		],
+		"description": "fldgt.d fd, rj, rk"
+	},
+
+	"fldle.s": {
+		"prefix": "fldle.s",
+		"body": [
+			"fldle.s"
+		],
+		"description": "fldle.s fd, rj, rk"
+	},
+
+	"fldle.d": {
+		"prefix": "fldle.d",
+		"body": [
+			"fldle.d"
+		],
+		"description": "fldle.d fd, rj, rk"
+	},
+	
+	"fstgt.s": {
+		"prefix": "fstgt.s",
+		"body": [
+			"fstgt.s"
+		],
+		"description": "fstgt.s fd, rj, rk"
+	},
+
+	"fstgt.d": {
+		"prefix": "fstgt.d",
+		"body": [
+			"fstgt.d"
+		],
+		"description": "fstgt.d fd, rj, rk"
+	},
+
+	"fstle.s": {
+		"prefix": "fstle.s",
+		"body": [
+			"fstle.s"
+		],
+		"description": "fstle.s fd, rj, rk"
+	},
+
+	"fstle.d": {
+		"prefix": "fstle.d",
+		"body": [
+			"fstle.d"
+		],
+		"description": "fstle.d fd, rj, rk"
 	}
 }
