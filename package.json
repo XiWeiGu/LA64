@@ -39,6 +39,10 @@
       {
         "language": "la64",
         "path": "./src/float_snippets.json"
+      },
+      {
+        "language": "la64",
+        "path": "./src/lasx_snippets.json"
       }
     ]
   },
