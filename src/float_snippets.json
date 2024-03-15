@@ -1023,6 +1023,134 @@
 		"description": "Name f31; Alias: fs7; Meaning: Static registers; Preserved across calls: Yes"
 	},
 
+	"$fcc0": {
+		"prefix": "$fcc0",
+		"body": [
+			"\\$fcc0"
+		],
+		"description": "Floating point condition flag register"
+	},
+
+	"$fcc1": {
+		"prefix": "$fcc1",
+		"body": [
+			"\\$fcc1"
+		],
+		"description": "Floating point condition flag register"
+	},
+
+	"$fcc2": {
+		"prefix": "$fcc2",
+		"body": [
+			"\\$fcc2"
+		],
+		"description": "Floating point condition flag register"
+	},
+
+	"$fcc3": {
+		"prefix": "$fcc3",
+		"body": [
+			"\\$fcc3"
+		],
+		"description": "Floating point condition flag register"
+	},
+
+	"$fcc4": {
+		"prefix": "$fcc4",
+		"body": [
+			"\\$fcc4"
+		],
+		"description": "Floating point condition flag register"
+	},
+
+	"$fcc5": {
+		"prefix": "$fcc5",
+		"body": [
+			"\\$fcc5"
+		],
+		"description": "Floating point condition flag register"
+	},
+
+	"$fcc6": {
+		"prefix": "$fcc6",
+		"body": [
+			"\\$fcc6"
+		],
+		"description": "Floating point condition flag register"
+	},
+
+	"$fcc7": {
+		"prefix": "$fcc7",
+		"body": [
+			"\\$fcc7"
+		],
+		"description": "Floating point condition flag register"
+	},
+
+	"fcc0": {
+		"prefix": "fcc0",
+		"body": [
+			"fcc0"
+		],
+		"description": "Floating point condition flag register"
+	},
+
+	"fcc1": {
+		"prefix": "fcc1",
+		"body": [
+			"fcc1"
+		],
+		"description": "Floating point condition flag register"
+	},
+
+	"fcc2": {
+		"prefix": "fcc2",
+		"body": [
+			"fcc2"
+		],
+		"description": "Floating point condition flag register"
+	},
+
+	"fcc3": {
+		"prefix": "fcc3",
+		"body": [
+			"fcc3"
+		],
+		"description": "Floating point condition flag register"
+	},
+
+	"fcc4": {
+		"prefix": "fcc4",
+		"body": [
+			"fcc4"
+		],
+		"description": "Floating point condition flag register"
+	},
+
+	"fcc5": {
+		"prefix": "fcc5",
+		"body": [
+			"fcc5"
+		],
+		"description": "Floating point condition flag register"
+	},
+
+	"fcc6": {
+		"prefix": "fcc6",
+		"body": [
+			"fcc6"
+		],
+		"description": "Floating point condition flag register"
+	},
+
+	"fcc7": {
+		"prefix": "fcc7",
+		"body": [
+			"fcc7"
+		],
+		"description": "Floating point condition flag register"
+	},
+
 	"fadd.s": {
 		"prefix": "fadd.s",
 		"body": [
