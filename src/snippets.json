@@ -255,6 +255,758 @@
 		"description": "Name $r31; Alias: $s8; Meaning: Static registers; Preserved across calls: Yes"
 	},
 
+	"r0": {
+		"prefix": "r0",
+		"body": [
+			"r0"
+		],
+		"description": "Name r0; Alias: zero; Meaning: Constant zero; Preserved across calls: Constant"
+	},
+
+	"r1": {
+		"prefix": "r1",
+		"body": [
+			"r1"
+		],
+		"description": "Name r1; Alias: ra; Meaning: Return address; Preserved across calls: No"
+	},
+
+	"r2": {
+		"prefix": "r2",
+		"body": [
+			"r2"
+		],
+		"description": "Name r2; Alias: tp; Meaning: Thread pointer; Preserved across calls: Non-allocatable"
+	},
+
+	"r3": {
+		"prefix": "r3",
+		"body": [
+			"r3"
+		],
+		"description": "Name r3; Alias: sp; Meaning: Stack pointer; Preserved across calls: Yes"
+	},
+
+	"r4": {
+		"prefix": "r4",
+		"body": [
+			"r4"
+		],
+		"description": "Name r4; Alias: a0; Meaning: Argument registers/return value registers; Preserved across calls: No"
+	},
+
+	"r5": {
+		"prefix": "r5",
+		"body": [
+			"r5"
+		],
+		"description": "Name r5; Alias: a1; Meaning: Argument registers/return value registers; Preserved across calls: No"
+	},
+
+	"r6": {
+		"prefix": "r6",
+		"body": [
+			"r6"
+		],
+		"description": "Name r6; Alias: a2; Meaning: Argument registers; Preserved across calls: No"
+	},
+
+	"r7": {
+		"prefix": "r7",
+		"body": [
+			"r7"
+		],
+		"description": "Name r7; Alias: a3; Meaning: Argument registers; Preserved across calls: No"
+	},
+
+	"r8": {
+		"prefix": "r8",
+		"body": [
+			"r8"
+		],
+		"description": "Name r8; Alias: a4; Meaning: Argument registers; Preserved across calls: No"
+	},
+
+	"r9": {
+		"prefix": "r9",
+		"body": [
+			"r9"
+		],
+		"description": "Name r9; Alias: a5; Meaning: Argument registers; Preserved across calls: No"
+	},
+
+	"r10": {
+		"prefix": "r10",
+		"body": [
+			"r10"
+		],
+		"description": "Name r10; Alias: a6; Meaning: Argument registers; Preserved across calls: No"
+	},
+
+	"r11": {
+		"prefix": "r11",
+		"body": [
+			"r11"
+		],
+		"description": "Name r11; Alias: a7; Meaning: Argument registers; Preserved across calls: No"
+	},
+
+	"r12": {
+		"prefix": "r12",
+		"body": [
+			"r12"
+		],
+		"description": "Name r12; Alias: t0; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"r13": {
+		"prefix": "r13",
+		"body": [
+			"r13"
+		],
+		"description": "Name r13; Alias: t1; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"r14": {
+		"prefix": "r14",
+		"body": [
+			"r14"
+		],
+		"description": "Name r14; Alias: t2 Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"r15": {
+		"prefix": "r15",
+		"body": [
+			"r15"
+		],
+		"description": "Name r15; Alias: t3; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"r16": {
+		"prefix": "r16",
+		"body": [
+			"r16"
+		],
+		"description": "Name r16; Alias: t4; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"r17": {
+		"prefix": "r17",
+		"body": [
+			"r17"
+		],
+		"description": "Name r17; Alias: t5; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"r18": {
+		"prefix": "r18",
+		"body": [
+			"r18"
+		],
+		"description": "Name r18; Alias: t6; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"r19": {
+		"prefix": "r19",
+		"body": [
+			"r19"
+		],
+		"description": "Name r19; Alias: t7; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"r20": {
+		"prefix": "r20",
+		"body": [
+			"r20"
+		],
+		"description": "Name r20; Alias: t8; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"r21": {
+		"prefix": "r21",
+		"body": [
+			"r21"
+		],
+		"description": "Name r21; Alias: ; Meaning: Reserved; Preserved across calls: Non-allocatable"
+	},
+
+	"r22": {
+		"prefix": "r22",
+		"body": [
+			"r22"
+		],
+		"description": "Name r22; Alias: fp/s9; Meaning: Frame pointer/Static register; Preserved across calls: Yes"
+	},
+
+	"r23": {
+		"prefix": "r23",
+		"body": [
+			"r23"
+		],
+		"description": "Name r23; Alias: s0; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"r24": {
+		"prefix": "r24",
+		"body": [
+			"r24"
+		],
+		"description": "Name r24; Alias: s1; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"r25": {
+		"prefix": "r25",
+		"body": [
+			"r25"
+		],
+		"description": "Name r25; Alias: s2; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"r26": {
+		"prefix": "r26",
+		"body": [
+			"r26"
+		],
+		"description": "Name r26; Alias: s3; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"r27": {
+		"prefix": "r27",
+		"body": [
+			"r27"
+		],
+		"description": "Name r27; Alias: s4; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"r28": {
+		"prefix": "r28",
+		"body": [
+			"r28"
+		],
+		"description": "Name r28; Alias: s5; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"r29": {
+		"prefix": "r29",
+		"body": [
+			"r29"
+		],
+		"description": "Name r29; Alias: s6; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"r30": {
+		"prefix": "r30",
+		"body": [
+			"r30"
+		],
+		"description": "Name r30; Alias: s7; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"r31": {
+		"prefix": "r31",
+		"body": [
+			"r31"
+		],
+		"description": "Name r31; Alias: s8; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"$zero": {
+		"prefix": "$zero",
+		"body": [
+			"\\$zero"
+		],
+		"description": "Name $r0; Alias: $zero; Meaning: Constant zero; Preserved across calls: Constant"
+	},
+
+	"$ra": {
+		"prefix": "$ra",
+		"body": [
+			"\\$ra"
+		],
+		"description": "Name $r1; Alias: $ra; Meaning: Return address; Preserved across calls: No"
+	},
+
+	"$tp": {
+		"prefix": "$tp",
+		"body": [
+			"\\$tp"
+		],
+		"description": "Name $r2; Alias: $tp; Meaning: Thread pointer; Preserved across calls: Non-allocatable"
+	},
+
+	"$sp": {
+		"prefix": "$sp",
+		"body": [
+			"\\$sp"
+		],
+		"description": "Name $r3; Alias: $sp; Meaning: Stack pointer; Preserved across calls: Yes"
+	},
+
+	"$a0": {
+		"prefix": "$a0",
+		"body": [
+			"\\$a0"
+		],
+		"description": "Name $r4; Alias: $a0; Meaning: Argument registers/return value registers; Preserved across calls: No"
+	},
+
+	"$a1": {
+		"prefix": "$a1",
+		"body": [
+			"\\$a1"
+		],
+		"description": "Name $r5; Alias: $a1; Meaning: Argument registers/return value registers; Preserved across calls: No"
+	},
+
+	"$a2": {
+		"prefix": "$a2",
+		"body": [
+			"\\$a2"
+		],
+		"description": "Name $r6; Alias: $a2; Meaning: Argument registers; Preserved across calls: No"
+	},
+
+	"$a3": {
+		"prefix": "$a3",
+		"body": [
+			"\\$a3"
+		],
+		"description": "Name $r7; Alias: $a3; Meaning: Argument registers; Preserved across calls: No"
+	},
+
+	"$a4": {
+		"prefix": "$a4",
+		"body": [
+			"\\$a4"
+		],
+		"description": "Name $r8; Alias: $a4; Meaning: Argument registers; Preserved across calls: No"
+	},
+
+	"$a5": {
+		"prefix": "$a5",
+		"body": [
+			"\\$a5"
+		],
+		"description": "Name $r9; Alias: $a5; Meaning: Argument registers; Preserved across calls: No"
+	},
+
+	"$a6": {
+		"prefix": "$a6",
+		"body": [
+			"\\$a6"
+		],
+		"description": "Name $r10; Alias: $a6; Meaning: Argument registers; Preserved across calls: No"
+	},
+
+	"$a7": {
+		"prefix": "$a7",
+		"body": [
+			"\\$a7"
+		],
+		"description": "Name $r11; Alias: $a7; Meaning: Argument registers; Preserved across calls: No"
+	},
+
+	"$t0": {
+		"prefix": "$t0",
+		"body": [
+			"\\$t0"
+		],
+		"description": "Name $r12; Alias: $t0; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"$t1": {
+		"prefix": "$t1",
+		"body": [
+			"\\$t1"
+		],
+		"description": "Name $r13; Alias: $t1; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"$t2": {
+		"prefix": "$t2",
+		"body": [
+			"\\$t2"
+		],
+		"description": "Name $r14; Alias: $t2 Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"$t3": {
+		"prefix": "$t3",
+		"body": [
+			"\\$t3"
+		],
+		"description": "Name $r15; Alias: $t3; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"$t4": {
+		"prefix": "$t4",
+		"body": [
+			"\\$t4"
+		],
+		"description": "Name $r16; Alias: $t4; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"$t5": {
+		"prefix": "$t5",
+		"body": [
+			"\\$t5"
+		],
+		"description": "Name $r17; Alias: $t5; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"$t6": {
+		"prefix": "$t6",
+		"body": [
+			"\\$t6"
+		],
+		"description": "Name $r18; Alias: $t6; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"$t7": {
+		"prefix": "$t7",
+		"body": [
+			"\\$t7"
+		],
+		"description": "Name $r19; Alias: $t7; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"$t8": {
+		"prefix": "$t8",
+		"body": [
+			"\\$t8"
+		],
+		"description": "Name $r20; Alias: $t8; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"$fp": {
+		"prefix": "$fp",
+		"body": [
+			"\\$fp"
+		],
+		"description": "Name $r22; Alias: $fp/$s9; Meaning: Frame pointer/Static register; Preserved across calls: Yes"
+	},
+
+	"$s0": {
+		"prefix": "$s0",
+		"body": [
+			"\\$s0"
+		],
+		"description": "Name $r23; Alias: $s0; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"$s1": {
+		"prefix": "$s1",
+		"body": [
+			"\\$s1"
+		],
+		"description": "Name $r24; Alias: $s1; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"$s2": {
+		"prefix": "$s2",
+		"body": [
+			"\\$s2"
+		],
+		"description": "Name $r25; Alias: $s2; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"$s3": {
+		"prefix": "$s3",
+		"body": [
+			"\\$s3"
+		],
+		"description": "Name $r26; Alias: $s3; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"$s4": {
+		"prefix": "$s4",
+		"body": [
+			"\\$s4"
+		],
+		"description": "Name $r27; Alias: $s4; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"$s5": {
+		"prefix": "$s5",
+		"body": [
+			"\\$s5"
+		],
+		"description": "Name $r28; Alias: $s5; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"$s6": {
+		"prefix": "$s6",
+		"body": [
+			"\\$s6"
+		],
+		"description": "Name $r29; Alias: $s6; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"$s7": {
+		"prefix": "$s7",
+		"body": [
+			"\\$s7"
+		],
+		"description": "Name $r30; Alias: $s7; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"$s8": {
+		"prefix": "$s8",
+		"body": [
+			"\\$s8"
+		],
+		"description": "Name $r31; Alias: $s8; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"zero": {
+		"prefix": "zero",
+		"body": [
+			"zero"
+		],
+		"description": "Name r0; Alias: zero; Meaning: Constant zero; Preserved across calls: Constant"
+	},
+
+	"ra": {
+		"prefix": "ra",
+		"body": [
+			"ra"
+		],
+		"description": "Name r1; Alias: ra; Meaning: Return address; Preserved across calls: No"
+	},
+
+	"tp": {
+		"prefix": "tp",
+		"body": [
+			"tp"
+		],
+		"description": "Name r2; Alias: tp; Meaning: Thread pointer; Preserved across calls: Non-allocatable"
+	},
+
+	"sp": {
+		"prefix": "sp",
+		"body": [
+			"sp"
+		],
+		"description": "Name r3; Alias: sp; Meaning: Stack pointer; Preserved across calls: Yes"
+	},
+
+	"a0": {
+		"prefix": "a0",
+		"body": [
+			"a0"
+		],
+		"description": "Name r4; Alias: a0; Meaning: Argument registers/return value registers; Preserved across calls: No"
+	},
+
+	"a1": {
+		"prefix": "a1",
+		"body": [
+			"a1"
+		],
+		"description": "Name r5; Alias: a1; Meaning: Argument registers/return value registers; Preserved across calls: No"
+	},
+
+	"a2": {
+		"prefix": "a2",
+		"body": [
+			"a2"
+		],
+		"description": "Name r6; Alias: a2; Meaning: Argument registers; Preserved across calls: No"
+	},
+
+	"a3": {
+		"prefix": "a3",
+		"body": [
+			"a3"
+		],
+		"description": "Name r7; Alias: a3; Meaning: Argument registers; Preserved across calls: No"
+	},
+
+	"a4": {
+		"prefix": "a4",
+		"body": [
+			"a4"
+		],
+		"description": "Name r8; Alias: a4; Meaning: Argument registers; Preserved across calls: No"
+	},
+
+	"a5": {
+		"prefix": "a5",
+		"body": [
+			"a5"
+		],
+		"description": "Name r9; Alias: a5; Meaning: Argument registers; Preserved across calls: No"
+	},
+
+	"a6": {
+		"prefix": "a6",
+		"body": [
+			"a6"
+		],
+		"description": "Name r10; Alias: a6; Meaning: Argument registers; Preserved across calls: No"
+	},
+
+	"a7": {
+		"prefix": "a7",
+		"body": [
+			"a7"
+		],
+		"description": "Name r11; Alias: a7; Meaning: Argument registers; Preserved across calls: No"
+	},
+
+	"t0": {
+		"prefix": "t0",
+		"body": [
+			"t0"
+		],
+		"description": "Name r12; Alias: t0; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"t1": {
+		"prefix": "t1",
+		"body": [
+			"t1"
+		],
+		"description": "Name r13; Alias: t1; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"t2": {
+		"prefix": "t2",
+		"body": [
+			"t2"
+		],
+		"description": "Name r14; Alias: t2 Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"t3": {
+		"prefix": "t3",
+		"body": [
+			"t3"
+		],
+		"description": "Name r15; Alias: t3; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"t4": {
+		"prefix": "t4",
+		"body": [
+			"t4"
+		],
+		"description": "Name r16; Alias: t4; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"t5": {
+		"prefix": "t5",
+		"body": [
+			"t5"
+		],
+		"description": "Name r17; Alias: t5; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"t6": {
+		"prefix": "t6",
+		"body": [
+			"t6"
+		],
+		"description": "Name r18; Alias: t6; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"t7": {
+		"prefix": "t7",
+		"body": [
+			"t7"
+		],
+		"description": "Name r19; Alias: t7; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"t8": {
+		"prefix": "t8",
+		"body": [
+			"t8"
+		],
+		"description": "Name r20; Alias: t8; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"fp": {
+		"prefix": "fp",
+		"body": [
+			"fp"
+		],
+		"description": "Name r22; Alias: fp/s9; Meaning: Frame pointer/Static register; Preserved across calls: Yes"
+	},
+
+	"s0": {
+		"prefix": "s0",
+		"body": [
+			"s0"
+		],
+		"description": "Name r23; Alias: s0; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"s1": {
+		"prefix": "s1",
+		"body": [
+			"s1"
+		],
+		"description": "Name r24; Alias: s1; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"s2": {
+		"prefix": "s2",
+		"body": [
+			"s2"
+		],
+		"description": "Name r25; Alias: s2; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"s3": {
+		"prefix": "s3",
+		"body": [
+			"s3"
+		],
+		"description": "Name r26; Alias: s3; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"s4": {
+		"prefix": "s4",
+		"body": [
+			"s4"
+		],
+		"description": "Name r27; Alias: s4; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"s5": {
+		"prefix": "s5",
+		"body": [
+			"s5"
+		],
+		"description": "Name r28; Alias: s5; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"s6": {
+		"prefix": "s6",
+		"body": [
+			"s6"
+		],
+		"description": "Name r29; Alias: s6; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"s7": {
+		"prefix": "s7",
+		"body": [
+			"s7"
+		],
+		"description": "Name r30; Alias: s7; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"s8": {
+		"prefix": "s8",
+		"body": [
+			"s8"
+		],
+		"description": "Name r31; Alias: s8; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
 	"add.w": {
 		"prefix": "add.w",
 		"body": [

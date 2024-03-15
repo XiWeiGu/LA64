@@ -255,6 +255,774 @@
 		"description": "Name $f31; Alias: $fs7; Meaning: Static registers; Preserved across calls: Yes"
 	},
 
+	"f0": {
+		"prefix": "f0",
+		"body": [
+			"f0"
+		],
+		"description": "Name f0; Alias: fa0; Meaning: Argument registers / Return value registers; Preserved across calls: No"
+	},
+
+	"f1": {
+		"prefix": "f1",
+		"body": [
+			"f1"
+		],
+		"description": "Name f1; Alias: fa1; Meaning: Argument registers / Return value registers; Preserved across calls: No"
+	},
+
+	"f2": {
+		"prefix": "f2",
+		"body": [
+			"f2"
+		],
+		"description": "Name f2; Alias: fa2; Meaning: Argument registers; Preserved across calls: No"
+	},
+
+	"f3": {
+		"prefix": "f3",
+		"body": [
+			"f3"
+		],
+		"description": "Name f3; Alias: fa3; Meaning: Argument registers; Preserved across calls: No"
+	},
+
+	"f4": {
+		"prefix": "f4",
+		"body": [
+			"f4"
+		],
+		"description": "Name f4; Alias: fa4; Meaning: Argument registers; Preserved across calls: No"
+	},
+
+	"f5": {
+		"prefix": "f5",
+		"body": [
+			"f5"
+		],
+		"description": "Name f5; Alias: fa5; Meaning: Argument registers; Preserved across calls: No"
+	},
+
+	"f6": {
+		"prefix": "f6",
+		"body": [
+			"f6"
+		],
+		"description": "Name f6; Alias: fa6; Meaning: Argument registers; Preserved across calls: No"
+	},
+
+	"f7": {
+		"prefix": "f7",
+		"body": [
+			"f7"
+		],
+		"description": "Name f7; Alias: fa7; Meaning: Argument registers; Preserved across calls: No"
+	},
+
+	"f8": {
+		"prefix": "f8",
+		"body": [
+			"f8"
+		],
+		"description": "Name f8; Alias: ft0; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"f9": {
+		"prefix": "f9",
+		"body": [
+			"f9"
+		],
+		"description": "Name f9; Alias: ft1; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"f10": {
+		"prefix": "f10",
+		"body": [
+			"f10"
+		],
+		"description": "Name f10; Alias: ft2; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"f11": {
+		"prefix": "f11",
+		"body": [
+			"f11"
+		],
+		"description": "Name f11; Alias: ft3; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"f12": {
+		"prefix": "f12",
+		"body": [
+			"f12"
+		],
+		"description": "Name f12; Alias: ft4; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"f13": {
+		"prefix": "f13",
+		"body": [
+			"f13"
+		],
+		"description": "Name f13; Alias: ft5; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"f14": {
+		"prefix": "f14",
+		"body": [
+			"f14"
+		],
+		"description": "Name f14; Alias: ft6; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"f15": {
+		"prefix": "f15",
+		"body": [
+			"f15"
+		],
+		"description": "Name f15; Alias: ft7; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"f16": {
+		"prefix": "f16",
+		"body": [
+			"f16"
+		],
+		"description": "Name f16; Alias: ft8; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"f17": {
+		"prefix": "f17",
+		"body": [
+			"f17"
+		],
+		"description": "Name f17; Alias: ft9; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"f18": {
+		"prefix": "f18",
+		"body": [
+			"f18"
+		],
+		"description": "Name f18; Alias: ft10; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"f19": {
+		"prefix": "f19",
+		"body": [
+			"f19"
+		],
+		"description": "Name f19; Alias: ft11; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"f20": {
+		"prefix": "f20",
+		"body": [
+			"f20"
+		],
+		"description": "Name f20; Alias: ft12; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"f21": {
+		"prefix": "f21",
+		"body": [
+			"f21"
+		],
+		"description": "Name f21; Alias: ft13; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"f22": {
+		"prefix": "f22",
+		"body": [
+			"f22"
+		],
+		"description": "Name f22; Alias: ft14; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"f23": {
+		"prefix": "f23",
+		"body": [
+			"f23"
+		],
+		"description": "Name f23; Alias: ft15; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"f24": {
+		"prefix": "f24",
+		"body": [
+			"f24"
+		],
+		"description": "Name f24; Alias: fs0; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"f25": {
+		"prefix": "f25",
+		"body": [
+			"f25"
+		],
+		"description": "Name f25; Alias: fs1; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"f26": {
+		"prefix": "f26",
+		"body": [
+			"f26"
+		],
+		"description": "Name f26; Alias: fs2; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"f27": {
+		"prefix": "f27",
+		"body": [
+			"f27"
+		],
+		"description": "Name f27; Alias: fs3; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"f28": {
+		"prefix": "f28",
+		"body": [
+			"f28"
+		],
+		"description": "Name f28; Alias: fs4; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"f29": {
+		"prefix": "f29",
+		"body": [
+			"f29"
+		],
+		"description": "Name f29; Alias: fs5; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"f30": {
+		"prefix": "f30",
+		"body": [
+			"f30"
+		],
+		"description": "Name f30; Alias: fs6; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"f31": {
+		"prefix": "f31",
+		"body": [
+			"f31"
+		],
+		"description": "Name f31; Alias: fs7; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"$fa0": {
+		"prefix": "$fa0",
+		"body": [
+			"\\$fa0"
+		],
+		"description": "Name $f0; Alias: $fa0; Meaning: Argument registers / Return value registers; Preserved across calls: No"
+	},
+
+	"$fa1": {
+		"prefix": "$fa1",
+		"body": [
+			"\\$fa1"
+		],
+		"description": "Name $f1; Alias: $fa1; Meaning: Argument registers / Return value registers; Preserved across calls: No"
+	},
+
+	"$fa2": {
+		"prefix": "$fa2",
+		"body": [
+			"\\$fa2"
+		],
+		"description": "Name $f2; Alias: $fa2; Meaning: Argument registers; Preserved across calls: No"
+	},
+
+	"$fa3": {
+		"prefix": "$fa3",
+		"body": [
+			"\\$fa3"
+		],
+		"description": "Name $f3; Alias: $fa3; Meaning: Argument registers; Preserved across calls: No"
+	},
+
+	"$fa4": {
+		"prefix": "$fa4",
+		"body": [
+			"\\$fa4"
+		],
+		"description": "Name $f4; Alias: $fa4; Meaning: Argument registers; Preserved across calls: No"
+	},
+
+	"$fa5": {
+		"prefix": "$fa5",
+		"body": [
+			"\\$fa5"
+		],
+		"description": "Name $f5; Alias: $fa5; Meaning: Argument registers; Preserved across calls: No"
+	},
+
+	"$fa6": {
+		"prefix": "$fa6",
+		"body": [
+			"\\$fa6"
+		],
+		"description": "Name $f6; Alias: $fa6; Meaning: Argument registers; Preserved across calls: No"
+	},
+
+	"$fa7": {
+		"prefix": "$fa7",
+		"body": [
+			"\\$fa7"
+		],
+		"description": "Name $f7; Alias: $fa7; Meaning: Argument registers; Preserved across calls: No"
+	},
+
+	"$ft0": {
+		"prefix": "$ft0",
+		"body": [
+			"\\$ft0"
+		],
+		"description": "Name $f8; Alias: $ft0; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"$ft1": {
+		"prefix": "$ft1",
+		"body": [
+			"\\$ft1"
+		],
+		"description": "Name $f9; Alias: $ft1; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"$ft2": {
+		"prefix": "$ft2",
+		"body": [
+			"\\$ft2"
+		],
+		"description": "Name $f10; Alias: $ft2; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"$ft3": {
+		"prefix": "$ft3",
+		"body": [
+			"\\$ft3"
+		],
+		"description": "Name $f11; Alias: $ft3; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"$ft4": {
+		"prefix": "$ft4",
+		"body": [
+			"\\$ft4"
+		],
+		"description": "Name $f12; Alias: $ft4; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"$ft5": {
+		"prefix": "$ft5",
+		"body": [
+			"\\$ft5"
+		],
+		"description": "Name $f13; Alias: $ft5; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"$ft6": {
+		"prefix": "$ft6",
+		"body": [
+			"\\$ft6"
+		],
+		"description": "Name $f14; Alias: $ft6; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"$ft7": {
+		"prefix": "$ft7",
+		"body": [
+			"\\$ft7"
+		],
+		"description": "Name $f15; Alias: $ft7; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"$ft8": {
+		"prefix": "$ft8",
+		"body": [
+			"\\$ft8"
+		],
+		"description": "Name $f16; Alias: $ft8; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"$ft9": {
+		"prefix": "$ft9",
+		"body": [
+			"\\$ft9"
+		],
+		"description": "Name $f17; Alias: $ft9; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"$ft10": {
+		"prefix": "$ft10",
+		"body": [
+			"\\$ft10"
+		],
+		"description": "Name $f18; Alias: $ft10; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"$ft11": {
+		"prefix": "$ft11",
+		"body": [
+			"\\$ft11"
+		],
+		"description": "Name $f19; Alias: $ft11; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"$ft12": {
+		"prefix": "$ft12",
+		"body": [
+			"\\$ft12"
+		],
+		"description": "Name $f20; Alias: $ft12; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"$ft13": {
+		"prefix": "$ft13",
+		"body": [
+			"\\$ft13"
+		],
+		"description": "Name $f21; Alias: $ft13; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"$ft14": {
+		"prefix": "$ft14",
+		"body": [
+			"\\$ft14"
+		],
+		"description": "Name $f22; Alias: $ft14; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"$ft15": {
+		"prefix": "$ft15",
+		"body": [
+			"\\$ft15"
+		],
+		"description": "Name $f23; Alias: $ft15; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"$fs0": {
+		"prefix": "$fs0",
+		"body": [
+			"\\$fs0"
+		],
+		"description": "Name $f24; Alias: $fs0; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"$fs1": {
+		"prefix": "$fs1",
+		"body": [
+			"\\$fs1"
+		],
+		"description": "Name $f25; Alias: $fs1; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"$fs2": {
+		"prefix": "$fs2",
+		"body": [
+			"\\$fs2"
+		],
+		"description": "Name $f26; Alias: $fs2; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"$fs3": {
+		"prefix": "$fs3",
+		"body": [
+			"\\$fs3"
+		],
+		"description": "Name $f27; Alias: $fs3; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"$fs4": {
+		"prefix": "$fs4",
+		"body": [
+			"\\$fs4"
+		],
+		"description": "Name $f28; Alias: $fs4; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"$fs5": {
+		"prefix": "$fs5",
+		"body": [
+			"\\$fs5"
+		],
+		"description": "Name $f29; Alias: $fs5; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"$fs6": {
+		"prefix": "$fs6",
+		"body": [
+			"\\$fs6"
+		],
+		"description": "Name $f30; Alias: $fs6; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"$fs7": {
+		"prefix": "$fs7",
+		"body": [
+			"\\$fs7"
+		],
+		"description": "Name $f31; Alias: $fs7; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"fa0": {
+		"prefix": "fa0",
+		"body": [
+			"fa0"
+		],
+		"description": "Name f0; Alias: fa0; Meaning: Argument registers / Return value registers; Preserved across calls: No"
+	},
+
+	"fa1": {
+		"prefix": "fa1",
+		"body": [
+			"fa1"
+		],
+		"description": "Name f1; Alias: fa1; Meaning: Argument registers / Return value registers; Preserved across calls: No"
+	},
+
+	"fa2": {
+		"prefix": "fa2",
+		"body": [
+			"fa2"
+		],
+		"description": "Name f2; Alias: fa2; Meaning: Argument registers; Preserved across calls: No"
+	},
+
+	"fa3": {
+		"prefix": "fa3",
+		"body": [
+			"fa3"
+		],
+		"description": "Name f3; Alias: fa3; Meaning: Argument registers; Preserved across calls: No"
+	},
+
+	"fa4": {
+		"prefix": "fa4",
+		"body": [
+			"fa4"
+		],
+		"description": "Name f4; Alias: fa4; Meaning: Argument registers; Preserved across calls: No"
+	},
+
+	"fa5": {
+		"prefix": "fa5",
+		"body": [
+			"fa5"
+		],
+		"description": "Name f5; Alias: fa5; Meaning: Argument registers; Preserved across calls: No"
+	},
+
+	"fa6": {
+		"prefix": "fa6",
+		"body": [
+			"fa6"
+		],
+		"description": "Name f6; Alias: fa6; Meaning: Argument registers; Preserved across calls: No"
+	},
+
+	"fa7": {
+		"prefix": "fa7",
+		"body": [
+			"fa7"
+		],
+		"description": "Name f7; Alias: fa7; Meaning: Argument registers; Preserved across calls: No"
+	},
+
+	"ft0": {
+		"prefix": "ft0",
+		"body": [
+			"ft0"
+		],
+		"description": "Name f8; Alias: ft0; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"ft1": {
+		"prefix": "ft1",
+		"body": [
+			"ft1"
+		],
+		"description": "Name f9; Alias: ft1; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"ft2": {
+		"prefix": "ft2",
+		"body": [
+			"ft2"
+		],
+		"description": "Name f10; Alias: ft2; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"ft3": {
+		"prefix": "ft3",
+		"body": [
+			"ft3"
+		],
+		"description": "Name f11; Alias: ft3; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"ft4": {
+		"prefix": "ft4",
+		"body": [
+			"ft4"
+		],
+		"description": "Name f12; Alias: ft4; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"ft5": {
+		"prefix": "ft5",
+		"body": [
+			"ft5"
+		],
+		"description": "Name f13; Alias: ft5; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"ft6": {
+		"prefix": "ft6",
+		"body": [
+			"ft6"
+		],
+		"description": "Name f14; Alias: ft6; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"ft7": {
+		"prefix": "ft7",
+		"body": [
+			"ft7"
+		],
+		"description": "Name f15; Alias: ft7; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"ft8": {
+		"prefix": "ft8",
+		"body": [
+			"ft8"
+		],
+		"description": "Name f16; Alias: ft8; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"ft9": {
+		"prefix": "ft9",
+		"body": [
+			"ft9"
+		],
+		"description": "Name f17; Alias: ft9; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"ft10": {
+		"prefix": "ft10",
+		"body": [
+			"ft10"
+		],
+		"description": "Name f18; Alias: ft10; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"ft11": {
+		"prefix": "ft11",
+		"body": [
+			"ft11"
+		],
+		"description": "Name f19; Alias: ft11; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"ft12": {
+		"prefix": "ft12",
+		"body": [
+			"ft12"
+		],
+		"description": "Name f20; Alias: ft12; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"ft13": {
+		"prefix": "ft13",
+		"body": [
+			"ft13"
+		],
+		"description": "Name f21; Alias: ft13; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"ft14": {
+		"prefix": "ft14",
+		"body": [
+			"ft14"
+		],
+		"description": "Name f22; Alias: ft14; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"ft15": {
+		"prefix": "ft15",
+		"body": [
+			"ft15"
+		],
+		"description": "Name f23; Alias: ft15; Meaning: Temporary registers; Preserved across calls: No"
+	},
+
+	"fs0": {
+		"prefix": "fs0",
+		"body": [
+			"fs0"
+		],
+		"description": "Name f24; Alias: fs0; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"fs1": {
+		"prefix": "fs1",
+		"body": [
+			"fs1"
+		],
+		"description": "Name f25; Alias: fs1; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"fs2": {
+		"prefix": "fs2",
+		"body": [
+			"fs2"
+		],
+		"description": "Name f26; Alias: fs2; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"fs3": {
+		"prefix": "fs3",
+		"body": [
+			"fs3"
+		],
+		"description": "Name f27; Alias: fs3; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"fs4": {
+		"prefix": "fs4",
+		"body": [
+			"fs4"
+		],
+		"description": "Name f28; Alias: fs4; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"fs5": {
+		"prefix": "fs5",
+		"body": [
+			"fs5"
+		],
+		"description": "Name f29; Alias: fs5; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"fs6": {
+		"prefix": "fs6",
+		"body": [
+			"fs6"
+		],
+		"description": "Name f30; Alias: fs6; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
+	"fs7": {
+		"prefix": "fs7",
+		"body": [
+			"fs7"
+		],
+		"description": "Name f31; Alias: fs7; Meaning: Static registers; Preserved across calls: Yes"
+	},
+
 	"fadd.s": {
 		"prefix": "fadd.s",
 		"body": [
@@ -1399,7 +2167,7 @@
 		],
 		"description": "fstx.d fd, rj, rk"
 	},
-	
+
 	"fldgt.s": {
 		"prefix": "fldgt.s",
 		"body": [
@@ -1431,7 +2199,7 @@
 		],
 		"description": "fldle.d fd, rj, rk"
 	},
-	
+
 	"fstgt.s": {
 		"prefix": "fstgt.s",
 		"body": [
