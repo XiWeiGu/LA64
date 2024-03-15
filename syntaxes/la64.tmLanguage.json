@@ -176,7 +176,7 @@
 		"Float_Arithmetic_Op":{
 			"patterns": [
 				{
-					"name": "support.class.la64",
+					"name": "invalid.la64",
 					"match": "\\bf(add|sub|mul|div|madd|msub|nmadd|nmsub|max|min|maxa|mina|abs|neg|sqrt|recip|rsqrt|scaleb|logb|copysign|class|recipe|rsqrte)\\.(s|d)\\b"
 				}
 			]
@@ -185,7 +185,7 @@
 		"Float_Comp_Op":{
 			"patterns": [
 				{
-					"name":"support.class.la64",
+					"name":"invalid.la64",
 					"match": "\\bfcmp\\.(caf|cun|ceq|cueq|clt|cult|cle|cule|cne|cor|cune|saf|sun|seq|sueq|slt|sult|sle|sule|sne|sor|sune)\\.(s|d)\\b"
 				}
 			]
@@ -194,7 +194,7 @@
 		"Float_Conversion_Op":{
 			"patterns": [
 				{
-					"name":"support.class.la64",
+					"name":"invalid.la64",
 					"match": "\\bfcvt\\.s\\.d\\b|\\bfcvt\\.d\\.s\\b|\\bffint\\.(s|d)\\.(w/l)\\b|\\bftint\\.(w|l)\\.(s|d)\\b|\\bftint(rm|rp|rz|rne)\\.(w|l)\\.(s|d)\\b|\\bfrint\\.(s|d)\\b"
 				}
 			]
@@ -203,7 +203,7 @@
 		"Float_Mov_Op":{
 			"patterns": [
 				{
-					"name":"support.class.la64",
+					"name":"invalid.la64",
 					"match": "\\bfmov.(s|d)\\b|\\bfsel\\b|\\bmovgr2fr\\.(w|d)\\b|\\bmovegr2frh\\.w\\b|\\bmovefr2gr\\.(s|d)\\b|\\bmovefrh2gr.s\\b|\\b(movegr2fcsr|movfcsr2gr|movfr2cf|movcf2fr|movgr2cf|movcf2gr)\\b"
 				}
 			]
@@ -212,7 +212,7 @@
 		"Float_Branch_Op":{
 			"patterns": [
 				{
-					"name":"support.class.la64",
+					"name":"invalid.la64",
 					"match": "\\b(bceqz|bcnez)\\b"
 				}
 			]
@@ -221,7 +221,7 @@
 		"Float_Mem_Op":{
 			"patterns": [
 				{
-					"name":"support.class.la64",
+					"name":"invalid.la64",
 					"match": "\\b(fld|fst|fldx|fstx)\\.(s|d)\\b"
 				}
 			]
@@ -229,7 +229,7 @@
 		"Float_Bounds_Checking_Mem_Op":{
 			"patterns": [
 				{
-					"name":"support.class.la64",
+					"name":"invalid.la64",
 					"match": "\\b(fld|fst)(gt|le)\\.(s|d)\\b"
 				}
 			]
