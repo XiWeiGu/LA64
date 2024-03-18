@@ -2215,6 +2215,1494 @@
 		"description": "xvldi xd, i13"
 	},
 
+	"xvand.v": {
+		"prefix": "xvand.v",
+		"body": [
+			"xvand.v"
+		],
+		"description": "xvand.v xd, xj, xd"
+	},
+
+	"xvor.v": {
+		"prefix": "xvor.v",
+		"body": [
+			"xvor.v"
+		],
+		"description": "xvor.v xd, xj, xd"
+	},
+
+	"xvxor.v": {
+		"prefix": "xvxor.v",
+		"body": [
+			"xvxor.v"
+		],
+		"description": "xvxor.v xd, xj, xd"
+	},
+
+	"xvnor.v": {
+		"prefix": "xvnor.v",
+		"body": [
+			"xvnor.v"
+		],
+		"description": "xvnor.v xd, xj, xd"
+	},
+
+	"xvandn.v": {
+		"prefix": "xvandn.v",
+		"body": [
+			"xvandn.v"
+		],
+		"description": "xvandn.v xd, xj, xd"
+	},
+
+	"xvorn.v": {
+		"prefix": "xvorn.v",
+		"body": [
+			"xvorn.v"
+		],
+		"description": "xvorn.v xd, xj, xd"
+	},
+
+	"xvandi.b": {
+		"prefix": "xvandi.b",
+		"body": [
+			"xvandi.b"
+		],
+		"description": "xvandi.b xd, xj, ui8"
+	},
+
+	"xvori.b": {
+		"prefix": "xvori.b",
+		"body": [
+			"xvori.b"
+		],
+		"description": "xvori.b xd, xj, ui8"
+	},
+
+	"xvxori.b": {
+		"prefix": "xvxori.b",
+		"body": [
+			"xvxori.b"
+		],
+		"description": "xvxori.b xd, xj, ui8"
+	},
+
+	"xvnori.b": {
+		"prefix": "xvnori.b",
+		"body": [
+			"xvnori.b"
+		],
+		"description": "xvnori.b xd, xj, ui8"
+	},
+
+	"xvsll.b": {
+		"prefix": "xvsll.b",
+		"body": [
+			"xvsll.b"
+		],
+		"description": "xvsll.b xd, xj, xk"
+	},
+
+	"xvsll.h": {
+		"prefix": "xvsll.h",
+		"body": [
+			"xvsll.h"
+		],
+		"description": "xvsll.h xd, xj, xk"
+	},
+
+	"xvsll.w": {
+		"prefix": "xvsll.w",
+		"body": [
+			"xvsll.w"
+		],
+		"description": "xvsll.w xd, xj, xk"
+	},
+
+	"xvsll.d": {
+		"prefix": "xvsll.d",
+		"body": [
+			"xvsll.d"
+		],
+		"description": "xvsll.d xd, xj, xk"
+	},
+
+	"xvslli.b": {
+		"prefix": "xvslli.b",
+		"body": [
+			"xvslli.b"
+		],
+		"description": "xvslli.b xd, xj, ui3"
+	},
+
+	"xvslli.h": {
+		"prefix": "xvslli.h",
+		"body": [
+			"xvslli.h"
+		],
+		"description": "xvslli.h xd, xj, ui4"
+	},
+
+	"xvslli.w": {
+		"prefix": "xvslli.w",
+		"body": [
+			"xvslli.w"
+		],
+		"description": "xvslli.w xd, xj, ui5"
+	},
+
+	"xvslli.d": {
+		"prefix": "xvslli.d",
+		"body": [
+			"xvslli.d"
+		],
+		"description": "xvslli.d xd, xj, ui6"
+	},
+
+	"xvsrl.b": {
+		"prefix": "xvsrl.b",
+		"body": [
+			"xvsrl.b"
+		],
+		"description": "xvsrl.b xd, xj, xk"
+	},
+
+	"xvsrl.h": {
+		"prefix": "xvsrl.h",
+		"body": [
+			"xvsrl.h"
+		],
+		"description": "xvsrl.h xd, xj, xk"
+	},
+
+	"xvsrl.w": {
+		"prefix": "xvsrl.w",
+		"body": [
+			"xvsrl.w"
+		],
+		"description": "xvsrl.w xd, xj, xk"
+	},
+
+	"xvsrl.d": {
+		"prefix": "xvsrl.d",
+		"body": [
+			"xvsrl.d"
+		],
+		"description": "xvsrl.d xd, xj, xk"
+	},
+
+	"xvsrli.b": {
+		"prefix": "xvsrli.b",
+		"body": [
+			"xvsrli.b"
+		],
+		"description": "xvsrli.b xd, xj, ui3"
+	},
+
+	"xvsrli.h": {
+		"prefix": "xvsrli.h",
+		"body": [
+			"xvsrli.h"
+		],
+		"description": "xvsrli.h xd, xj, ui4"
+	},
+
+	"xvsrli.w": {
+		"prefix": "xvsrli.w",
+		"body": [
+			"xvsrli.w"
+		],
+		"description": "xvsrli.w xd, xj, ui5"
+	},
+
+	"xvsrli.d": {
+		"prefix": "xvsrli.d",
+		"body": [
+			"xvsrli.d"
+		],
+		"description": "xvsrli.d xd, xj, ui6"
+	},
+
+	"xvsra.b": {
+		"prefix": "xvsra.b",
+		"body": [
+			"xvsra.b"
+		],
+		"description": "xvsra.b xd, xj, xk"
+	},
+
+	"xvsra.h": {
+		"prefix": "xvsra.h",
+		"body": [
+			"xvsra.h"
+		],
+		"description": "xvsra.h xd, xj, xk"
+	},
+
+	"xvsra.w": {
+		"prefix": "xvsra.w",
+		"body": [
+			"xvsra.w"
+		],
+		"description": "xvsra.w xd, xj, xk"
+	},
+
+	"xvsra.d": {
+		"prefix": "xvsra.d",
+		"body": [
+			"xvsra.d"
+		],
+		"description": "xvsra.d xd, xj, xk"
+	},
+
+	"xvsrai.b": {
+		"prefix": "xvsrai.b",
+		"body": [
+			"xvsrai.b"
+		],
+		"description": "xvsrai.b xd, xj, ui3"
+	},
+
+	"xvsrai.h": {
+		"prefix": "xvsrai.h",
+		"body": [
+			"xvsrai.h"
+		],
+		"description": "xvsrai.h xd, xj, ui4"
+	},
+
+	"xvsrai.w": {
+		"prefix": "xvsrai.w",
+		"body": [
+			"xvsrai.w"
+		],
+		"description": "xvsrai.w xd, xj, ui5"
+	},
+
+	"xvsrai.d": {
+		"prefix": "xvsrai.d",
+		"body": [
+			"xvsrai.d"
+		],
+		"description": "xvsrai.d xd, xj, ui6"
+	},
+
+	"xvrotr.b": {
+		"prefix": "xvrotr.b",
+		"body": [
+			"xvrotr.b"
+		],
+		"description": "xvrotr.b xd, xj, xk"
+	},
+
+	"xvrotr.h": {
+		"prefix": "xvrotr.h",
+		"body": [
+			"xvrotr.h"
+		],
+		"description": "xvrotr.h xd, xj, xk"
+	},
+
+	"xvrotr.w": {
+		"prefix": "xvrotr.w",
+		"body": [
+			"xvrotr.w"
+		],
+		"description": "xvrotr.w xd, xj, xk"
+	},
+
+	"xvrotr.d": {
+		"prefix": "xvrotr.d",
+		"body": [
+			"xvrotr.d"
+		],
+		"description": "xvrotr.d xd, xj, xk"
+	},
+
+	"xvrotri.b": {
+		"prefix": "xvrotri.b",
+		"body": [
+			"xvrotri.b"
+		],
+		"description": "xvrotri.b xd, xj, ui3"
+	},
+
+	"xvrotri.h": {
+		"prefix": "xvrotri.h",
+		"body": [
+			"xvrotri.h"
+		],
+		"description": "xvrotri.h xd, xj, ui4"
+	},
+
+	"xvrotri.w": {
+		"prefix": "xvrotri.w",
+		"body": [
+			"xvrotri.w"
+		],
+		"description": "xvrotri.w xd, xj, ui5"
+	},
+
+	"xvrotri.d": {
+		"prefix": "xvrotri.d",
+		"body": [
+			"xvrotri.d"
+		],
+		"description": "xvrotri.d xd, xj, ui6"
+	},
+
+	"xvsllwil.h.b": {
+		"prefix": "xvsllwil.h.b",
+		"body": [
+			"xvsllwil.h.b"
+		],
+		"description": "xvsllwil.h.b xd, xj, ui3"
+	},
+
+	"xvsllwil.w.h": {
+		"prefix": "xvsllwil.w.h",
+		"body": [
+			"xvsllwil.w.h"
+		],
+		"description": "xvsllwil.w.h xd, xj, ui4"
+	},
+
+	"xvsllwil.d.w": {
+		"prefix": "xvsllwil.d.w",
+		"body": [
+			"xvsllwil.d.w"
+		],
+		"description": "xvsllwil.d.w xd, xj, ui5"
+	},
+
+	"xvsllwil.hu.bu": {
+		"prefix": "xvsllwil.hu.bu",
+		"body": [
+			"xvsllwil.hu.bu"
+		],
+		"description": "xvsllwil.hu.bu xd, xj, ui3"
+	},
+
+	"xvsllwil.wu.hu": {
+		"prefix": "xvsllwil.wu.hu",
+		"body": [
+			"xvsllwil.wu.hu"
+		],
+		"description": "xvsllwil.wu.hu xd, xj, ui4"
+	},
+
+	"xvsllwil.du.wu": {
+		"prefix": "xvsllwil.du.wu",
+		"body": [
+			"xvsllwil.du.wu"
+		],
+		"description": "xvsllwil.du.wu xd, xj, ui5"
+	},
+
+	"xvextl.q.d": {
+		"prefix": "xvextl.q.d",
+		"body": [
+			"xvextl.q.d"
+		],
+		"description": "xvextl.q.d xd, xj"
+	},
+
+	"xvextl.qu.du": {
+		"prefix": "xvextl.qu.du",
+		"body": [
+			"xvextl.qu.du"
+		],
+		"description": "xvextl.qu.du xd, xj"
+	},
+
+	"xvsrlr.b": {
+		"prefix": "xvsrlr.b",
+		"body": [
+			"xvsrlr.b"
+		],
+		"description": "xvsrlr.b xd, xj, xk"
+	},
+
+	"xvsrlr.h": {
+		"prefix": "xvsrlr.h",
+		"body": [
+			"xvsrlr.h"
+		],
+		"description": "xvsrlr.h xd, xj, xk"
+	},
+
+	"xvsrlr.w": {
+		"prefix": "xvsrlr.w",
+		"body": [
+			"xvsrlr.w"
+		],
+		"description": "xvsrlr.w xd, xj, xk"
+	},
+
+	"xvsrlr.d": {
+		"prefix": "xvsrlr.d",
+		"body": [
+			"xvsrlr.d"
+		],
+		"description": "xvsrlr.d xd, xj, xk"
+	},
+
+	"xvsrlri.b": {
+		"prefix": "xvsrlri.b",
+		"body": [
+			"xvsrlri.b"
+		],
+		"description": "xvsrlri.b xd, xj, ui3"
+	},
+
+	"xvsrlri.h": {
+		"prefix": "xvsrlri.h",
+		"body": [
+			"xvsrlri.h"
+		],
+		"description": "xvsrlri.h xd, xj, ui4"
+	},
+
+	"xvsrlri.w": {
+		"prefix": "xvsrlri.w",
+		"body": [
+			"xvsrlri.w"
+		],
+		"description": "xvsrlri.w xd, xj, ui5"
+	},
+
+	"xvsrlri.d": {
+		"prefix": "xvsrlri.d",
+		"body": [
+			"xvsrlri.d"
+		],
+		"description": "xvsrlri.d xd, xj, ui6"
+	},
+
+	"xvsrar.b": {
+		"prefix": "xvsrar.b",
+		"body": [
+			"xvsrar.b"
+		],
+		"description": "xvsrar.b xd, xj, xk"
+	},
+
+	"xvsrar.h": {
+		"prefix": "xvsrar.h",
+		"body": [
+			"xvsrar.h"
+		],
+		"description": "xvsrar.h xd, xj, xk"
+	},
+
+	"xvsrar.w": {
+		"prefix": "xvsrar.w",
+		"body": [
+			"xvsrar.w"
+		],
+		"description": "xvsrar.w xd, xj, xk"
+	},
+
+	"xvsrar.d": {
+		"prefix": "xvsrar.d",
+		"body": [
+			"xvsrar.d"
+		],
+		"description": "xvsrar.d xd, xj, xk"
+	},
+
+	"xvsrari.b": {
+		"prefix": "xvsrari.b",
+		"body": [
+			"xvsrari.b"
+		],
+		"description": "xvsrari.b xd, xj, ui3"
+	},
+
+	"xvsrari.h": {
+		"prefix": "xvsrari.h",
+		"body": [
+			"xvsrari.h"
+		],
+		"description": "xvsrari.h xd, xj, ui4"
+	},
+
+	"xvsrari.w": {
+		"prefix": "xvsrari.w",
+		"body": [
+			"xvsrari.w"
+		],
+		"description": "xvsrari.w xd, xj, ui5"
+	},
+
+	"xvsrari.d": {
+		"prefix": "xvsrari.d",
+		"body": [
+			"xvsrari.d"
+		],
+		"description": "xvsrari.d xd, xj, ui6"
+	},
+
+	"xvsrln.b.h": {
+		"prefix": "xvsrln.b.h",
+		"body": [
+			"xvsrln.b.h"
+		],
+		"description": "xvsrln.b.h xd, xj, xk"
+	},
+
+	"xvsrln.h.w": {
+		"prefix": "xvsrln.h.w",
+		"body": [
+			"xvsrln.h.w"
+		],
+		"description": "xvsrln.h.w xd, xj, xk"
+	},
+
+	"xvsrln.w.d": {
+		"prefix": "xvsrln.w.d",
+		"body": [
+			"xvsrln.w.d"
+		],
+		"description": "xvsrln.w.d xd, xj, xk"
+	},
+
+	"xvsran.b.h": {
+		"prefix": "xvsran.b.h",
+		"body": [
+			"xvsran.b.h"
+		],
+		"description": "xvsran.b.h xd, xj, xk"
+	},
+
+	"xvsran.h.w": {
+		"prefix": "xvsran.h.w",
+		"body": [
+			"xvsran.h.w"
+		],
+		"description": "xvsran.h.w xd, xj, xk"
+	},
+
+	"xvsran.w.d": {
+		"prefix": "xvsran.w.d",
+		"body": [
+			"xvsran.w.d"
+		],
+		"description": "xvsran.w.d xd, xj, xk"
+	},
+
+	"xvsrlni.b.h": {
+		"prefix": "xvsrlni.b.h",
+		"body": [
+			"xvsrlni.b.h"
+		],
+		"description": "xvsrlni.b.h xd, xj, ui4"
+	},
+
+	"xvsrlni.h.w": {
+		"prefix": "xvsrlni.h.w",
+		"body": [
+			"xvsrlni.h.w"
+		],
+		"description": "xvsrlni.h.w xd, xj, ui5"
+	},
+
+	"xvsrlni.w.d": {
+		"prefix": "xvsrlni.w.d",
+		"body": [
+			"xvsrlni.w.d"
+		],
+		"description": "xvsrlni.w.d xd, xj, ui6"
+	},
+
+	"xvsrlni.d.q": {
+		"prefix": "xvsrlni.d.q",
+		"body": [
+			"xvsrlni.d.q"
+		],
+		"description": "xvsrlni.d.q xd, xj, ui7"
+	},
+
+	"xvsrani.b.h": {
+		"prefix": "xvsrani.b.h",
+		"body": [
+			"xvsrani.b.h"
+		],
+		"description": "xvsrani.b.h xd, xj, ui4"
+	},
+
+	"xvsrani.h.w": {
+		"prefix": "xvsrani.h.w",
+		"body": [
+			"xvsrani.h.w"
+		],
+		"description": "xvsrani.h.w xd, xj, ui5"
+	},
+
+	"xvsrani.w.d": {
+		"prefix": "xvsrani.w.d",
+		"body": [
+			"xvsrani.w.d"
+		],
+		"description": "xvsrani.w.d xd, xj, ui6"
+	},
+
+	"xvsrani.d.q": {
+		"prefix": "xvsrani.d.q",
+		"body": [
+			"xvsrani.d.q"
+		],
+		"description": "xvsrani.d.q xd, xj, ui7"
+	},
+
+	"xvsrlrn.b.h": {
+		"prefix": "xvsrlrn.b.h",
+		"body": [
+			"xvsrlrn.b.h"
+		],
+		"description": "xvsrlrn.b.h xd, xj, xk"
+	},
+
+	"xvsrlrn.h.w": {
+		"prefix": "xvsrlrn.h.w",
+		"body": [
+			"xvsrlrn.h.w"
+		],
+		"description": "xvsrlrn.h.w xd, xj, xk"
+	},
+
+	"xvsrlrn.w.d": {
+		"prefix": "xvsrlrn.w.d",
+		"body": [
+			"xvsrlrn.w.d"
+		],
+		"description": "xvsrlrn.w.d xd, xj, xk"
+	},
+
+	"xvsrarn.b.h": {
+		"prefix": "xvsrarn.b.h",
+		"body": [
+			"xvsrarn.b.h"
+		],
+		"description": "xvsrarn.b.h xd, xj, xk"
+	},
+
+	"xvsrarn.h.w": {
+		"prefix": "xvsrarn.h.w",
+		"body": [
+			"xvsrarn.h.w"
+		],
+		"description": "xvsrarn.h.w xd, xj, xk"
+	},
+
+	"xvsrarn.w.d": {
+		"prefix": "xvsrarn.w.d",
+		"body": [
+			"xvsrarn.w.d"
+		],
+		"description": "xvsrarn.w.d xd, xj, xk"
+	},
+
+	"xvsrlrni.b.h": {
+		"prefix": "xvsrlrni.b.h",
+		"body": [
+			"xvsrlrni.b.h"
+		],
+		"description": "xvsrlrni.b.h xd, xj, ui4"
+	},
+
+	"xvsrlrni.h.w": {
+		"prefix": "xvsrlrni.h.w",
+		"body": [
+			"xvsrlrni.h.w"
+		],
+		"description": "xvsrlrni.h.w xd, xj, ui5"
+	},
+
+	"xvsrlrni.w.d": {
+		"prefix": "xvsrlrni.w.d",
+		"body": [
+			"xvsrlrni.w.d"
+		],
+		"description": "xvsrlrni.w.d xd, xj, ui6"
+	},
+
+	"xvsrlrni.d.q": {
+		"prefix": "xvsrlrni.d.q",
+		"body": [
+			"xvsrlrni.d.q"
+		],
+		"description": "xvsrlrni.d.q xd, xj, ui7"
+	},
+
+	"xvsrarni.b.h": {
+		"prefix": "xvsrarni.b.h",
+		"body": [
+			"xvsrarni.b.h"
+		],
+		"description": "xvsrarni.b.h xd, xj, ui4"
+	},
+
+	"xvsrarni.h.w": {
+		"prefix": "xvsrarni.h.w",
+		"body": [
+			"xvsrarni.h.w"
+		],
+		"description": "xvsrarni.h.w xd, xj, ui5"
+	},
+
+	"xvsrarni.w.d": {
+		"prefix": "xvsrarni.w.d",
+		"body": [
+			"xvsrarni.w.d"
+		],
+		"description": "xvsrarni.w.d xd, xj, ui6"
+	},
+
+	"xvsrarni.d.q": {
+		"prefix": "xvsrarni.d.q",
+		"body": [
+			"xvsrarni.d.q"
+		],
+		"description": "xvsrarni.d.q xd, xj, ui7"
+	},
+
+	"xvssrln.b.h": {
+		"prefix": "xvssrln.b.h",
+		"body": [
+			"xvssrln.b.h"
+		],
+		"description": "xvssrln.b.h xd, xj, xk"
+	},
+
+	"xvssrln.h.w": {
+		"prefix": "xvssrln.h.w",
+		"body": [
+			"xvssrln.h.w"
+		],
+		"description": "xvssrln.h.w xd, xj, xk"
+	},
+
+	"xvssrln.w.d": {
+		"prefix": "xvssrln.w.d",
+		"body": [
+			"xvssrln.w.d"
+		],
+		"description": "xvssrln.w.d xd, xj, xk"
+	},
+
+	"xvssran.b.h": {
+		"prefix": "xvssran.b.h",
+		"body": [
+			"xvssran.b.h"
+		],
+		"description": "xvssran.b.h xd, xj, xk"
+	},
+
+	"xvssran.h.w": {
+		"prefix": "xvssran.h.w",
+		"body": [
+			"xvssran.h.w"
+		],
+		"description": "xvssran.h.w xd, xj, xk"
+	},
+
+	"xvssran.w.d": {
+		"prefix": "xvssran.w.d",
+		"body": [
+			"xvssran.w.d"
+		],
+		"description": "xvssran.w.d xd, xj, xk"
+	},
+
+	"xvssrln.bu.h": {
+		"prefix": "xvssrln.bu.h",
+		"body": [
+			"xvssrln.bu.h"
+		],
+		"description": "xvssrln.bu.h xd, xj, xk"
+	},
+
+	"xvssrln.hu.w": {
+		"prefix": "xvssrln.hu.w",
+		"body": [
+			"xvssrln.hu.w"
+		],
+		"description": "xvssrln.hu.w xd, xj, xk"
+	},
+
+	"xvssrln.wu.d": {
+		"prefix": "xvssrln.wu.d",
+		"body": [
+			"xvssrln.wu.d"
+		],
+		"description": "xvssrln.wu.d xd, xj, xk"
+	},
+
+	"xvssran.bu.h": {
+		"prefix": "xvssran.bu.h",
+		"body": [
+			"xvssran.bu.h"
+		],
+		"description": "xvssran.bu.h xd, xj, xk"
+	},
+
+	"xvssran.hu.w": {
+		"prefix": "xvssran.hu.w",
+		"body": [
+			"xvssran.hu.w"
+		],
+		"description": "xvssran.hu.w xd, xj, xk"
+	},
+
+	"xvssran.wu.d": {
+		"prefix": "xvssran.wu.d",
+		"body": [
+			"xvssran.wu.d"
+		],
+		"description": "xvssran.wu.d xd, xj, xk"
+	},
+
+	"xvssrlni.b.h": {
+		"prefix": "xvssrlni.b.h",
+		"body": [
+			"xvssrlni.b.h"
+		],
+		"description": "xvssrlni.b.h xd, xj, ui4"
+	},
+
+	"xvssrlni.h.w": {
+		"prefix": "xvssrlni.h.w",
+		"body": [
+			"xvssrlni.h.w"
+		],
+		"description": "xvssrlni.h.w xd, xj, ui5"
+	},
+
+	"xvssrlni.w.d": {
+		"prefix": "xvssrlni.w.d",
+		"body": [
+			"xvssrlni.w.d"
+		],
+		"description": "xvssrlni.w.d xd, xj, ui6"
+	},
+
+	"xvssrlni.d.q": {
+		"prefix": "xvssrlni.d.q",
+		"body": [
+			"xvssrlni.d.q"
+		],
+		"description": "xvssrlni.d.q xd, xj, ui7"
+	},
+
+	"xvssrani.b.h": {
+		"prefix": "xvssrani.b.h",
+		"body": [
+			"xvssrani.b.h"
+		],
+		"description": "xvssrani.b.h xd, xj, ui4"
+	},
+
+	"xvssrani.h.w": {
+		"prefix": "xvssrani.h.w",
+		"body": [
+			"xvssrani.h.w"
+		],
+		"description": "xvssrani.h.w xd, xj, ui5"
+	},
+
+	"xvssrani.w.d": {
+		"prefix": "xvssrani.w.d",
+		"body": [
+			"xvssrani.w.d"
+		],
+		"description": "xvssrani.w.d xd, xj, ui6"
+	},
+
+	"xvssrani.d.q": {
+		"prefix": "xvssrani.d.q",
+		"body": [
+			"xvssrani.d.q"
+		],
+		"description": "xvssrani.d.q xd, xj, ui7"
+	},
+
+	"xvssrlni.bu.h": {
+		"prefix": "xvssrlni.bu.h",
+		"body": [
+			"xvssrlni.bu.h"
+		],
+		"description": "xvssrlni.bu.h xd, xj, ui4"
+	},
+
+	"xvssrlni.hu.w": {
+		"prefix": "xvssrlni.hu.w",
+		"body": [
+			"xvssrlni.hu.w"
+		],
+		"description": "xvssrlni.hu.w xd, xj, ui5"
+	},
+
+	"xvssrlni.wu.d": {
+		"prefix": "xvssrlni.wu.d",
+		"body": [
+			"xvssrlni.wu.d"
+		],
+		"description": "xvssrlni.wu.d xd, xj, ui6"
+	},
+
+	"xvssrlni.du.q": {
+		"prefix": "xvssrlni.du.q",
+		"body": [
+			"xvssrlni.du.q"
+		],
+		"description": "xvssrlni.du.q xd, xj, ui7"
+	},
+
+	"xvssrani.bu.h": {
+		"prefix": "xvssrani.bu.h",
+		"body": [
+			"xvssrani.bu.h"
+		],
+		"description": "xvssrani.bu.h xd, xj, ui4"
+	},
+
+	"xvssrani.hu.w": {
+		"prefix": "xvssrani.hu.w",
+		"body": [
+			"xvssrani.hu.w"
+		],
+		"description": "xvssrani.hu.w xd, xj, ui5"
+	},
+
+	"xvssrani.wu.d": {
+		"prefix": "xvssrani.wu.d",
+		"body": [
+			"xvssrani.wu.d"
+		],
+		"description": "xvssrani.wu.d xd, xj, ui6"
+	},
+
+	"xvssrani.du.q": {
+		"prefix": "xvssrani.du.q",
+		"body": [
+			"xvssrani.du.q"
+		],
+		"description": "xvssrani.du.q xd, xj, ui7"
+	},
+
+	"xvssrlrn.b.h": {
+		"prefix": "xvssrlrn.b.h",
+		"body": [
+			"xvssrlrn.b.h"
+		],
+		"description": "xvssrlrn.b.h xd, xj, xk"
+	},
+
+	"xvssrlrn.h.w": {
+		"prefix": "xvssrlrn.h.w",
+		"body": [
+			"xvssrlrn.h.w"
+		],
+		"description": "xvssrlrn.h.w xd, xj, xk"
+	},
+
+	"xvssrlrn.w.d": {
+		"prefix": "xvssrlrn.w.d",
+		"body": [
+			"xvssrlrn.w.d"
+		],
+		"description": "xvssrlrn.w.d xd, xj, xk"
+	},
+
+	"xvssrarn.b.h": {
+		"prefix": "xvssrarn.b.h",
+		"body": [
+			"xvssrarn.b.h"
+		],
+		"description": "xvssrarn.b.h xd, xj, xk"
+	},
+
+	"xvssrarn.h.w": {
+		"prefix": "xvssrarn.h.w",
+		"body": [
+			"xvssrarn.h.w"
+		],
+		"description": "xvssrarn.h.w xd, xj, xk"
+	},
+
+	"xvssrarn.w.d": {
+		"prefix": "xvssrarn.w.d",
+		"body": [
+			"xvssrarn.w.d"
+		],
+		"description": "xvssrarn.w.d xd, xj, xk"
+	},
+
+	"xvssrlrn.bu.h": {
+		"prefix": "xvssrlrn.bu.h",
+		"body": [
+			"xvssrlrn.bu.h"
+		],
+		"description": "xvssrlrn.bu.h xd, xj, xk"
+	},
+
+	"xvssrlrn.hu.w": {
+		"prefix": "xvssrlrn.hu.w",
+		"body": [
+			"xvssrlrn.hu.w"
+		],
+		"description": "xvssrlrn.hu.w xd, xj, xk"
+	},
+
+	"xvssrlrn.wu.d": {
+		"prefix": "xvssrlrn.wu.d",
+		"body": [
+			"xvssrlrn.wu.d"
+		],
+		"description": "xvssrlrn.wu.d xd, xj, xk"
+	},
+
+	"xvssrarn.bu.h": {
+		"prefix": "xvssrarn.bu.h",
+		"body": [
+			"xvssrarn.bu.h"
+		],
+		"description": "xvssrarn.bu.h xd, xj, xk"
+	},
+
+	"xvssrarn.hu.w": {
+		"prefix": "xvssrarn.hu.w",
+		"body": [
+			"xvssrarn.hu.w"
+		],
+		"description": "xvssrarn.hu.w xd, xj, xk"
+	},
+
+	"xvssrarn.wu.d": {
+		"prefix": "xvssrarn.wu.d",
+		"body": [
+			"xvssrarn.wu.d"
+		],
+		"description": "xvssrarn.wu.d xd, xj, xk"
+	},
+
+	"xvssrlrni.b.h": {
+		"prefix": "xvssrlrni.b.h",
+		"body": [
+			"xvssrlrni.b.h"
+		],
+		"description": "xvssrlrni.b.h xd, xj, ui4"
+	},
+
+	"xvssrlrni.h.w": {
+		"prefix": "xvssrlrni.h.w",
+		"body": [
+			"xvssrlrni.h.w"
+		],
+		"description": "xvssrlrni.h.w xd, xj, ui5"
+	},
+
+	"xvssrlrni.w.d": {
+		"prefix": "xvssrlrni.w.d",
+		"body": [
+			"xvssrlrni.w.d"
+		],
+		"description": "xvssrlrni.w.d xd, xj, ui6"
+	},
+
+	"xvssrlrni.d.q": {
+		"prefix": "xvssrlrni.d.q",
+		"body": [
+			"xvssrlrni.d.q"
+		],
+		"description": "xvssrlrni.d.q xd, xj, ui7"
+	},
+
+	"xvssrarni.b.h": {
+		"prefix": "xvssrarni.b.h",
+		"body": [
+			"xvssrarni.b.h"
+		],
+		"description": "xvssrarni.b.h xd, xj, ui4"
+	},
+
+	"xvssrarni.h.w": {
+		"prefix": "xvssrarni.h.w",
+		"body": [
+			"xvssrarni.h.w"
+		],
+		"description": "xvssrarni.h.w xd, xj, ui5"
+	},
+
+	"xvssrarni.w.d": {
+		"prefix": "xvssrarni.w.d",
+		"body": [
+			"xvssrarni.w.d"
+		],
+		"description": "xvssrarni.w.d xd, xj, ui6"
+	},
+
+	"xvssrarni.d.q": {
+		"prefix": "xvssrarni.d.q",
+		"body": [
+			"xvssrarni.d.q"
+		],
+		"description": "xvssrarni.d.q xd, xj, ui7"
+	},
+
+	"xvssrlrni.bu.h": {
+		"prefix": "xvssrlrni.bu.h",
+		"body": [
+			"xvssrlrni.bu.h"
+		],
+		"description": "xvssrlrni.bu.h xd, xj, ui4"
+	},
+
+	"xvssrlrni.hu.w": {
+		"prefix": "xvssrlrni.hu.w",
+		"body": [
+			"xvssrlrni.hu.w"
+		],
+		"description": "xvssrlrni.hu.w xd, xj, ui5"
+	},
+
+	"xvssrlrni.wu.d": {
+		"prefix": "xvssrlrni.wu.d",
+		"body": [
+			"xvssrlrni.wu.d"
+		],
+		"description": "xvssrlrni.wu.d xd, xj, ui6"
+	},
+
+	"xvssrlrni.du.q": {
+		"prefix": "xvssrlrni.du.q",
+		"body": [
+			"xvssrlrni.du.q"
+		],
+		"description": "xvssrlrni.du.q xd, xj, ui7"
+	},
+
+	"xvssrarni.bu.h": {
+		"prefix": "xvssrarni.bu.h",
+		"body": [
+			"xvssrarni.bu.h"
+		],
+		"description": "xvssrarni.bu.h xd, xj, ui4"
+	},
+
+	"xvssrarni.hu.w": {
+		"prefix": "xvssrarni.hu.w",
+		"body": [
+			"xvssrarni.hu.w"
+		],
+		"description": "xvssrarni.hu.w xd, xj, ui5"
+	},
+
+	"xvssrarni.wu.d": {
+		"prefix": "xvssrarni.wu.d",
+		"body": [
+			"xvssrarni.wu.d"
+		],
+		"description": "xvssrarni.wu.d xd, xj, ui6"
+	},
+
+	"xvssrarni.du.q": {
+		"prefix": "xvssrarni.du.q",
+		"body": [
+			"xvssrarni.du.q"
+		],
+		"description": "xvssrarni.du.q xd, xj, ui7"
+	},
+
+	"xvclo.b": {
+		"prefix": "xvclo.b",
+		"body": [
+			"xvclo.b"
+		],
+		"description": "xvclo.b xd, xj"
+	},
+
+	"xvclo.h": {
+		"prefix": "xvclo.h",
+		"body": [
+			"xvclo.h"
+		],
+		"description": "xvclo.h xd, xj"
+	},
+
+	"xvclo.w": {
+		"prefix": "xvclo.w",
+		"body": [
+			"xvclo.w"
+		],
+		"description": "xvclo.w xd, xj"
+	},
+
+	"xvclo.d": {
+		"prefix": "xvclo.d",
+		"body": [
+			"xvclo.d"
+		],
+		"description": "xvclo.d xd, xj"
+	},
+
+	"xvclz.b": {
+		"prefix": "xvclz.b",
+		"body": [
+			"xvclz.b"
+		],
+		"description": "xvclz.b xd, xj"
+	},
+
+	"xvclz.h": {
+		"prefix": "xvclz.h",
+		"body": [
+			"xvclz.h"
+		],
+		"description": "xvclz.h xd, xj"
+	},
+
+	"xvclz.w": {
+		"prefix": "xvclz.w",
+		"body": [
+			"xvclz.w"
+		],
+		"description": "xvclz.w xd, xj"
+	},
+
+	"xvclz.d": {
+		"prefix": "xvclz.d",
+		"body": [
+			"xvclz.d"
+		],
+		"description": "xvclz.d xd, xj"
+	},
+
+	"xvpcnt.b": {
+		"prefix": "xvpcnt.b",
+		"body": [
+			"xvpcnt.b"
+		],
+		"description": "xvpcnt.b xd, xj"
+	},
+
+	"xvpcnt.h": {
+		"prefix": "xvpcnt.h",
+		"body": [
+			"xvpcnt.h"
+		],
+		"description": "xvpcnt.h xd, xj"
+	},
+
+	"xvpcnt.w": {
+		"prefix": "xvpcnt.w",
+		"body": [
+			"xvpcnt.w"
+		],
+		"description": "xvpcnt.w xd, xj"
+	},
+
+	"xvpcnt.d": {
+		"prefix": "xvpcnt.d",
+		"body": [
+			"xvpcnt.d"
+		],
+		"description": "xvpcnt.d xd, xj"
+	},
+
+	"xvbitclr.b": {
+		"prefix": "xvbitclr.b",
+		"body": [
+			"xvbitclr.b"
+		],
+		"description": "xvbitclr.b xd, xj, xk"
+	},
+
+	"xvbitclr.h": {
+		"prefix": "xvbitclr.h",
+		"body": [
+			"xvbitclr.h"
+		],
+		"description": "xvbitclr.h xd, xj, xk"
+	},
+
+	"xvbitclr.w": {
+		"prefix": "xvbitclr.w",
+		"body": [
+			"xvbitclr.w"
+		],
+		"description": "xvbitclr.w xd, xj, xk"
+	},
+
+	"xvbitclr.d": {
+		"prefix": "xvbitclr.d",
+		"body": [
+			"xvbitclr.d"
+		],
+		"description": "xvbitclr.d xd, xj, xk"
+	},
+
+	"xvbitclri.b": {
+		"prefix": "xvbitclri.b",
+		"body": [
+			"xvbitclri.b"
+		],
+		"description": "xvbitclri.b xd, xj, ui3"
+	},
+
+	"xvbitclri.h": {
+		"prefix": "xvbitclri.h",
+		"body": [
+			"xvbitclri.h"
+		],
+		"description": "xvbitclri.h xd, xj, ui4"
+	},
+
+	"xvbitclri.w": {
+		"prefix": "xvbitclri.w",
+		"body": [
+			"xvbitclri.w"
+		],
+		"description": "xvbitclri.w xd, xj, ui5"
+	},
+
+	"xvbitclri.d": {
+		"prefix": "xvbitclri.d",
+		"body": [
+			"xvbitclri.d"
+		],
+		"description": "xvbitclri.d xd, xj, ui6"
+	},
+
+	"xvbitset.b": {
+		"prefix": "xvbitset.b",
+		"body": [
+			"xvbitset.b"
+		],
+		"description": "xvbitset.b xd, xj, xk"
+	},
+
+	"xvbitset.h": {
+		"prefix": "xvbitset.h",
+		"body": [
+			"xvbitset.h"
+		],
+		"description": "xvbitset.h xd, xj, xk"
+	},
+
+	"xvbitset.w": {
+		"prefix": "xvbitset.w",
+		"body": [
+			"xvbitset.w"
+		],
+		"description": "xvbitset.w xd, xj, xk"
+	},
+
+	"xvbitset.d": {
+		"prefix": "xvbitset.d",
+		"body": [
+			"xvbitset.d"
+		],
+		"description": "xvbitset.d xd, xj, xk"
+	},
+
+	"xvbitseti.b": {
+		"prefix": "xvbitseti.b",
+		"body": [
+			"xvbitseti.b"
+		],
+		"description": "xvbitseti.b xd, xj, ui3"
+	},
+
+	"xvbitseti.h": {
+		"prefix": "xvbitseti.h",
+		"body": [
+			"xvbitseti.h"
+		],
+		"description": "xvbitseti.h xd, xj, ui4"
+	},
+
+	"xvbitseti.w": {
+		"prefix": "xvbitseti.w",
+		"body": [
+			"xvbitseti.w"
+		],
+		"description": "xvbitseti.w xd, xj, ui5"
+	},
+
+	"xvbitseti.d": {
+		"prefix": "xvbitseti.d",
+		"body": [
+			"xvbitseti.d"
+		],
+		"description": "xvbitseti.d xd, xj, ui6"
+	},
+
+	"xvbitrev.b": {
+		"prefix": "xvbitrev.b",
+		"body": [
+			"xvbitrev.b"
+		],
+		"description": "xvbitrev.b xd, xj, xk"
+	},
+
+	"xvbitrev.h": {
+		"prefix": "xvbitrev.h",
+		"body": [
+			"xvbitrev.h"
+		],
+		"description": "xvbitrev.h xd, xj, xk"
+	},
+
+	"xvbitrev.w": {
+		"prefix": "xvbitrev.w",
+		"body": [
+			"xvbitrev.w"
+		],
+		"description": "xvbitrev.w xd, xj, xk"
+	},
+
+	"xvbitrev.d": {
+		"prefix": "xvbitrev.d",
+		"body": [
+			"xvbitrev.d"
+		],
+		"description": "xvbitrev.d xd, xj, xk"
+	},
+
+	"xvbitrevi.b": {
+		"prefix": "xvbitrevi.b",
+		"body": [
+			"xvbitrevi.b"
+		],
+		"description": "xvbitrevi.b xd, xj, ui3"
+	},
+
+	"xvbitrevi.h": {
+		"prefix": "xvbitrevi.h",
+		"body": [
+			"xvbitrevi.h"
+		],
+		"description": "xvbitrevi.h xd, xj, ui4"
+	},
+
+	"xvbitrevi.w": {
+		"prefix": "xvbitrevi.w",
+		"body": [
+			"xvbitrevi.w"
+		],
+		"description": "xvbitrevi.w xd, xj, ui5"
+	},
+
+	"xvbitrevi.d": {
+		"prefix": "xvbitrevi.d",
+		"body": [
+			"xvbitrevi.d"
+		],
+		"description": "xvbitrevi.d xd, xj, ui6"
+	},
+
 	"$xr0": {
 		"prefix": "$xr0",
 		"body": [
