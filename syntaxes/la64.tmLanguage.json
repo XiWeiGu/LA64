@@ -71,6 +71,9 @@
 				},
 				{
 					"include": "#Vector_Bitwise_Op"
+				},
+				{
+					"include": "#Vector_String_Process_Op"
 				}
 			]
 		},
@@ -277,6 +280,15 @@
 					"name":"constant.character.la64",
 					"match": "\\bx?v(and|or|xor|nor|andn|orn)\\.v\\b|\\bx?v(andi|ori|xori|nori)\\.b\\b|\\bx?v(slli?|srli?|srai?|totri?)\\.(b|h|w|d)\\b|\\bx?vsllwil\\.(h\\.b|w\\.h|\\d\\.w)\\b|\\bx?vextl\\.q\\.d\\b|\\bx?vsllwil\\.(hu\\.bu|wu\\.hu|\\du\\.wu)\\b|\\bx?vextl\\.qu\\.du\\b|\\bx?v(srlri?|srari?)\\.(b|h|w|d)\\b|\\bx?v(srln|sran)\\.(b\\.h|h\\.w|w\\.d)\\b|\\bx?v(srlni|srani)\\.(b\\.h|h\\.w|w\\.d|d\\.q)|\\bx?v(srlrn|srarn|ssrln|ssran|ssrlrn|ssrarn)\\.(b\\.h|h\\.w|w\\.d)\\b|\\bx?v(srlrni|srarni|ssrlni|ssrani|ssrlrni|ssrarni)\\.(b\\.h|h\\.w|w\\.d|d\\.q)|\\bx?v(ssrln|ssran|ssrlrn|ssrarn)\\.(bu\\.h|hu\\.w|wu\\.d)\\b|\\bx?v(ssrlni|ssrani|ssrlrni|ssrarni)\\.(bu\\.h|hu\\.w|wu\\.d|du\\.q)|\\bx?v(clo|clz|pcnt|bitclri?|bitseti?|bitrevi?)\\.(b|h|w|d)\\b"
 
+				}
+			]
+		},
+
+		"Vector_String_Process_Op":{
+			"patterns": [
+				{
+					"name":"constant.character.la64",
+					"match": "\\bx?vfrstpi?\\.(b|h)\\b"
 				}
 			]
 		}

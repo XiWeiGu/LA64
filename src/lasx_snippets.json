@@ -3703,6 +3703,38 @@
 		"description": "xvbitrevi.d xd, xj, ui6"
 	},
 
+	"xvfrstp.b": {
+		"prefix": "xvfrstp.b",
+		"body": [
+			"xvfrstp.b"
+		],
+		"description": "xvfrstp.b xd, xj, xk"
+	},
+
+	"xvfrstp.h": {
+		"prefix": "xvfrstp.h",
+		"body": [
+			"xvfrstp.h"
+		],
+		"description": "xvfrstp.h xd, xj, xk"
+	},
+
+	"xvfrstpi.b": {
+		"prefix": "xvfrstpi.b",
+		"body": [
+			"xvfrstpi.b"
+		],
+		"description": "xvfrstpi.b xd, xj, ui5"
+	},
+
+	"xvfrstpi.h": {
+		"prefix": "xvfrstpi.h",
+		"body": [
+			"xvfrstpi.h"
+		],
+		"description": "xvfrstpi.h xd, xj, ui5"
+	},
+
 	"$xr0": {
 		"prefix": "$xr0",
 		"body": [
