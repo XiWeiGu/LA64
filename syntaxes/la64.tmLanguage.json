@@ -74,6 +74,9 @@
 				},
 				{
 					"include": "#Vector_String_Process_Op"
+				},
+				{
+					"include": "#Vector_Float_Arithmetic_Op"
 				}
 			]
 		},
@@ -289,6 +292,15 @@
 				{
 					"name":"constant.character.la64",
 					"match": "\\bx?vfrstpi?\\.(b|h)\\b"
+				}
+			]
+		},
+
+		"Vector_Float_Arithmetic_Op":{
+			"patterns": [
+				{
+					"name":"constant.character.la64",
+					"match": "\\bx?vf(add|sub|mul|div|madd|msub|nmadd|nmsub|max|min|maxa|mina|logb|class|sqrt|recip|rsqrt)\\.(s|d)\\b"
 				}
 			]
 		}

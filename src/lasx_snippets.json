@@ -3735,6 +3735,278 @@
 		"description": "xvfrstpi.h xd, xj, ui5"
 	},
 
+	"xvfadd.s": {
+		"prefix": "xvfadd.s",
+		"body": [
+			"xvfadd.s"
+		],
+		"description": "xvfadd.s xd, xj, xk"
+	},
+
+	"xvfadd.d": {
+		"prefix": "xvfadd.d",
+		"body": [
+			"xvfadd.d"
+		],
+		"description": "xvfadd.d xd, xj, xk"
+	},
+
+	"xvfsub.s": {
+		"prefix": "xvfsub.s",
+		"body": [
+			"xvfsub.s"
+		],
+		"description": "xvfsub.s xd, xj, xk"
+	},
+
+	"xvfsub.d": {
+		"prefix": "xvfsub.d",
+		"body": [
+			"xvfsub.d"
+		],
+		"description": "xvfsub.d xd, xj, xk"
+	},
+
+	"xvfmul.s": {
+		"prefix": "xvfmul.s",
+		"body": [
+			"xvfmul.s"
+		],
+		"description": "xvfmul.s xd, xj, xk"
+	},
+
+	"xvfmul.d": {
+		"prefix": "xvfmul.d",
+		"body": [
+			"xvfmul.d"
+		],
+		"description": "xvfmul.d xd, xj, xk"
+	},
+
+	"xvfdiv.s": {
+		"prefix": "xvfdiv.s",
+		"body": [
+			"xvfdiv.s"
+		],
+		"description": "xvfdiv.s xd, xj, xk"
+	},
+
+	"xvfdiv.d": {
+		"prefix": "xvfdiv.d",
+		"body": [
+			"xvfdiv.d"
+		],
+		"description": "xvfdiv.d xd, xj, xk"
+	},
+
+	"xvfmadd.s": {
+		"prefix": "xvfmadd.s",
+		"body": [
+			"xvfmadd.s"
+		],
+		"description": "xvfmadd.s xd, xj, xk, xa"
+	},
+
+	"xvfmadd.d": {
+		"prefix": "xvfmadd.d",
+		"body": [
+			"xvfmadd.d"
+		],
+		"description": "xvfmadd.d xd, xj, xk, xa"
+	},
+
+	"xvfmsub.s": {
+		"prefix": "xvfmsub.s",
+		"body": [
+			"xvfmsub.s"
+		],
+		"description": "xvfmsub.s xd, xj, xk, xa"
+	},
+
+	"xvfmsub.d": {
+		"prefix": "xvfmsub.d",
+		"body": [
+			"xvfmsub.d"
+		],
+		"description": "xvfmsub.d xd, xj, xk, xa"
+	},
+
+	"xvfnmadd.s": {
+		"prefix": "xvfnmadd.s",
+		"body": [
+			"xvfnmadd.s"
+		],
+		"description": "xvfnmadd.s xd, xj, xk, xa"
+	},
+
+	"xvfnmadd.d": {
+		"prefix": "xvfnmadd.d",
+		"body": [
+			"xvfnmadd.d"
+		],
+		"description": "xvfnmadd.d xd, xj, xk, xa"
+	},
+
+	"xvfnmsub.s": {
+		"prefix": "xvfnmsub.s",
+		"body": [
+			"xvfnmsub.s"
+		],
+		"description": "xvfnmsub.s xd, xj, xk, xa"
+	},
+
+	"xvfnmsub.d": {
+		"prefix": "xvfnmsub.d",
+		"body": [
+			"xvfnmsub.d"
+		],
+		"description": "xvfnmsub.d xd, xj, xk, xa"
+	},
+
+	"xvfmax.s": {
+		"prefix": "xvfmax.s",
+		"body": [
+			"xvfmax.s"
+		],
+		"description": "xvfmax.s xd, xj, xk"
+	},
+
+	"xvfmax.d": {
+		"prefix": "xvfmax.d",
+		"body": [
+			"xvfmax.d"
+		],
+		"description": "xvfmax.d xd, xj, xk"
+	},
+
+	"xvfmin.s": {
+		"prefix": "xvfmin.s",
+		"body": [
+			"xvfmin.s"
+		],
+		"description": "xvfmin.s xd, xj, xk"
+	},
+
+	"xvfmin.d": {
+		"prefix": "xvfmin.d",
+		"body": [
+			"xvfmin.d"
+		],
+		"description": "xvfmin.d xd, xj, xk"
+	},
+
+	"xvfmaxa.s": {
+		"prefix": "xvfmaxa.s",
+		"body": [
+			"xvfmaxa.s"
+		],
+		"description": "xvfmaxa.s xd, xj, xk"
+	},
+
+	"xvfmaxa.d": {
+		"prefix": "xvfmaxa.d",
+		"body": [
+			"xvfmaxa.d"
+		],
+		"description": "xvfmaxa.d xd, xj, xk"
+	},
+
+	"xvfmina.s": {
+		"prefix": "xvfmina.s",
+		"body": [
+			"xvfmina.s"
+		],
+		"description": "xvfmina.s xd, xj, xk"
+	},
+
+	"xvfmina.d": {
+		"prefix": "xvfmina.d",
+		"body": [
+			"xvfmina.d"
+		],
+		"description": "xvfmina.d xd, xj, xk"
+	},
+
+	"xvflogb.s": {
+		"prefix": "xvflogb.s",
+		"body": [
+			"xvflogb.s"
+		],
+		"description": "xvflogb.s xd, xj"
+	},
+
+	"xvflogb.d": {
+		"prefix": "xvflogb.d",
+		"body": [
+			"xvflogb.d"
+		],
+		"description": "xvflogb.d xd, xj"
+	},
+
+	"xvfclass.s": {
+		"prefix": "xvfclass.s",
+		"body": [
+			"xvfclass.s"
+		],
+		"description": "xvfclass.s xd, xj"
+	},
+
+	"xvfclass.d": {
+		"prefix": "xvfclass.d",
+		"body": [
+			"xvfclass.d"
+		],
+		"description": "xvfclass.d xd, xj"
+	},
+
+	"xvfsqrt.s": {
+		"prefix": "xvfsqrt.s",
+		"body": [
+			"xvfsqrt.s"
+		],
+		"description": "xvfsqrt.s xd, xj"
+	},
+
+	"xvfsqrt.d": {
+		"prefix": "xvfsqrt.d",
+		"body": [
+			"xvfsqrt.d"
+		],
+		"description": "xvfsqrt.d xd, xj"
+	},
+
+	"xvfrecip.s": {
+		"prefix": "xvfrecip.s",
+		"body": [
+			"xvfrecip.s"
+		],
+		"description": "xvfrecip.s xd, xj"
+	},
+
+	"xvfrecip.d": {
+		"prefix": "xvfrecip.d",
+		"body": [
+			"xvfrecip.d"
+		],
+		"description": "xvfrecip.d xd, xj"
+	},
+
+	"xvfrsqrt.s": {
+		"prefix": "xvfrsqrt.s",
+		"body": [
+			"xvfrsqrt.s"
+		],
+		"description": "xvfrsqrt.s xd, xj"
+	},
+
+	"xvfrsqrt.d": {
+		"prefix": "xvfrsqrt.d",
+		"body": [
+			"xvfrsqrt.d"
+		],
+		"description": "xvfrsqrt.d xd, xj"
+	},
+
 	"$xr0": {
 		"prefix": "$xr0",
 		"body": [
