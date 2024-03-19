@@ -4007,6 +4007,350 @@
 		"description": "xvfrsqrt.d xd, xj"
 	},
 
+	"xvfcvtl.s.h": {
+		"prefix": "xvfcvtl.s.h",
+		"body": [
+			"xvfcvtl.s.h"
+		],
+		"description": "xvfcvtl.s.h xd, xj"
+	},
+
+	"xvfcvtl.d.s": {
+		"prefix": "xvfcvtl.d.s",
+		"body": [
+			"xvfcvtl.d.s"
+		],
+		"description": "xvfcvtl.d.s xd, xj"
+	},
+
+	"xvfcvth.s.h": {
+		"prefix": "xvfcvth.s.h",
+		"body": [
+			"xvfcvth.s.h"
+		],
+		"description": "xvfcvth.s.h xd, xj"
+	},
+
+	"xvfcvth.d.s": {
+		"prefix": "xvfcvth.d.s",
+		"body": [
+			"xvfcvth.d.s"
+		],
+		"description": "xvfcvth.d.s xd, xj"
+	},
+
+	"xvfcvt.h.s": {
+		"prefix": "xvfcvt.h.s",
+		"body": [
+			"xvfcvt.h.s"
+		],
+		"description": "xvfcvt.h.s xd, xj"
+	},
+
+	"xvfcvt.s.d": {
+		"prefix": "xvfcvt.s.d",
+		"body": [
+			"xvfcvt.s.d"
+		],
+		"description": "xvfcvt.s.d xd, xj"
+	},
+
+	"xvfrintrne.s": {
+		"prefix": "xvfrintrne.s",
+		"body": [
+			"xvfrintrne.s"
+		],
+		"description": "xvfrintrne.s xd, xj"
+	},
+
+	"xvfrintrne.d": {
+		"prefix": "xvfrintrne.d",
+		"body": [
+			"xvfrintrne.d"
+		],
+		"description": "xvfrintrne.d xd, xj"
+	},
+
+	"xvfrintrz.s": {
+		"prefix": "xvfrintrz.s",
+		"body": [
+			"xvfrintrz.s"
+		],
+		"description": "xvfrintrz.s xd, xj"
+	},
+
+	"xvfrintrz.d": {
+		"prefix": "xvfrintrz.d",
+		"body": [
+			"xvfrintrz.d"
+		],
+		"description": "xvfrintrz.d xd, xj"
+	},
+
+	"xvfrintrp.s": {
+		"prefix": "xvfrintrp.s",
+		"body": [
+			"xvfrintrp.s"
+		],
+		"description": "xvfrintrp.s xd, xj"
+	},
+
+	"xvfrintrp.d": {
+		"prefix": "xvfrintrp.d",
+		"body": [
+			"xvfrintrp.d"
+		],
+		"description": "xvfrintrp.d xd, xj"
+	},
+
+	"xvfrintrm.s": {
+		"prefix": "xvfrintrm.s",
+		"body": [
+			"xvfrintrm.s"
+		],
+		"description": "xvfrintrm.s xd, xj"
+	},
+
+	"xvfrintrm.d": {
+		"prefix": "xvfrintrm.d",
+		"body": [
+			"xvfrintrm.d"
+		],
+		"description": "xvfrintrm.d xd, xj"
+	},
+
+	"xvftintrne.w.s": {
+		"prefix": "xvftintrne.w.s",
+		"body": [
+			"xvftintrne.w.s"
+		],
+		"description": "xvftintrne.w.s xd, xj"
+	},
+
+	"xvftintrne.l.d": {
+		"prefix": "xvftintrne.l.d",
+		"body": [
+			"xvftintrne.l.d"
+		],
+		"description": "xvftintrne.l.d xd, xj"
+	},
+
+	"xvftintrz.w.s": {
+		"prefix": "xvftintrz.w.s",
+		"body": [
+			"xvftintrz.w.s"
+		],
+		"description": "xvftintrz.w.s xd, xj"
+	},
+
+	"xvftintrz.l.d": {
+		"prefix": "xvftintrz.l.d",
+		"body": [
+			"xvftintrz.l.d"
+		],
+		"description": "xvftintrz.l.d xd, xj"
+	},
+
+	"xvftintrp.w.s": {
+		"prefix": "xvftintrp.w.s",
+		"body": [
+			"xvftintrp.w.s"
+		],
+		"description": "xvftintrp.w.s xd, xj"
+	},
+
+	"xvftintrp.l.d": {
+		"prefix": "xvftintrp.l.d",
+		"body": [
+			"xvftintrp.l.d"
+		],
+		"description": "xvftintrp.l.d xd, xj"
+	},
+
+	"xvftintrm.w.s": {
+		"prefix": "xvftintrm.w.s",
+		"body": [
+			"xvftintrm.w.s"
+		],
+		"description": "xvftintrm.w.s xd, xj"
+	},
+
+	"xvftintrm.l.d": {
+		"prefix": "xvftintrm.l.d",
+		"body": [
+			"xvftintrm.l.d"
+		],
+		"description": "xvftintrm.l.d xd, xj"
+	},
+
+	"xvftintrz.wu.s": {
+		"prefix": "xvftintrz.wu.s",
+		"body": [
+			"xvftintrz.wu.s"
+		],
+		"description": "xvftintrz.wu.s xd, xj"
+	},
+
+	"xvftintrz.lu.d": {
+		"prefix": "xvftintrz.lu.d",
+		"body": [
+			"xvftintrz.lu.d"
+		],
+		"description": "xvftintrz.lu.d xd, xj"
+	},
+
+	"xvftintrne.w.d": {
+		"prefix": "xvftintrne.w.d",
+		"body": [
+			"xvftintrne.w.d"
+		],
+		"description": "xvftintrne.w.d xd, xj"
+	},
+
+	"xvftintrz.w.d": {
+		"prefix": "xvftintrz.w.d",
+		"body": [
+			"xvftintrz.w.d"
+		],
+		"description": "xvftintrz.w.d xd, xj"
+	},
+
+	"xvftintrp.w.d": {
+		"prefix": "xvftintrp.w.d",
+		"body": [
+			"xvftintrp.w.d"
+		],
+		"description": "xvftintrp.w.d xd, xj"
+	},
+
+	"xvftintrm.w.d": {
+		"prefix": "xvftintrm.w.d",
+		"body": [
+			"xvftintrm.w.d"
+		],
+		"description": "xvftintrm.w.d xd, xj"
+	},
+
+	"xvftintrnel.l.s": {
+		"prefix": "xvftintrnel.l.s",
+		"body": [
+			"xvftintrnel.l.s"
+		],
+		"description": "xvftintrnel.l.s xd, xj"
+	},
+
+	"xvftintrneh.l.s": {
+		"prefix": "xvftintrneh.l.s",
+		"body": [
+			"xvftintrneh.l.s"
+		],
+		"description": "xvftintrneh.l.s xd, xj"
+	},
+
+	"xvftintrzl.l.s": {
+		"prefix": "xvftintrzl.l.s",
+		"body": [
+			"xvftintrzl.l.s"
+		],
+		"description": "xvftintrzl.l.s xd, xj"
+	},
+
+	"xvftintrzh.l.s": {
+		"prefix": "xvftintrzh.l.s",
+		"body": [
+			"xvftintrzh.l.s"
+		],
+		"description": "xvftintrzh.l.s xd, xj"
+	},
+
+	"xvftintrpl.l.s": {
+		"prefix": "xvftintrpl.l.s",
+		"body": [
+			"xvftintrpl.l.s"
+		],
+		"description": "xvftintrpl.l.s xd, xj"
+	},
+
+	"xvftintrph.l.s": {
+		"prefix": "xvftintrph.l.s",
+		"body": [
+			"xvftintrph.l.s"
+		],
+		"description": "xvftintrph.l.s xd, xj"
+	},
+
+	"xvftintrml.l.s": {
+		"prefix": "xvftintrml.l.s",
+		"body": [
+			"xvftintrml.l.s"
+		],
+		"description": "xvftintrml.l.s xd, xj"
+	},
+
+	"xvftintrmh.l.s": {
+		"prefix": "xvftintrmh.l.s",
+		"body": [
+			"xvftintrmh.l.s"
+		],
+		"description": "xvftintrmh.l.s xd, xj"
+	},
+
+	"xvffint.s.w": {
+		"prefix": "xvffint.s.w",
+		"body": [
+			"xvffint.s.w"
+		],
+		"description": "xvffint.s.w xd, xj"
+	},
+
+	"xvffint.d.l": {
+		"prefix": "xvffint.d.l",
+		"body": [
+			"xvffint.d.l"
+		],
+		"description": "xvffint.d.l xd, xj"
+	},
+
+	"xvffint.s.wu": {
+		"prefix": "xvffint.s.wu",
+		"body": [
+			"xvffint.s.wu"
+		],
+		"description": "xvffint.s.wu xd, xj"
+	},
+
+	"xvffint.d.lu": {
+		"prefix": "xvffint.d.lu",
+		"body": [
+			"xvffint.d.lu"
+		],
+		"description": "xvffint.d.lu xd, xj"
+	},
+
+	"xvffint.s.l": {
+		"prefix": "xvffint.s.l",
+		"body": [
+			"xvffint.s.l"
+		],
+		"description": "xvffint.s.l xd, xj"
+	},
+
+	"xvffintl.d.w": {
+		"prefix": "xvffintl.d.w",
+		"body": [
+			"xvffintl.d.w"
+		],
+		"description": "xvffintl.d.w xd, xj"
+	},
+
+	"xvffinth.d.w": {
+		"prefix": "xvffinth.d.w",
+		"body": [
+			"xvffinth.d.w"
+		],
+		"description": "xvffinth.d.w xd, xj"
+	},
+
 	"$xr0": {
 		"prefix": "$xr0",
 		"body": [

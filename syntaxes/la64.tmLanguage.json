@@ -77,6 +77,9 @@
 				},
 				{
 					"include": "#Vector_Float_Arithmetic_Op"
+				},
+				{
+					"include": "#Vector_Float_Conversion_Op"
 				}
 			]
 		},
@@ -301,6 +304,15 @@
 				{
 					"name":"constant.character.la64",
 					"match": "\\bx?vf(add|sub|mul|div|madd|msub|nmadd|nmsub|max|min|maxa|mina|logb|class|sqrt|recip|rsqrt)\\.(s|d)\\b"
+				}
+			]
+		},
+
+		"Vector_Float_Conversion_Op":{
+			"patterns": [
+				{
+					"name":"constant.character.la64",
+					"match": "\\bx?fcvt(l|h)\\.(s\\.h|d\\.s)\\b|\\bx?vfcvt\\.(h\\.s|s\\.d)\\b|\\bx?vfrint(rne|rz|rp|rm)\\.(s|d)\\b|\\bx?vftint(rne|rz|rp|rm)\\.(w\\.s|l\\.d|w\\.d)\\b|\\bx?vftint(rz)?\\.(wu\\.s|lu\\.d)\\b|\\bx?vftint(rne|rz|rp|rm)(l|h)\\.l\\.s\\b|\\bx?vffint\\.(s\\.w|d\\.l)u?\\b|\\bx?vffint\\.s\\.l\\b|\\bx?vffint(l|h)\\.d\\.w\\b"
 				}
 			]
 		}
