@@ -2,7 +2,8 @@
   "name": "la64",
   "displayName": "la64",
   "description": "",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "icon": "logo.png",
   "publisher": "guxiwei",
   "engines": {
     "vscode": "^1.86.0"
@@ -43,6 +44,10 @@
       {
         "language": "la64",
         "path": "./src/lasx_snippets.json"
+      },
+      {
+        "language": "la64",
+        "path": "./src/lsx_snippets.json"
       }
     ]
   },

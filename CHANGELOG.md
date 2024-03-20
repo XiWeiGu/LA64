@@ -10,3 +10,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [V0.0.1]
 - Highlighting and prompts for supporting scalar registers, basic integer instructions, and basic floating-point instructions
+
+## [V0.0.2]
+- Set floating-point instruction color similar to general instructions
+- Add highlighting and prompts for register aliases
+- Add floating point condition flag register
+- Add LASX/LSX registers and instructions

@@ -67,6 +67,9 @@
 					"include": "#LASX_Reg"
 				},
 				{
+					"include": "#LSX_Reg"
+				},
+				{
 					"include": "#Vector_Integer_Arithmetic_Op"
 				},
 				{

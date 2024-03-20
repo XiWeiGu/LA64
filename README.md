@@ -1,3 +1,7 @@
 # la64 README
 
-LoongArch64 Instruction Set Plugin
+Loongson LoongArch64 Instruction Set Plugin
+
+## Features
+- Support highlighting and snippets for scalar registers and instructions
+- Support highlighting and snippets for vector registers and instructions

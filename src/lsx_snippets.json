@@ -1,0 +1,6106 @@
+{
+	"vadd.b": {
+		"prefix": "vadd.b",
+		"body": [
+			"vadd.b"
+		],
+		"description": "vadd.b vd, vj, vk"
+	},
+
+	"vadd.h": {
+		"prefix": "vadd.h",
+		"body": [
+			"vadd.h"
+		],
+		"description": "vadd.h vd, vj, vk"
+	},
+
+	"vadd.w": {
+		"prefix": "vadd.w",
+		"body": [
+			"vadd.w"
+		],
+		"description": "vadd.w vd, vj, vk"
+	},
+
+	"vadd.d": {
+		"prefix": "vadd.d",
+		"body": [
+			"vadd.d"
+		],
+		"description": "vadd.d vd, vj, vk"
+	},
+
+	"vadd.q": {
+		"prefix": "vadd.q",
+		"body": [
+			"vadd.q"
+		],
+		"description": "vadd.q vd, vj, vk"
+	},
+
+	"vsub.b": {
+		"prefix": "vsub.b",
+		"body": [
+			"vsub.b"
+		],
+		"description": "vsub.b vd, vj, vk"
+	},
+
+	"vsub.h": {
+		"prefix": "vsub.h",
+		"body": [
+			"vsub.h"
+		],
+		"description": "vsub.h vd, vj, vk"
+	},
+
+	"vsub.w": {
+		"prefix": "vsub.w",
+		"body": [
+			"vsub.w"
+		],
+		"description": "vsub.w vd, vj, vk"
+	},
+
+	"vsub.d": {
+		"prefix": "vsub.d",
+		"body": [
+			"vsub.d"
+		],
+		"description": "vsub.d vd, vj, vk"
+	},
+
+	"vsub.q": {
+		"prefix": "vsub.q",
+		"body": [
+			"vsub.q"
+		],
+		"description": "vsub.q vd, vj, vk"
+	},
+
+	"vaddi.bu": {
+		"prefix": "vaddi.bu",
+		"body": [
+			"vaddi.bu"
+		],
+		"description": "vaddi.bu vd, vj, ui5"
+	},
+
+	"vaddi.hu": {
+		"prefix": "vaddi.hu",
+		"body": [
+			"vaddi.hu"
+		],
+		"description": "vaddi.hu vd, vj, ui5"
+	},
+
+	"vaddi.wu": {
+		"prefix": "vaddi.wu",
+		"body": [
+			"vaddi.wu"
+		],
+		"description": "vaddi.wu vd, vj, ui5"
+	},
+
+	"vaddi.du": {
+		"prefix": "vaddi.du",
+		"body": [
+			"vaddi.du"
+		],
+		"description": "vaddi.du vd, vj, ui5"
+	},
+
+	"vsubi.bu": {
+		"prefix": "vsubi.bu",
+		"body": [
+			"vsubi.bu"
+		],
+		"description": "vsubi.bu vd, vj, ui5"
+	},
+
+	"vsubi.hu": {
+		"prefix": "vsubi.hu",
+		"body": [
+			"vsubi.hu"
+		],
+		"description": "vsubi.hu vd, vj, ui5"
+	},
+
+	"vsubi.wu": {
+		"prefix": "vsubi.wu",
+		"body": [
+			"vsubi.wu"
+		],
+		"description": "vsubi.wu vd, vj, ui5"
+	},
+
+	"vsubi.du": {
+		"prefix": "vsubi.du",
+		"body": [
+			"vsubi.du"
+		],
+		"description": "vsubi.du vd, vj, ui5"
+	},
+
+	"vneg.b": {
+		"prefix": "vneg.b",
+		"body": [
+			"vneg.b"
+		],
+		"description": "vneg.b vd, vj"
+	},
+
+	"vneg.h": {
+		"prefix": "vneg.h",
+		"body": [
+			"vneg.h"
+		],
+		"description": "vneg.h vd, vj"
+	},
+
+	"vneg.w": {
+		"prefix": "vneg.w",
+		"body": [
+			"vneg.w"
+		],
+		"description": "vneg.w vd, vj"
+	},
+
+	"vneg.d": {
+		"prefix": "vneg.d",
+		"body": [
+			"vneg.d"
+		],
+		"description": "vneg.d vd, vj"
+	},
+
+	"vsadd.b": {
+		"prefix": "vsadd.b",
+		"body": [
+			"vsadd.b"
+		],
+		"description": "vsadd.b vd, vj, vk"
+	},
+
+	"vsadd.h": {
+		"prefix": "vsadd.h",
+		"body": [
+			"vsadd.h"
+		],
+		"description": "vsadd.h vd, vj, vk"
+	},
+
+	"vsadd.w": {
+		"prefix": "vsadd.w",
+		"body": [
+			"vsadd.w"
+		],
+		"description": "vsadd.w vd, vj, vk"
+	},
+
+	"vsadd.d": {
+		"prefix": "vsadd.d",
+		"body": [
+			"vsadd.d"
+		],
+		"description": "vsadd.d vd, vj, vk"
+	},
+
+	"vsadd.bu": {
+		"prefix": "vsadd.bu",
+		"body": [
+			"vsadd.bu"
+		],
+		"description": "vsadd.bu vd, vj, vk"
+	},
+
+	"vsadd.hu": {
+		"prefix": "vsadd.hu",
+		"body": [
+			"vsadd.hu"
+		],
+		"description": "vsadd.hu vd, vj, vk"
+	},
+
+	"vsadd.wu": {
+		"prefix": "vsadd.wu",
+		"body": [
+			"vsadd.wu"
+		],
+		"description": "vsadd.wu vd, vj, vk"
+	},
+
+	"vsadd.du": {
+		"prefix": "vsadd.du",
+		"body": [
+			"vsadd.du"
+		],
+		"description": "vsadd.du vd, vj, vk"
+	},
+
+	"vssub.b": {
+		"prefix": "vssub.b",
+		"body": [
+			"vssub.b"
+		],
+		"description": "vssub.b vd, vj, vk"
+	},
+
+	"vssub.h": {
+		"prefix": "vssub.h",
+		"body": [
+			"vssub.h"
+		],
+		"description": "vssub.h vd, vj, vk"
+	},
+
+	"vssub.w": {
+		"prefix": "vssub.w",
+		"body": [
+			"vssub.w"
+		],
+		"description": "vssub.w vd, vj, vk"
+	},
+
+	"vssub.d": {
+		"prefix": "vssub.d",
+		"body": [
+			"vssub.d"
+		],
+		"description": "vssub.d vd, vj, vk"
+	},
+
+	"vssub.bu": {
+		"prefix": "vssub.bu",
+		"body": [
+			"vssub.bu"
+		],
+		"description": "vssub.bu vd, vj, vk"
+	},
+
+	"vssub.hu": {
+		"prefix": "vssub.hu",
+		"body": [
+			"vssub.hu"
+		],
+		"description": "vssub.hu vd, vj, vk"
+	},
+
+	"vssub.wu": {
+		"prefix": "vssub.wu",
+		"body": [
+			"vssub.wu"
+		],
+		"description": "vssub.wu vd, vj, vk"
+	},
+
+	"vssub.du": {
+		"prefix": "vssub.du",
+		"body": [
+			"vssub.du"
+		],
+		"description": "vssub.du vd, vj, vk"
+	},
+
+	"vhaddw.h.b": {
+		"prefix": "vhaddw.h.b",
+		"body": [
+			"vhaddw.h.b"
+		],
+		"description": "vhaddw.h.b vd, vj, vk"
+	},
+
+	"vhaddw.w.h": {
+		"prefix": "vhaddw.w.h",
+		"body": [
+			"vhaddw.w.h"
+		],
+		"description": "vhaddw.w.h vd, vj, vk"
+	},
+
+	"vhaddw.d.w": {
+		"prefix": "vhaddw.d.w",
+		"body": [
+			"vhaddw.d.w"
+		],
+		"description": "vhaddw.d.w vd, vj, vk"
+	},
+
+	"vhaddw.q.d": {
+		"prefix": "vhaddw.q.d",
+		"body": [
+			"vhaddw.q.d"
+		],
+		"description": "vhaddw.q.d vd, vj, vk"
+	},
+
+	"vhaddw.hu.bu": {
+		"prefix": "vhaddw.hu.bu",
+		"body": [
+			"vhaddw.hu.bu"
+		],
+		"description": "vhaddw.hu.bu vd, vj, vk"
+	},
+
+	"vhaddw.wu.hu": {
+		"prefix": "vhaddw.wu.hu",
+		"body": [
+			"vhaddw.wu.hu"
+		],
+		"description": "vhaddw.wu.hu vd, vj, vk"
+	},
+
+	"vhaddw.du.wu": {
+		"prefix": "vhaddw.du.wu",
+		"body": [
+			"vhaddw.du.wu"
+		],
+		"description": "vhaddw.du.wu vd, vj, vk"
+	},
+
+	"vhaddw.qu.du": {
+		"prefix": "vhaddw.qu.du",
+		"body": [
+			"vhaddw.qu.du"
+		],
+		"description": "vhaddw.qu.du vd, vj, vk"
+	},
+
+	"vhsubw.h.b": {
+		"prefix": "vhsubw.h.b",
+		"body": [
+			"vhsubw.h.b"
+		],
+		"description": "vhsubw.h.b vd, vj, vk"
+	},
+
+	"vhsubw.w.h": {
+		"prefix": "vhsubw.w.h",
+		"body": [
+			"vhsubw.w.h"
+		],
+		"description": "vhsubw.w.h vd, vj, vk"
+	},
+
+	"vhsubw.d.w": {
+		"prefix": "vhsubw.d.w",
+		"body": [
+			"vhsubw.d.w"
+		],
+		"description": "vhsubw.d.w vd, vj, vk"
+	},
+
+	"vhsubw.q.d": {
+		"prefix": "vhsubw.q.d",
+		"body": [
+			"vhsubw.q.d"
+		],
+		"description": "vhsubw.q.d vd, vj, vk"
+	},
+
+	"vhsubw.hu.bu": {
+		"prefix": "vhsubw.hu.bu",
+		"body": [
+			"vhsubw.hu.bu"
+		],
+		"description": "vhsubw.hu.bu vd, vj, vk"
+	},
+
+	"vhsubw.wu.hu": {
+		"prefix": "vhsubw.wu.hu",
+		"body": [
+			"vhsubw.wu.hu"
+		],
+		"description": "vhsubw.wu.hu vd, vj, vk"
+	},
+
+	"vhsubw.du.wu": {
+		"prefix": "vhsubw.du.wu",
+		"body": [
+			"vhsubw.du.wu"
+		],
+		"description": "vhsubw.du.wu vd, vj, vk"
+	},
+
+	"vhsubw.qu.du": {
+		"prefix": "vhsubw.qu.du",
+		"body": [
+			"vhsubw.qu.du"
+		],
+		"description": "vhsubw.qu.du vd, vj, vk"
+	},
+
+	"vaddwev.h.b": {
+		"prefix": "vaddwev.h.b",
+		"body": [
+			"vaddwev.h.b"
+		],
+		"description": "vaddwev.h.b vd, vj, vk"
+	},
+
+	"vaddwev.w.h": {
+		"prefix": "vaddwev.w.h",
+		"body": [
+			"vaddwev.w.h"
+		],
+		"description": "vaddwev.w.h vd, vj, vk"
+	},
+
+	"vaddwev.d.w": {
+		"prefix": "vaddwev.d.w",
+		"body": [
+			"vaddwev.d.w"
+		],
+		"description": "vaddwev.d.w vd, vj, vk"
+	},
+
+	"vaddwev.q.d": {
+		"prefix": "vaddwev.q.d",
+		"body": [
+			"vaddwev.q.d"
+		],
+		"description": "vaddwev.q.d vd, vj, vk"
+	},
+
+	"vaddwod.h.b": {
+		"prefix": "vaddwod.h.b",
+		"body": [
+			"vaddwod.h.b"
+		],
+		"description": "vaddwod.h.b vd, vj, vk"
+	},
+
+	"vaddwod.w.h": {
+		"prefix": "vaddwod.w.h",
+		"body": [
+			"vaddwod.w.h"
+		],
+		"description": "vaddwod.w.h vd, vj, vk"
+	},
+
+	"vaddwod.d.w": {
+		"prefix": "vaddwod.d.w",
+		"body": [
+			"vaddwod.d.w"
+		],
+		"description": "vaddwod.d.w vd, vj, vk"
+	},
+
+	"vaddwod.q.d": {
+		"prefix": "vaddwod.q.d",
+		"body": [
+			"vaddwod.q.d"
+		],
+		"description": "vaddwod.q.d vd, vj, vk"
+	},
+
+	"vsubwev.h.b": {
+		"prefix": "vsubwev.h.b",
+		"body": [
+			"vsubwev.h.b"
+		],
+		"description": "vsubwev.h.b vd, vj, vk"
+	},
+
+	"vsubwev.w.h": {
+		"prefix": "vsubwev.w.h",
+		"body": [
+			"vsubwev.w.h"
+		],
+		"description": "vsubwev.w.h vd, vj, vk"
+	},
+
+	"vsubwev.d.w": {
+		"prefix": "vsubwev.d.w",
+		"body": [
+			"vsubwev.d.w"
+		],
+		"description": "vsubwev.d.w vd, vj, vk"
+	},
+
+	"vsubwev.q.d": {
+		"prefix": "vsubwev.q.d",
+		"body": [
+			"vsubwev.q.d"
+		],
+		"description": "vsubwev.q.d vd, vj, vk"
+	},
+
+	"vsubwod.h.b": {
+		"prefix": "vsubwod.h.b",
+		"body": [
+			"vsubwod.h.b"
+		],
+		"description": "vsubwod.h.b vd, vj, vk"
+	},
+
+	"vsubwod.w.h": {
+		"prefix": "vsubwod.w.h",
+		"body": [
+			"vsubwod.w.h"
+		],
+		"description": "vsubwod.w.h vd, vj, vk"
+	},
+
+	"vsubwod.d.w": {
+		"prefix": "vsubwod.d.w",
+		"body": [
+			"vsubwod.d.w"
+		],
+		"description": "vsubwod.d.w vd, vj, vk"
+	},
+
+	"vsubwod.q.d": {
+		"prefix": "vsubwod.q.d",
+		"body": [
+			"vsubwod.q.d"
+		],
+		"description": "vsubwod.q.d vd, vj, vk"
+	},
+
+	"vaddwev.h.bu": {
+		"prefix": "vaddwev.h.bu",
+		"body": [
+			"vaddwev.h.bu"
+		],
+		"description": "vaddwev.h.bu vd, vj, vk"
+	},
+
+	"vaddwev.w.hu": {
+		"prefix": "vaddwev.w.hu",
+		"body": [
+			"vaddwev.w.hu"
+		],
+		"description": "vaddwev.w.hu vd, vj, vk"
+	},
+
+	"vaddwev.d.wu": {
+		"prefix": "vaddwev.d.wu",
+		"body": [
+			"vaddwev.d.wu"
+		],
+		"description": "vaddwev.d.wu vd, vj, vk"
+	},
+
+	"vaddwev.q.du": {
+		"prefix": "vaddwev.q.du",
+		"body": [
+			"vaddwev.q.du"
+		],
+		"description": "vaddwev.q.du vd, vj, vk"
+	},
+
+	"vaddwod.h.bu": {
+		"prefix": "vaddwod.h.bu",
+		"body": [
+			"vaddwod.h.bu"
+		],
+		"description": "vaddwod.h.bu vd, vj, vk"
+	},
+
+	"vaddwod.w.hu": {
+		"prefix": "vaddwod.w.hu",
+		"body": [
+			"vaddwod.w.hu"
+		],
+		"description": "vaddwod.w.hu vd, vj, vk"
+	},
+
+	"vaddwod.d.wu": {
+		"prefix": "vaddwod.d.wu",
+		"body": [
+			"vaddwod.d.wu"
+		],
+		"description": "vaddwod.d.wu vd, vj, vk"
+	},
+
+	"vaddwod.q.du": {
+		"prefix": "vaddwod.q.du",
+		"body": [
+			"vaddwod.q.du"
+		],
+		"description": "vaddwod.q.du vd, vj, vk"
+	},
+
+	"vsubwev.h.bu": {
+		"prefix": "vsubwev.h.bu",
+		"body": [
+			"vsubwev.h.bu"
+		],
+		"description": "vsubwev.h.bu vd, vj, vk"
+	},
+
+	"vsubwev.w.hu": {
+		"prefix": "vsubwev.w.hu",
+		"body": [
+			"vsubwev.w.hu"
+		],
+		"description": "vsubwev.w.hu vd, vj, vk"
+	},
+
+	"vsubwev.d.wu": {
+		"prefix": "vsubwev.d.wu",
+		"body": [
+			"vsubwev.d.wu"
+		],
+		"description": "vsubwev.d.wu vd, vj, vk"
+	},
+
+	"vsubwev.q.du": {
+		"prefix": "vsubwev.q.du",
+		"body": [
+			"vsubwev.q.du"
+		],
+		"description": "vsubwev.q.du vd, vj, vk"
+	},
+
+	"vsubwod.h.bu": {
+		"prefix": "vsubwod.h.bu",
+		"body": [
+			"vsubwod.h.bu"
+		],
+		"description": "vsubwod.h.bu vd, vj, vk"
+	},
+
+	"vsubwod.w.hu": {
+		"prefix": "vsubwod.w.hu",
+		"body": [
+			"vsubwod.w.hu"
+		],
+		"description": "vsubwod.w.hu vd, vj, vk"
+	},
+
+	"vsubwod.d.wu": {
+		"prefix": "vsubwod.d.wu",
+		"body": [
+			"vsubwod.d.wu"
+		],
+		"description": "vsubwod.d.wu vd, vj, vk"
+	},
+
+	"vsubwod.q.du": {
+		"prefix": "vsubwod.q.du",
+		"body": [
+			"vsubwod.q.du"
+		],
+		"description": "vsubwod.q.du vd, vj, vk"
+	},
+
+	"vaddwev.h.bu.b": {
+		"prefix": "vaddwev.h.bu.b",
+		"body": [
+			"vaddwev.h.bu.b"
+		],
+		"description": "vaddwev.h.bu.b vd, vj, vk"
+	},
+
+	"vaddwev.w.hu.h": {
+		"prefix": "vaddwev.w.hu.h",
+		"body": [
+			"vaddwev.w.hu.h"
+		],
+		"description": "vaddwev.w.hu.h vd, vj, vk"
+	},
+
+	"vaddwev.d.wu.w": {
+		"prefix": "vaddwev.d.wu.w",
+		"body": [
+			"vaddwev.d.wu.w"
+		],
+		"description": "vaddwev.d.wu.w vd, vj, vk"
+	},
+
+	"vaddwev.q.du.d": {
+		"prefix": "vaddwev.q.du.d",
+		"body": [
+			"vaddwev.q.du.d"
+		],
+		"description": "vaddwev.q.du.d vd, vj, vk"
+	},
+
+	"vaddwod.h.bu.b": {
+		"prefix": "vaddwod.h.bu.b",
+		"body": [
+			"vaddwod.h.bu.b"
+		],
+		"description": "vaddwod.h.bu.b vd, vj, vk"
+	},
+
+	"vaddwod.w.hu.h": {
+		"prefix": "vaddwod.w.hu.h",
+		"body": [
+			"vaddwod.w.hu.h"
+		],
+		"description": "vaddwod.w.hu.h vd, vj, vk"
+	},
+
+	"vaddwod.d.wu.w": {
+		"prefix": "vaddwod.d.wu.w",
+		"body": [
+			"vaddwod.d.wu.w"
+		],
+		"description": "vaddwod.d.wu.w vd, vj, vk"
+	},
+
+	"vaddwod.q.du.d": {
+		"prefix": "vaddwod.q.du.d",
+		"body": [
+			"vaddwod.q.du.d"
+		],
+		"description": "vaddwod.q.du.d vd, vj, vk"
+	},
+
+	"vavg.b": {
+		"prefix": "vavg.b",
+		"body": [
+			"vavg.b"
+		],
+		"description": "vavg.b vd, vj, vk"
+	},
+
+	"vavg.h": {
+		"prefix": "vavg.h",
+		"body": [
+			"vavg.h"
+		],
+		"description": "vavg.h vd, vj, vk"
+	},
+
+	"vavg.w": {
+		"prefix": "vavg.w",
+		"body": [
+			"vavg.w"
+		],
+		"description": "vavg.w vd, vj, vk"
+	},
+
+	"vavg.d": {
+		"prefix": "vavg.d",
+		"body": [
+			"vavg.d"
+		],
+		"description": "vavg.d vd, vj, vk"
+	},
+
+	"vavg.bu": {
+		"prefix": "vavg.bu",
+		"body": [
+			"vavg.bu"
+		],
+		"description": "vavg.bu vd, vj, vk"
+	},
+
+	"vavg.hu": {
+		"prefix": "vavg.hu",
+		"body": [
+			"vavg.hu"
+		],
+		"description": "vavg.hu vd, vj, vk"
+	},
+
+	"vavg.wu": {
+		"prefix": "vavg.wu",
+		"body": [
+			"vavg.wu"
+		],
+		"description": "vavg.wu vd, vj, vk"
+	},
+
+	"vavg.du": {
+		"prefix": "vavg.du",
+		"body": [
+			"vavg.du"
+		],
+		"description": "vavg.du vd, vj, vk"
+	},
+
+	"vavgr.b": {
+		"prefix": "vavgr.b",
+		"body": [
+			"vavgr.b"
+		],
+		"description": "vavgr.b vd, vj, vk"
+	},
+
+	"vavgr.h": {
+		"prefix": "vavgr.h",
+		"body": [
+			"vavgr.h"
+		],
+		"description": "vavgr.h vd, vj, vk"
+	},
+
+	"vavgr.w": {
+		"prefix": "vavgr.w",
+		"body": [
+			"vavgr.w"
+		],
+		"description": "vavgr.w vd, vj, vk"
+	},
+
+	"vavgr.d": {
+		"prefix": "vavgr.d",
+		"body": [
+			"vavgr.d"
+		],
+		"description": "vavgr.d vd, vj, vk"
+	},
+
+	"vavgr.bu": {
+		"prefix": "vavgr.bu",
+		"body": [
+			"vavgr.bu"
+		],
+		"description": "vavgr.bu vd, vj, vk"
+	},
+
+	"vavgr.hu": {
+		"prefix": "vavgr.hu",
+		"body": [
+			"vavgr.hu"
+		],
+		"description": "vavgr.hu vd, vj, vk"
+	},
+
+	"vavgr.wu": {
+		"prefix": "vavgr.wu",
+		"body": [
+			"vavgr.wu"
+		],
+		"description": "vavgr.wu vd, vj, vk"
+	},
+
+	"vavgr.du": {
+		"prefix": "vavgr.du",
+		"body": [
+			"vavgr.du"
+		],
+		"description": "vavgr.du vd, vj, vk"
+	},
+
+	"vabsd.b": {
+		"prefix": "vabsd.b",
+		"body": [
+			"vabsd.b"
+		],
+		"description": "vabsd.b vd, vj, vk"
+	},
+
+	"vabsd.h": {
+		"prefix": "vabsd.h",
+		"body": [
+			"vabsd.h"
+		],
+		"description": "vabsd.h vd, vj, vk"
+	},
+
+	"vabsd.w": {
+		"prefix": "vabsd.w",
+		"body": [
+			"vabsd.w"
+		],
+		"description": "vabsd.w vd, vj, vk"
+	},
+
+	"vabsd.d": {
+		"prefix": "vabsd.d",
+		"body": [
+			"vabsd.d"
+		],
+		"description": "vabsd.d vd, vj, vk"
+	},
+
+	"vabsd.bu": {
+		"prefix": "vabsd.bu",
+		"body": [
+			"vabsd.bu"
+		],
+		"description": "vabsd.bu vd, vj, vk"
+	},
+
+	"vabsd.hu": {
+		"prefix": "vabsd.hu",
+		"body": [
+			"vabsd.hu"
+		],
+		"description": "vabsd.hu vd, vj, vk"
+	},
+
+	"vabsd.wu": {
+		"prefix": "vabsd.wu",
+		"body": [
+			"vabsd.wu"
+		],
+		"description": "vabsd.wu vd, vj, vk"
+	},
+
+	"vabsd.du": {
+		"prefix": "vabsd.du",
+		"body": [
+			"vabsd.du"
+		],
+		"description": "vabsd.du vd, vj, vk"
+	},
+
+	"vadda.b": {
+		"prefix": "vadda.b",
+		"body": [
+			"vadda.b"
+		],
+		"description": "vadda.b vd, vj, vk"
+	},
+
+	"vadda.h": {
+		"prefix": "vadda.h",
+		"body": [
+			"vadda.h"
+		],
+		"description": "vadda.h vd, vj, vk"
+	},
+
+	"vadda.w": {
+		"prefix": "vadda.w",
+		"body": [
+			"vadda.w"
+		],
+		"description": "vadda.w vd, vj, vk"
+	},
+
+	"vadda.d": {
+		"prefix": "vadda.d",
+		"body": [
+			"vadda.d"
+		],
+		"description": "vadda.d vd, vj, vk"
+	},
+
+	"vmax.b": {
+		"prefix": "vmax.b",
+		"body": [
+			"vmax.b"
+		],
+		"description": "vmax.b vd, vj, vk"
+	},
+
+	"vmax.h": {
+		"prefix": "vmax.h",
+		"body": [
+			"vmax.h"
+		],
+		"description": "vmax.h vd, vj, vk"
+	},
+
+	"vmax.w": {
+		"prefix": "vmax.w",
+		"body": [
+			"vmax.w"
+		],
+		"description": "vmax.w vd, vj, vk"
+	},
+
+	"vmax.d": {
+		"prefix": "vmax.d",
+		"body": [
+			"vmax.d"
+		],
+		"description": "vmax.d vd, vj, vk"
+	},
+
+	"vmax.bu": {
+		"prefix": "vmax.bu",
+		"body": [
+			"vmax.bu"
+		],
+		"description": "vmax.bu vd, vj, vk"
+	},
+
+	"vmax.hu": {
+		"prefix": "vmax.hu",
+		"body": [
+			"vmax.hu"
+		],
+		"description": "vmax.hu vd, vj, vk"
+	},
+
+	"vmax.wu": {
+		"prefix": "vmax.wu",
+		"body": [
+			"vmax.wu"
+		],
+		"description": "vmax.wu vd, vj, vk"
+	},
+
+	"vmax.du": {
+		"prefix": "vmax.du",
+		"body": [
+			"vmax.du"
+		],
+		"description": "vmax.du vd, vj, vk"
+	},
+
+	"vmin.b": {
+		"prefix": "vmin.b",
+		"body": [
+			"vmin.b"
+		],
+		"description": "vmin.b vd, vj, vk"
+	},
+
+	"vmin.h": {
+		"prefix": "vmin.h",
+		"body": [
+			"vmin.h"
+		],
+		"description": "vmin.h vd, vj, vk"
+	},
+
+	"vmin.w": {
+		"prefix": "vmin.w",
+		"body": [
+			"vmin.w"
+		],
+		"description": "vmin.w vd, vj, vk"
+	},
+
+	"vmin.d": {
+		"prefix": "vmin.d",
+		"body": [
+			"vmin.d"
+		],
+		"description": "vmin.d vd, vj, vk"
+	},
+
+	"vmin.bu": {
+		"prefix": "vmin.bu",
+		"body": [
+			"vmin.bu"
+		],
+		"description": "vmin.bu vd, vj, vk"
+	},
+
+	"vmin.hu": {
+		"prefix": "vmin.hu",
+		"body": [
+			"vmin.hu"
+		],
+		"description": "vmin.hu vd, vj, vk"
+	},
+
+	"vmin.wu": {
+		"prefix": "vmin.wu",
+		"body": [
+			"vmin.wu"
+		],
+		"description": "vmin.wu vd, vj, vk"
+	},
+
+	"vmin.du": {
+		"prefix": "vmin.du",
+		"body": [
+			"vmin.du"
+		],
+		"description": "vmin.du vd, vj, vk"
+	},
+
+	"vmaxi.b": {
+		"prefix": "vmaxi.b",
+		"body": [
+			"vmaxi.b"
+		],
+		"description": "vmaxi.b vd, vj, si5"
+	},
+
+	"vmaxi.h": {
+		"prefix": "vmaxi.h",
+		"body": [
+			"vmaxi.h"
+		],
+		"description": "vmaxi.h vd, vj, si5"
+	},
+
+	"vmaxi.w": {
+		"prefix": "vmaxi.w",
+		"body": [
+			"vmaxi.w"
+		],
+		"description": "vmaxi.w vd, vj, si5"
+	},
+
+	"vmaxi.d": {
+		"prefix": "vmaxi.d",
+		"body": [
+			"vmaxi.d"
+		],
+		"description": "vmaxi.d vd, vj, si5"
+	},
+
+	"vmaxi.bu": {
+		"prefix": "vmaxi.bu",
+		"body": [
+			"vmaxi.bu"
+		],
+		"description": "vmaxi.bu vd, vj, si5"
+	},
+
+	"vmaxi.hu": {
+		"prefix": "vmaxi.hu",
+		"body": [
+			"vmaxi.hu"
+		],
+		"description": "vmaxi.hu vd, vj, si5"
+	},
+
+	"vmaxi.wu": {
+		"prefix": "vmaxi.wu",
+		"body": [
+			"vmaxi.wu"
+		],
+		"description": "vmaxi.wu vd, vj, si5"
+	},
+
+	"vmaxi.du": {
+		"prefix": "vmaxi.du",
+		"body": [
+			"vmaxi.du"
+		],
+		"description": "vmaxi.du vd, vj, si5"
+	},
+
+	"vmini.b": {
+		"prefix": "vmini.b",
+		"body": [
+			"vmini.b"
+		],
+		"description": "vmini.b vd, vj, si5"
+	},
+
+	"vmini.h": {
+		"prefix": "vmini.h",
+		"body": [
+			"vmini.h"
+		],
+		"description": "vmini.h vd, vj, si5"
+	},
+
+	"vmini.w": {
+		"prefix": "vmini.w",
+		"body": [
+			"vmini.w"
+		],
+		"description": "vmini.w vd, vj, si5"
+	},
+
+	"vmini.d": {
+		"prefix": "vmini.d",
+		"body": [
+			"vmini.d"
+		],
+		"description": "vmini.d vd, vj, si5"
+	},
+
+	"vmini.bu": {
+		"prefix": "vmini.bu",
+		"body": [
+			"vmini.bu"
+		],
+		"description": "vmini.bu vd, vj, si5"
+	},
+
+	"vmini.hu": {
+		"prefix": "vmini.hu",
+		"body": [
+			"vmini.hu"
+		],
+		"description": "vmini.hu vd, vj, si5"
+	},
+
+	"vmini.wu": {
+		"prefix": "vmini.wu",
+		"body": [
+			"vmini.wu"
+		],
+		"description": "vmini.wu vd, vj, si5"
+	},
+
+	"vmini.du": {
+		"prefix": "vmini.du",
+		"body": [
+			"vmini.du"
+		],
+		"description": "vmini.du vd, vj, si5"
+	},
+
+	"vmul.b": {
+		"prefix": "vmul.b",
+		"body": [
+			"vmul.b"
+		],
+		"description": "vmul.b vd, vj, vk"
+	},
+
+	"vmul.h": {
+		"prefix": "vmul.h",
+		"body": [
+			"vmul.h"
+		],
+		"description": "vmul.h vd, vj, vk"
+	},
+
+	"vmul.w": {
+		"prefix": "vmul.w",
+		"body": [
+			"vmul.w"
+		],
+		"description": "vmul.w vd, vj, vk"
+	},
+
+	"vmul.d": {
+		"prefix": "vmul.d",
+		"body": [
+			"vmul.d"
+		],
+		"description": "vmul.d vd, vj, vk"
+	},
+
+	"vmuh.b": {
+		"prefix": "vmuh.b",
+		"body": [
+			"vmuh.b"
+		],
+		"description": "vmuh.b vd, vj, vk"
+	},
+
+	"vmuh.h": {
+		"prefix": "vmuh.h",
+		"body": [
+			"vmuh.h"
+		],
+		"description": "vmuh.h vd, vj, vk"
+	},
+
+	"vmuh.w": {
+		"prefix": "vmuh.w",
+		"body": [
+			"vmuh.w"
+		],
+		"description": "vmuh.w vd, vj, vk"
+	},
+
+	"vmuh.d": {
+		"prefix": "vmuh.d",
+		"body": [
+			"vmuh.d"
+		],
+		"description": "vmuh.d vd, vj, vk"
+	},
+
+	"vmuh.bu": {
+		"prefix": "vmuh.bu",
+		"body": [
+			"vmuh.bu"
+		],
+		"description": "vmuh.bu vd, vj, vk"
+	},
+
+	"vmuh.hu": {
+		"prefix": "vmuh.hu",
+		"body": [
+			"vmuh.hu"
+		],
+		"description": "vmuh.hu vd, vj, vk"
+	},
+
+	"vmuh.wu": {
+		"prefix": "vmuh.wu",
+		"body": [
+			"vmuh.wu"
+		],
+		"description": "vmuh.wu vd, vj, vk"
+	},
+
+	"vmuh.du": {
+		"prefix": "vmuh.du",
+		"body": [
+			"vmuh.du"
+		],
+		"description": "vmuh.du vd, vj, vk"
+	},
+
+	"vmulwev.h.b": {
+		"prefix": "vmulwev.h.b",
+		"body": [
+			"vmulwev.h.b"
+		],
+		"description": "vmulwev.h.b vd, vj, vk"
+	},
+
+	"vmulwev.w.h": {
+		"prefix": "vmulwev.w.h",
+		"body": [
+			"vmulwev.w.h"
+		],
+		"description": "vmulwev.w.h vd, vj, vk"
+	},
+
+	"vmulwev.d.w": {
+		"prefix": "vmulwev.d.w",
+		"body": [
+			"vmulwev.d.w"
+		],
+		"description": "vmulwev.d.w vd, vj, vk"
+	},
+
+	"vmulwev.q.d": {
+		"prefix": "vmulwev.q.d",
+		"body": [
+			"vmulwev.q.d"
+		],
+		"description": "vmulwev.q.d vd, vj, vk"
+	},
+
+	"vmulwod.h.b": {
+		"prefix": "vmulwod.h.b",
+		"body": [
+			"vmulwod.h.b"
+		],
+		"description": "vmulwod.h.b vd, vj, vk"
+	},
+
+	"vmulwod.w.h": {
+		"prefix": "vmulwod.w.h",
+		"body": [
+			"vmulwod.w.h"
+		],
+		"description": "vmulwod.w.h vd, vj, vk"
+	},
+
+	"vmulwod.d.w": {
+		"prefix": "vmulwod.d.w",
+		"body": [
+			"vmulwod.d.w"
+		],
+		"description": "vmulwod.d.w vd, vj, vk"
+	},
+
+	"vmulwod.q.d": {
+		"prefix": "vmulwod.q.d",
+		"body": [
+			"vmulwod.q.d"
+		],
+		"description": "vmulwod.q.d vd, vj, vk"
+	},
+
+	"vmulwev.h.bu": {
+		"prefix": "vmulwev.h.bu",
+		"body": [
+			"vmulwev.h.bu"
+		],
+		"description": "vmulwev.h.bu vd, vj, vk"
+	},
+
+	"vmulwev.w.hu": {
+		"prefix": "vmulwev.w.hu",
+		"body": [
+			"vmulwev.w.hu"
+		],
+		"description": "vmulwev.w.hu vd, vj, vk"
+	},
+
+	"vmulwev.d.wu": {
+		"prefix": "vmulwev.d.wu",
+		"body": [
+			"vmulwev.d.wu"
+		],
+		"description": "vmulwev.d.wu vd, vj, vk"
+	},
+
+	"vmulwev.q.du": {
+		"prefix": "vmulwev.q.du",
+		"body": [
+			"vmulwev.q.du"
+		],
+		"description": "vmulwev.q.du vd, vj, vk"
+	},
+
+	"vmulwod.h.bu": {
+		"prefix": "vmulwod.h.bu",
+		"body": [
+			"vmulwod.h.bu"
+		],
+		"description": "vmulwod.h.bu vd, vj, vk"
+	},
+
+	"vmulwod.w.hu": {
+		"prefix": "vmulwod.w.hu",
+		"body": [
+			"vmulwod.w.hu"
+		],
+		"description": "vmulwod.w.hu vd, vj, vk"
+	},
+
+	"vmulwod.d.wu": {
+		"prefix": "vmulwod.d.wu",
+		"body": [
+			"vmulwod.d.wu"
+		],
+		"description": "vmulwod.d.wu vd, vj, vk"
+	},
+
+	"vmulwod.q.du": {
+		"prefix": "vmulwod.q.du",
+		"body": [
+			"vmulwod.q.du"
+		],
+		"description": "vmulwod.q.du vd, vj, vk"
+	},
+
+	"vmulwev.h.bu.b": {
+		"prefix": "vmulwev.h.bu.b",
+		"body": [
+			"vmulwev.h.bu.b"
+		],
+		"description": "vmulwev.h.bu.b vd, vj, vk"
+	},
+
+	"vmulwev.w.hu.h": {
+		"prefix": "vmulwev.w.hu.h",
+		"body": [
+			"vmulwev.w.hu.h"
+		],
+		"description": "vmulwev.w.hu.h vd, vj, vk"
+	},
+
+	"vmulwev.d.wu.w": {
+		"prefix": "vmulwev.d.wu.w",
+		"body": [
+			"vmulwev.d.wu.w"
+		],
+		"description": "vmulwev.d.wu.w vd, vj, vk"
+	},
+
+	"vmulwev.q.du.d": {
+		"prefix": "vmulwev.q.du.d",
+		"body": [
+			"vmulwev.q.du.d"
+		],
+		"description": "vmulwev.q.du.d vd, vj, vk"
+	},
+
+	"vmulwod.h.bu.b": {
+		"prefix": "vmulwod.h.bu.b",
+		"body": [
+			"vmulwod.h.bu.b"
+		],
+		"description": "vmulwod.h.bu.b vd, vj, vk"
+	},
+
+	"vmulwod.w.hu.h": {
+		"prefix": "vmulwod.w.hu.h",
+		"body": [
+			"vmulwod.w.hu.h"
+		],
+		"description": "vmulwod.w.hu.h vd, vj, vk"
+	},
+
+	"vmulwod.d.wu.w": {
+		"prefix": "vmulwod.d.wu.w",
+		"body": [
+			"vmulwod.d.wu.w"
+		],
+		"description": "vmulwod.d.wu.w vd, vj, vk"
+	},
+
+	"vmulwod.q.du.d": {
+		"prefix": "vmulwod.q.du.d",
+		"body": [
+			"vmulwod.q.du.d"
+		],
+		"description": "vmulwod.q.du.d vd, vj, vk"
+	},
+
+	"vmadd.b": {
+		"prefix": "vmadd.b",
+		"body": [
+			"vmadd.b"
+		],
+		"description": "vmadd.b vd, vj, vk"
+	},
+
+	"vmadd.h": {
+		"prefix": "vmadd.h",
+		"body": [
+			"vmadd.h"
+		],
+		"description": "vmadd.h vd, vj, vk"
+	},
+
+	"vmadd.w": {
+		"prefix": "vmadd.w",
+		"body": [
+			"vmadd.w"
+		],
+		"description": "vmadd.w vd, vj, vk"
+	},
+
+	"vmadd.d": {
+		"prefix": "vmadd.d",
+		"body": [
+			"vmadd.d"
+		],
+		"description": "vmadd.d vd, vj, vk"
+	},
+
+	"vmsub.b": {
+		"prefix": "vmsub.b",
+		"body": [
+			"vmsub.b"
+		],
+		"description": "vmsub.b vd, vj, vk"
+	},
+
+	"vmsub.h": {
+		"prefix": "vmsub.h",
+		"body": [
+			"vmsub.h"
+		],
+		"description": "vmsub.h vd, vj, vk"
+	},
+
+	"vmsub.w": {
+		"prefix": "vmsub.w",
+		"body": [
+			"vmsub.w"
+		],
+		"description": "vmsub.w vd, vj, vk"
+	},
+
+	"vmsub.d": {
+		"prefix": "vmsub.d",
+		"body": [
+			"vmsub.d"
+		],
+		"description": "vmsub.d vd, vj, vk"
+	},
+
+	"vmaddwev.h.b": {
+		"prefix": "vmaddwev.h.b",
+		"body": [
+			"vmaddwev.h.b"
+		],
+		"description": "vmaddwev.h.b vd, vj, vk"
+	},
+
+	"vmaddwev.w.h": {
+		"prefix": "vmaddwev.w.h",
+		"body": [
+			"vmaddwev.w.h"
+		],
+		"description": "vmaddwev.w.h vd, vj, vk"
+	},
+
+	"vmaddwev.d.w": {
+		"prefix": "vmaddwev.d.w",
+		"body": [
+			"vmaddwev.d.w"
+		],
+		"description": "vmaddwev.d.w vd, vj, vk"
+	},
+
+	"vmaddwev.q.d": {
+		"prefix": "vmaddwev.q.d",
+		"body": [
+			"vmaddwev.q.d"
+		],
+		"description": "vmaddwev.q.d vd, vj, vk"
+	},
+
+	"vmaddwod.h.b": {
+		"prefix": "vmaddwod.h.b",
+		"body": [
+			"vmaddwod.h.b"
+		],
+		"description": "vmaddwod.h.b vd, vj, vk"
+	},
+
+	"vmaddwod.w.h": {
+		"prefix": "vmaddwod.w.h",
+		"body": [
+			"vmaddwod.w.h"
+		],
+		"description": "vmaddwod.w.h vd, vj, vk"
+	},
+
+	"vmaddwod.d.w": {
+		"prefix": "vmaddwod.d.w",
+		"body": [
+			"vmaddwod.d.w"
+		],
+		"description": "vmaddwod.d.w vd, vj, vk"
+	},
+
+	"vmaddwod.q.d": {
+		"prefix": "vmaddwod.q.d",
+		"body": [
+			"vmaddwod.q.d"
+		],
+		"description": "vmaddwod.q.d vd, vj, vk"
+	},
+
+	"vmaddwev.h.bu": {
+		"prefix": "vmaddwev.h.bu",
+		"body": [
+			"vmaddwev.h.bu"
+		],
+		"description": "vmaddwev.h.bu vd, vj, vk"
+	},
+
+	"vmaddwev.w.hu": {
+		"prefix": "vmaddwev.w.hu",
+		"body": [
+			"vmaddwev.w.hu"
+		],
+		"description": "vmaddwev.w.hu vd, vj, vk"
+	},
+
+	"vmaddwev.d.wu": {
+		"prefix": "vmaddwev.d.wu",
+		"body": [
+			"vmaddwev.d.wu"
+		],
+		"description": "vmaddwev.d.wu vd, vj, vk"
+	},
+
+	"vmaddwev.q.du": {
+		"prefix": "vmaddwev.q.du",
+		"body": [
+			"vmaddwev.q.du"
+		],
+		"description": "vmaddwev.q.du vd, vj, vk"
+	},
+
+	"vmaddwod.h.bu": {
+		"prefix": "vmaddwod.h.bu",
+		"body": [
+			"vmaddwod.h.bu"
+		],
+		"description": "vmaddwod.h.bu vd, vj, vk"
+	},
+
+	"vmaddwod.w.hu": {
+		"prefix": "vmaddwod.w.hu",
+		"body": [
+			"vmaddwod.w.hu"
+		],
+		"description": "vmaddwod.w.hu vd, vj, vk"
+	},
+
+	"vmaddwod.d.wu": {
+		"prefix": "vmaddwod.d.wu",
+		"body": [
+			"vmaddwod.d.wu"
+		],
+		"description": "vmaddwod.d.wu vd, vj, vk"
+	},
+
+	"vmaddwod.q.du": {
+		"prefix": "vmaddwod.q.du",
+		"body": [
+			"vmaddwod.q.du"
+		],
+		"description": "vmaddwod.q.du vd, vj, vk"
+	},
+
+	"vmaddwev.h.bu.b": {
+		"prefix": "vmaddwev.h.bu.b",
+		"body": [
+			"vmaddwev.h.bu.b"
+		],
+		"description": "vmaddwev.h.bu.b vd, vj, vk"
+	},
+
+	"vmaddwev.w.hu.h": {
+		"prefix": "vmaddwev.w.hu.h",
+		"body": [
+			"vmaddwev.w.hu.h"
+		],
+		"description": "vmaddwev.w.hu.h vd, vj, vk"
+	},
+
+	"vmaddwev.d.wu.w": {
+		"prefix": "vmaddwev.d.wu.w",
+		"body": [
+			"vmaddwev.d.wu.w"
+		],
+		"description": "vmaddwev.d.wu.w vd, vj, vk"
+	},
+
+	"vmaddwev.q.du.d": {
+		"prefix": "vmaddwev.q.du.d",
+		"body": [
+			"vmaddwev.q.du.d"
+		],
+		"description": "vmaddwev.q.du.d vd, vj, vk"
+	},
+
+	"vmaddwod.h.bu.b": {
+		"prefix": "vmaddwod.h.bu.b",
+		"body": [
+			"vmaddwod.h.bu.b"
+		],
+		"description": "vmaddwod.h.bu.b vd, vj, vk"
+	},
+
+	"vmaddwod.w.hu.h": {
+		"prefix": "vmaddwod.w.hu.h",
+		"body": [
+			"vmaddwod.w.hu.h"
+		],
+		"description": "vmaddwod.w.hu.h vd, vj, vk"
+	},
+
+	"vmaddwod.d.wu.w": {
+		"prefix": "vmaddwod.d.wu.w",
+		"body": [
+			"vmaddwod.d.wu.w"
+		],
+		"description": "vmaddwod.d.wu.w vd, vj, vk"
+	},
+
+	"vmaddwod.q.du.d": {
+		"prefix": "vmaddwod.q.du.d",
+		"body": [
+			"vmaddwod.q.du.d"
+		],
+		"description": "vmaddwod.q.du.d vd, vj, vk"
+	},
+
+	"vdiv.b": {
+		"prefix": "vdiv.b",
+		"body": [
+			"vdiv.b"
+		],
+		"description": "vdiv.b vd, vj, vk"
+	},
+
+	"vdiv.h": {
+		"prefix": "vdiv.h",
+		"body": [
+			"vdiv.h"
+		],
+		"description": "vdiv.h vd, vj, vk"
+	},
+
+	"vdiv.w": {
+		"prefix": "vdiv.w",
+		"body": [
+			"vdiv.w"
+		],
+		"description": "vdiv.w vd, vj, vk"
+	},
+
+	"vdiv.d": {
+		"prefix": "vdiv.d",
+		"body": [
+			"vdiv.d"
+		],
+		"description": "vdiv.d vd, vj, vk"
+	},
+
+	"vdiv.bu": {
+		"prefix": "vdiv.bu",
+		"body": [
+			"vdiv.bu"
+		],
+		"description": "vdiv.bu vd, vj, vk"
+	},
+
+	"vdiv.hu": {
+		"prefix": "vdiv.hu",
+		"body": [
+			"vdiv.hu"
+		],
+		"description": "vdiv.hu vd, vj, vk"
+	},
+
+	"vdiv.wu": {
+		"prefix": "vdiv.wu",
+		"body": [
+			"vdiv.wu"
+		],
+		"description": "vdiv.wu vd, vj, vk"
+	},
+
+	"vdiv.du": {
+		"prefix": "vdiv.du",
+		"body": [
+			"vdiv.du"
+		],
+		"description": "vdiv.du vd, vj, vk"
+	},
+
+	"vmod.b": {
+		"prefix": "vmod.b",
+		"body": [
+			"vmod.b"
+		],
+		"description": "vmod.b vd, vj, vk"
+	},
+
+	"vmod.h": {
+		"prefix": "vmod.h",
+		"body": [
+			"vmod.h"
+		],
+		"description": "vmod.h vd, vj, vk"
+	},
+
+	"vmod.w": {
+		"prefix": "vmod.w",
+		"body": [
+			"vmod.w"
+		],
+		"description": "vmod.w vd, vj, vk"
+	},
+
+	"vmod.d": {
+		"prefix": "vmod.d",
+		"body": [
+			"vmod.d"
+		],
+		"description": "vmod.d vd, vj, vk"
+	},
+
+	"vmod.bu": {
+		"prefix": "vmod.bu",
+		"body": [
+			"vmod.bu"
+		],
+		"description": "vmod.bu vd, vj, vk"
+	},
+
+	"vmod.hu": {
+		"prefix": "vmod.hu",
+		"body": [
+			"vmod.hu"
+		],
+		"description": "vmod.hu vd, vj, vk"
+	},
+
+	"vmod.wu": {
+		"prefix": "vmod.wu",
+		"body": [
+			"vmod.wu"
+		],
+		"description": "vmod.wu vd, vj, vk"
+	},
+
+	"vmod.du": {
+		"prefix": "vmod.du",
+		"body": [
+			"vmod.du"
+		],
+		"description": "vmod.du vd, vj, vk"
+	},
+
+	"vsat.b": {
+		"prefix": "vsat.b",
+		"body": [
+			"vsat.b"
+		],
+		"description": "vsat.b vd, vj, ui3"
+	},
+
+	"vsat.h": {
+		"prefix": "vsat.h",
+		"body": [
+			"vsat.h"
+		],
+		"description": "vsat.h vd, vj, ui4"
+	},
+
+	"vsat.w": {
+		"prefix": "vsat.w",
+		"body": [
+			"vsat.w"
+		],
+		"description": "vsat.w vd, vj, ui5"
+	},
+
+	"vsat.d": {
+		"prefix": "vsat.d",
+		"body": [
+			"vsat.d"
+		],
+		"description": "vsat.d vd, vj, ui6"
+	},
+
+	"vsat.bu": {
+		"prefix": "vsat.bu",
+		"body": [
+			"vsat.bu"
+		],
+		"description": "vsat.bu vd, vj, ui3"
+	},
+
+	"vsat.hu": {
+		"prefix": "vsat.hu",
+		"body": [
+			"vsat.hu"
+		],
+		"description": "vsat.hu vd, vj, ui4"
+	},
+
+	"vsat.wu": {
+		"prefix": "vsat.wu",
+		"body": [
+			"vsat.wu"
+		],
+		"description": "vsat.wu vd, vj, ui5"
+	},
+
+	"vsat.du": {
+		"prefix": "vsat.du",
+		"body": [
+			"vsat.du"
+		],
+		"description": "vsat.du vd, vj, ui6"
+	},
+
+	"vexth.h.b": {
+		"prefix": "vexth.h.b",
+		"body": [
+			"vexth.h.b"
+		],
+		"description": "vexth.h.b vd, vj"
+	},
+
+	"vexth.w.h": {
+		"prefix": "vexth.w.h",
+		"body": [
+			"vexth.w.h"
+		],
+		"description": "vexth.w.h vd, vj"
+	},
+
+	"vexth.d.w": {
+		"prefix": "vexth.d.w",
+		"body": [
+			"vexth.d.w"
+		],
+		"description": "vexth.d.w vd, vj"
+	},
+
+	"vexth.q.d": {
+		"prefix": "vexth.q.d",
+		"body": [
+			"vexth.q.d"
+		],
+		"description": "vexth.q.d vd, vj"
+	},
+
+	"vexth.hu.bu": {
+		"prefix": "vexth.hu.bu",
+		"body": [
+			"vexth.hu.bu"
+		],
+		"description": "vexth.hu.bu vd, vj"
+	},
+
+	"vexth.wu.hu": {
+		"prefix": "vexth.wu.hu",
+		"body": [
+			"vexth.wu.hu"
+		],
+		"description": "vexth.wu.hu vd, vj"
+	},
+
+	"vexth.du.wu": {
+		"prefix": "vexth.du.wu",
+		"body": [
+			"vexth.du.wu"
+		],
+		"description": "vexth.du.wu vd, vj"
+	},
+
+	"vexth.qu.du": {
+		"prefix": "vexth.qu.du",
+		"body": [
+			"vexth.qu.du"
+		],
+		"description": "vexth.qu.du vd, vj"
+	},
+
+	"vext2v.h.b": {
+		"prefix": "vext2v.h.b",
+		"body": [
+			"vext2v.h.b"
+		],
+		"description": "vext2v.h.b vd, vj"
+	},
+
+	"vext2v.w.b": {
+		"prefix": "vext2v.w.b",
+		"body": [
+			"vext2v.w.b"
+		],
+		"description": "vext2v.w.b vd, vj"
+	},
+
+	"vext2v.d.b": {
+		"prefix": "vext2v.d.b",
+		"body": [
+			"vext2v.d.b"
+		],
+		"description": "vext2v.d.b vd, vj"
+	},
+
+	"vext2v.hu.bu": {
+		"prefix": "vext2v.hu.bu",
+		"body": [
+			"vext2v.hu.bu"
+		],
+		"description": "vext2v.hu.bu vd, vj"
+	},
+
+	"vext2v.wu.bu": {
+		"prefix": "vext2v.wu.bu",
+		"body": [
+			"vext2v.wu.bu"
+		],
+		"description": "vext2v.wu.bu vd, vj"
+	},
+
+	"vext2v.du.bu": {
+		"prefix": "vext2v.du.bu",
+		"body": [
+			"vext2v.du.bu"
+		],
+		"description": "vext2v.du.bu vd, vj"
+	},
+
+	"vext2v.w.h": {
+		"prefix": "vext2v.w.h",
+		"body": [
+			"vext2v.w.h"
+		],
+		"description": "vext2v.w.h vd, vj"
+	},
+
+	"vext2v.d.h": {
+		"prefix": "vext2v.d.h",
+		"body": [
+			"vext2v.d.h"
+		],
+		"description": "vext2v.d.h vd, vj"
+	},
+
+	"vext2v.wu.hu": {
+		"prefix": "vext2v.wu.hu",
+		"body": [
+			"vext2v.wu.hu"
+		],
+		"description": "vext2v.wu.hu vd, vj"
+	},
+
+	"vext2v.du.hu": {
+		"prefix": "vext2v.du.hu",
+		"body": [
+			"vext2v.du.hu"
+		],
+		"description": "vext2v.du.hu vd, vj"
+	},
+
+	"vext2v.d.w": {
+		"prefix": "vext2v.d.w",
+		"body": [
+			"vext2v.d.w"
+		],
+		"description": "vext2v.d.w vd, vj"
+	},
+
+	"vext2v.du.wu": {
+		"prefix": "vext2v.du.wu",
+		"body": [
+			"vext2v.du.wu"
+		],
+		"description": "vext2v.du.wu vd, vj"
+	},
+
+	"vsigncov.b": {
+		"prefix": "vsigncov.b",
+		"body": [
+			"vsigncov.b"
+		],
+		"description": "vsigncov.b vd, vj, vk"
+	},
+
+	"vsigncov.h": {
+		"prefix": "vsigncov.h",
+		"body": [
+			"vsigncov.h"
+		],
+		"description": "vsigncov.h vd, vj, vk"
+	},
+
+	"vsigncov.w": {
+		"prefix": "vsigncov.w",
+		"body": [
+			"vsigncov.w"
+		],
+		"description": "vsigncov.w vd, vj, vk"
+	},
+
+	"vsigncov.d": {
+		"prefix": "vsigncov.d",
+		"body": [
+			"vsigncov.d"
+		],
+		"description": "vsigncov.d vd, vj, vk"
+	},
+
+	"vmskltz.b": {
+		"prefix": "vmskltz.b",
+		"body": [
+			"vmskltz.b"
+		],
+		"description": "vmskltz.b vd, vj"
+	},
+
+	"vmskltz.h": {
+		"prefix": "vmskltz.h",
+		"body": [
+			"vmskltz.h"
+		],
+		"description": "vmskltz.h vd, vj"
+	},
+
+	"vmskltz.w": {
+		"prefix": "vmskltz.w",
+		"body": [
+			"vmskltz.w"
+		],
+		"description": "vmskltz.w vd, vj"
+	},
+
+	"vmskltz.d": {
+		"prefix": "vmskltz.d",
+		"body": [
+			"vmskltz.d"
+		],
+		"description": "vmskltz.d vd, vj"
+	},
+
+	"vmskgez.b": {
+		"prefix": "vmskgez.b",
+		"body": [
+			"vmskgez.b"
+		],
+		"description": "vmskgez.b vd, vj"
+	},
+
+	"vmsknz.b": {
+		"prefix": "vmsknz.b",
+		"body": [
+			"vmsknz.b"
+		],
+		"description": "vmsknz.b vd, vj"
+	},
+
+	"vldi": {
+		"prefix": "vldi",
+		"body": [
+			"vldi"
+		],
+		"description": "vldi vd, i13"
+	},
+
+	"vand.v": {
+		"prefix": "vand.v",
+		"body": [
+			"vand.v"
+		],
+		"description": "vand.v vd, vj, xd"
+	},
+
+	"vor.v": {
+		"prefix": "vor.v",
+		"body": [
+			"vor.v"
+		],
+		"description": "vor.v vd, vj, xd"
+	},
+
+	"vxor.v": {
+		"prefix": "vxor.v",
+		"body": [
+			"vxor.v"
+		],
+		"description": "vxor.v vd, vj, xd"
+	},
+
+	"vnor.v": {
+		"prefix": "vnor.v",
+		"body": [
+			"vnor.v"
+		],
+		"description": "vnor.v vd, vj, xd"
+	},
+
+	"vandn.v": {
+		"prefix": "vandn.v",
+		"body": [
+			"vandn.v"
+		],
+		"description": "vandn.v vd, vj, xd"
+	},
+
+	"vorn.v": {
+		"prefix": "vorn.v",
+		"body": [
+			"vorn.v"
+		],
+		"description": "vorn.v vd, vj, xd"
+	},
+
+	"vandi.b": {
+		"prefix": "vandi.b",
+		"body": [
+			"vandi.b"
+		],
+		"description": "vandi.b vd, vj, ui8"
+	},
+
+	"vori.b": {
+		"prefix": "vori.b",
+		"body": [
+			"vori.b"
+		],
+		"description": "vori.b vd, vj, ui8"
+	},
+
+	"vxori.b": {
+		"prefix": "vxori.b",
+		"body": [
+			"vxori.b"
+		],
+		"description": "vxori.b vd, vj, ui8"
+	},
+
+	"vnori.b": {
+		"prefix": "vnori.b",
+		"body": [
+			"vnori.b"
+		],
+		"description": "vnori.b vd, vj, ui8"
+	},
+
+	"vsll.b": {
+		"prefix": "vsll.b",
+		"body": [
+			"vsll.b"
+		],
+		"description": "vsll.b vd, vj, vk"
+	},
+
+	"vsll.h": {
+		"prefix": "vsll.h",
+		"body": [
+			"vsll.h"
+		],
+		"description": "vsll.h vd, vj, vk"
+	},
+
+	"vsll.w": {
+		"prefix": "vsll.w",
+		"body": [
+			"vsll.w"
+		],
+		"description": "vsll.w vd, vj, vk"
+	},
+
+	"vsll.d": {
+		"prefix": "vsll.d",
+		"body": [
+			"vsll.d"
+		],
+		"description": "vsll.d vd, vj, vk"
+	},
+
+	"vslli.b": {
+		"prefix": "vslli.b",
+		"body": [
+			"vslli.b"
+		],
+		"description": "vslli.b vd, vj, ui3"
+	},
+
+	"vslli.h": {
+		"prefix": "vslli.h",
+		"body": [
+			"vslli.h"
+		],
+		"description": "vslli.h vd, vj, ui4"
+	},
+
+	"vslli.w": {
+		"prefix": "vslli.w",
+		"body": [
+			"vslli.w"
+		],
+		"description": "vslli.w vd, vj, ui5"
+	},
+
+	"vslli.d": {
+		"prefix": "vslli.d",
+		"body": [
+			"vslli.d"
+		],
+		"description": "vslli.d vd, vj, ui6"
+	},
+
+	"vsrl.b": {
+		"prefix": "vsrl.b",
+		"body": [
+			"vsrl.b"
+		],
+		"description": "vsrl.b vd, vj, vk"
+	},
+
+	"vsrl.h": {
+		"prefix": "vsrl.h",
+		"body": [
+			"vsrl.h"
+		],
+		"description": "vsrl.h vd, vj, vk"
+	},
+
+	"vsrl.w": {
+		"prefix": "vsrl.w",
+		"body": [
+			"vsrl.w"
+		],
+		"description": "vsrl.w vd, vj, vk"
+	},
+
+	"vsrl.d": {
+		"prefix": "vsrl.d",
+		"body": [
+			"vsrl.d"
+		],
+		"description": "vsrl.d vd, vj, vk"
+	},
+
+	"vsrli.b": {
+		"prefix": "vsrli.b",
+		"body": [
+			"vsrli.b"
+		],
+		"description": "vsrli.b vd, vj, ui3"
+	},
+
+	"vsrli.h": {
+		"prefix": "vsrli.h",
+		"body": [
+			"vsrli.h"
+		],
+		"description": "vsrli.h vd, vj, ui4"
+	},
+
+	"vsrli.w": {
+		"prefix": "vsrli.w",
+		"body": [
+			"vsrli.w"
+		],
+		"description": "vsrli.w vd, vj, ui5"
+	},
+
+	"vsrli.d": {
+		"prefix": "vsrli.d",
+		"body": [
+			"vsrli.d"
+		],
+		"description": "vsrli.d vd, vj, ui6"
+	},
+
+	"vsra.b": {
+		"prefix": "vsra.b",
+		"body": [
+			"vsra.b"
+		],
+		"description": "vsra.b vd, vj, vk"
+	},
+
+	"vsra.h": {
+		"prefix": "vsra.h",
+		"body": [
+			"vsra.h"
+		],
+		"description": "vsra.h vd, vj, vk"
+	},
+
+	"vsra.w": {
+		"prefix": "vsra.w",
+		"body": [
+			"vsra.w"
+		],
+		"description": "vsra.w vd, vj, vk"
+	},
+
+	"vsra.d": {
+		"prefix": "vsra.d",
+		"body": [
+			"vsra.d"
+		],
+		"description": "vsra.d vd, vj, vk"
+	},
+
+	"vsrai.b": {
+		"prefix": "vsrai.b",
+		"body": [
+			"vsrai.b"
+		],
+		"description": "vsrai.b vd, vj, ui3"
+	},
+
+	"vsrai.h": {
+		"prefix": "vsrai.h",
+		"body": [
+			"vsrai.h"
+		],
+		"description": "vsrai.h vd, vj, ui4"
+	},
+
+	"vsrai.w": {
+		"prefix": "vsrai.w",
+		"body": [
+			"vsrai.w"
+		],
+		"description": "vsrai.w vd, vj, ui5"
+	},
+
+	"vsrai.d": {
+		"prefix": "vsrai.d",
+		"body": [
+			"vsrai.d"
+		],
+		"description": "vsrai.d vd, vj, ui6"
+	},
+
+	"vrotr.b": {
+		"prefix": "vrotr.b",
+		"body": [
+			"vrotr.b"
+		],
+		"description": "vrotr.b vd, vj, vk"
+	},
+
+	"vrotr.h": {
+		"prefix": "vrotr.h",
+		"body": [
+			"vrotr.h"
+		],
+		"description": "vrotr.h vd, vj, vk"
+	},
+
+	"vrotr.w": {
+		"prefix": "vrotr.w",
+		"body": [
+			"vrotr.w"
+		],
+		"description": "vrotr.w vd, vj, vk"
+	},
+
+	"vrotr.d": {
+		"prefix": "vrotr.d",
+		"body": [
+			"vrotr.d"
+		],
+		"description": "vrotr.d vd, vj, vk"
+	},
+
+	"vrotri.b": {
+		"prefix": "vrotri.b",
+		"body": [
+			"vrotri.b"
+		],
+		"description": "vrotri.b vd, vj, ui3"
+	},
+
+	"vrotri.h": {
+		"prefix": "vrotri.h",
+		"body": [
+			"vrotri.h"
+		],
+		"description": "vrotri.h vd, vj, ui4"
+	},
+
+	"vrotri.w": {
+		"prefix": "vrotri.w",
+		"body": [
+			"vrotri.w"
+		],
+		"description": "vrotri.w vd, vj, ui5"
+	},
+
+	"vrotri.d": {
+		"prefix": "vrotri.d",
+		"body": [
+			"vrotri.d"
+		],
+		"description": "vrotri.d vd, vj, ui6"
+	},
+
+	"vsllwil.h.b": {
+		"prefix": "vsllwil.h.b",
+		"body": [
+			"vsllwil.h.b"
+		],
+		"description": "vsllwil.h.b vd, vj, ui3"
+	},
+
+	"vsllwil.w.h": {
+		"prefix": "vsllwil.w.h",
+		"body": [
+			"vsllwil.w.h"
+		],
+		"description": "vsllwil.w.h vd, vj, ui4"
+	},
+
+	"vsllwil.d.w": {
+		"prefix": "vsllwil.d.w",
+		"body": [
+			"vsllwil.d.w"
+		],
+		"description": "vsllwil.d.w vd, vj, ui5"
+	},
+
+	"vsllwil.hu.bu": {
+		"prefix": "vsllwil.hu.bu",
+		"body": [
+			"vsllwil.hu.bu"
+		],
+		"description": "vsllwil.hu.bu vd, vj, ui3"
+	},
+
+	"vsllwil.wu.hu": {
+		"prefix": "vsllwil.wu.hu",
+		"body": [
+			"vsllwil.wu.hu"
+		],
+		"description": "vsllwil.wu.hu vd, vj, ui4"
+	},
+
+	"vsllwil.du.wu": {
+		"prefix": "vsllwil.du.wu",
+		"body": [
+			"vsllwil.du.wu"
+		],
+		"description": "vsllwil.du.wu vd, vj, ui5"
+	},
+
+	"vextl.q.d": {
+		"prefix": "vextl.q.d",
+		"body": [
+			"vextl.q.d"
+		],
+		"description": "vextl.q.d vd, vj"
+	},
+
+	"vextl.qu.du": {
+		"prefix": "vextl.qu.du",
+		"body": [
+			"vextl.qu.du"
+		],
+		"description": "vextl.qu.du vd, vj"
+	},
+
+	"vsrlr.b": {
+		"prefix": "vsrlr.b",
+		"body": [
+			"vsrlr.b"
+		],
+		"description": "vsrlr.b vd, vj, vk"
+	},
+
+	"vsrlr.h": {
+		"prefix": "vsrlr.h",
+		"body": [
+			"vsrlr.h"
+		],
+		"description": "vsrlr.h vd, vj, vk"
+	},
+
+	"vsrlr.w": {
+		"prefix": "vsrlr.w",
+		"body": [
+			"vsrlr.w"
+		],
+		"description": "vsrlr.w vd, vj, vk"
+	},
+
+	"vsrlr.d": {
+		"prefix": "vsrlr.d",
+		"body": [
+			"vsrlr.d"
+		],
+		"description": "vsrlr.d vd, vj, vk"
+	},
+
+	"vsrlri.b": {
+		"prefix": "vsrlri.b",
+		"body": [
+			"vsrlri.b"
+		],
+		"description": "vsrlri.b vd, vj, ui3"
+	},
+
+	"vsrlri.h": {
+		"prefix": "vsrlri.h",
+		"body": [
+			"vsrlri.h"
+		],
+		"description": "vsrlri.h vd, vj, ui4"
+	},
+
+	"vsrlri.w": {
+		"prefix": "vsrlri.w",
+		"body": [
+			"vsrlri.w"
+		],
+		"description": "vsrlri.w vd, vj, ui5"
+	},
+
+	"vsrlri.d": {
+		"prefix": "vsrlri.d",
+		"body": [
+			"vsrlri.d"
+		],
+		"description": "vsrlri.d vd, vj, ui6"
+	},
+
+	"vsrar.b": {
+		"prefix": "vsrar.b",
+		"body": [
+			"vsrar.b"
+		],
+		"description": "vsrar.b vd, vj, vk"
+	},
+
+	"vsrar.h": {
+		"prefix": "vsrar.h",
+		"body": [
+			"vsrar.h"
+		],
+		"description": "vsrar.h vd, vj, vk"
+	},
+
+	"vsrar.w": {
+		"prefix": "vsrar.w",
+		"body": [
+			"vsrar.w"
+		],
+		"description": "vsrar.w vd, vj, vk"
+	},
+
+	"vsrar.d": {
+		"prefix": "vsrar.d",
+		"body": [
+			"vsrar.d"
+		],
+		"description": "vsrar.d vd, vj, vk"
+	},
+
+	"vsrari.b": {
+		"prefix": "vsrari.b",
+		"body": [
+			"vsrari.b"
+		],
+		"description": "vsrari.b vd, vj, ui3"
+	},
+
+	"vsrari.h": {
+		"prefix": "vsrari.h",
+		"body": [
+			"vsrari.h"
+		],
+		"description": "vsrari.h vd, vj, ui4"
+	},
+
+	"vsrari.w": {
+		"prefix": "vsrari.w",
+		"body": [
+			"vsrari.w"
+		],
+		"description": "vsrari.w vd, vj, ui5"
+	},
+
+	"vsrari.d": {
+		"prefix": "vsrari.d",
+		"body": [
+			"vsrari.d"
+		],
+		"description": "vsrari.d vd, vj, ui6"
+	},
+
+	"vsrln.b.h": {
+		"prefix": "vsrln.b.h",
+		"body": [
+			"vsrln.b.h"
+		],
+		"description": "vsrln.b.h vd, vj, vk"
+	},
+
+	"vsrln.h.w": {
+		"prefix": "vsrln.h.w",
+		"body": [
+			"vsrln.h.w"
+		],
+		"description": "vsrln.h.w vd, vj, vk"
+	},
+
+	"vsrln.w.d": {
+		"prefix": "vsrln.w.d",
+		"body": [
+			"vsrln.w.d"
+		],
+		"description": "vsrln.w.d vd, vj, vk"
+	},
+
+	"vsran.b.h": {
+		"prefix": "vsran.b.h",
+		"body": [
+			"vsran.b.h"
+		],
+		"description": "vsran.b.h vd, vj, vk"
+	},
+
+	"vsran.h.w": {
+		"prefix": "vsran.h.w",
+		"body": [
+			"vsran.h.w"
+		],
+		"description": "vsran.h.w vd, vj, vk"
+	},
+
+	"vsran.w.d": {
+		"prefix": "vsran.w.d",
+		"body": [
+			"vsran.w.d"
+		],
+		"description": "vsran.w.d vd, vj, vk"
+	},
+
+	"vsrlni.b.h": {
+		"prefix": "vsrlni.b.h",
+		"body": [
+			"vsrlni.b.h"
+		],
+		"description": "vsrlni.b.h vd, vj, ui4"
+	},
+
+	"vsrlni.h.w": {
+		"prefix": "vsrlni.h.w",
+		"body": [
+			"vsrlni.h.w"
+		],
+		"description": "vsrlni.h.w vd, vj, ui5"
+	},
+
+	"vsrlni.w.d": {
+		"prefix": "vsrlni.w.d",
+		"body": [
+			"vsrlni.w.d"
+		],
+		"description": "vsrlni.w.d vd, vj, ui6"
+	},
+
+	"vsrlni.d.q": {
+		"prefix": "vsrlni.d.q",
+		"body": [
+			"vsrlni.d.q"
+		],
+		"description": "vsrlni.d.q vd, vj, ui7"
+	},
+
+	"vsrani.b.h": {
+		"prefix": "vsrani.b.h",
+		"body": [
+			"vsrani.b.h"
+		],
+		"description": "vsrani.b.h vd, vj, ui4"
+	},
+
+	"vsrani.h.w": {
+		"prefix": "vsrani.h.w",
+		"body": [
+			"vsrani.h.w"
+		],
+		"description": "vsrani.h.w vd, vj, ui5"
+	},
+
+	"vsrani.w.d": {
+		"prefix": "vsrani.w.d",
+		"body": [
+			"vsrani.w.d"
+		],
+		"description": "vsrani.w.d vd, vj, ui6"
+	},
+
+	"vsrani.d.q": {
+		"prefix": "vsrani.d.q",
+		"body": [
+			"vsrani.d.q"
+		],
+		"description": "vsrani.d.q vd, vj, ui7"
+	},
+
+	"vsrlrn.b.h": {
+		"prefix": "vsrlrn.b.h",
+		"body": [
+			"vsrlrn.b.h"
+		],
+		"description": "vsrlrn.b.h vd, vj, vk"
+	},
+
+	"vsrlrn.h.w": {
+		"prefix": "vsrlrn.h.w",
+		"body": [
+			"vsrlrn.h.w"
+		],
+		"description": "vsrlrn.h.w vd, vj, vk"
+	},
+
+	"vsrlrn.w.d": {
+		"prefix": "vsrlrn.w.d",
+		"body": [
+			"vsrlrn.w.d"
+		],
+		"description": "vsrlrn.w.d vd, vj, vk"
+	},
+
+	"vsrarn.b.h": {
+		"prefix": "vsrarn.b.h",
+		"body": [
+			"vsrarn.b.h"
+		],
+		"description": "vsrarn.b.h vd, vj, vk"
+	},
+
+	"vsrarn.h.w": {
+		"prefix": "vsrarn.h.w",
+		"body": [
+			"vsrarn.h.w"
+		],
+		"description": "vsrarn.h.w vd, vj, vk"
+	},
+
+	"vsrarn.w.d": {
+		"prefix": "vsrarn.w.d",
+		"body": [
+			"vsrarn.w.d"
+		],
+		"description": "vsrarn.w.d vd, vj, vk"
+	},
+
+	"vsrlrni.b.h": {
+		"prefix": "vsrlrni.b.h",
+		"body": [
+			"vsrlrni.b.h"
+		],
+		"description": "vsrlrni.b.h vd, vj, ui4"
+	},
+
+	"vsrlrni.h.w": {
+		"prefix": "vsrlrni.h.w",
+		"body": [
+			"vsrlrni.h.w"
+		],
+		"description": "vsrlrni.h.w vd, vj, ui5"
+	},
+
+	"vsrlrni.w.d": {
+		"prefix": "vsrlrni.w.d",
+		"body": [
+			"vsrlrni.w.d"
+		],
+		"description": "vsrlrni.w.d vd, vj, ui6"
+	},
+
+	"vsrlrni.d.q": {
+		"prefix": "vsrlrni.d.q",
+		"body": [
+			"vsrlrni.d.q"
+		],
+		"description": "vsrlrni.d.q vd, vj, ui7"
+	},
+
+	"vsrarni.b.h": {
+		"prefix": "vsrarni.b.h",
+		"body": [
+			"vsrarni.b.h"
+		],
+		"description": "vsrarni.b.h vd, vj, ui4"
+	},
+
+	"vsrarni.h.w": {
+		"prefix": "vsrarni.h.w",
+		"body": [
+			"vsrarni.h.w"
+		],
+		"description": "vsrarni.h.w vd, vj, ui5"
+	},
+
+	"vsrarni.w.d": {
+		"prefix": "vsrarni.w.d",
+		"body": [
+			"vsrarni.w.d"
+		],
+		"description": "vsrarni.w.d vd, vj, ui6"
+	},
+
+	"vsrarni.d.q": {
+		"prefix": "vsrarni.d.q",
+		"body": [
+			"vsrarni.d.q"
+		],
+		"description": "vsrarni.d.q vd, vj, ui7"
+	},
+
+	"vssrln.b.h": {
+		"prefix": "vssrln.b.h",
+		"body": [
+			"vssrln.b.h"
+		],
+		"description": "vssrln.b.h vd, vj, vk"
+	},
+
+	"vssrln.h.w": {
+		"prefix": "vssrln.h.w",
+		"body": [
+			"vssrln.h.w"
+		],
+		"description": "vssrln.h.w vd, vj, vk"
+	},
+
+	"vssrln.w.d": {
+		"prefix": "vssrln.w.d",
+		"body": [
+			"vssrln.w.d"
+		],
+		"description": "vssrln.w.d vd, vj, vk"
+	},
+
+	"vssran.b.h": {
+		"prefix": "vssran.b.h",
+		"body": [
+			"vssran.b.h"
+		],
+		"description": "vssran.b.h vd, vj, vk"
+	},
+
+	"vssran.h.w": {
+		"prefix": "vssran.h.w",
+		"body": [
+			"vssran.h.w"
+		],
+		"description": "vssran.h.w vd, vj, vk"
+	},
+
+	"vssran.w.d": {
+		"prefix": "vssran.w.d",
+		"body": [
+			"vssran.w.d"
+		],
+		"description": "vssran.w.d vd, vj, vk"
+	},
+
+	"vssrln.bu.h": {
+		"prefix": "vssrln.bu.h",
+		"body": [
+			"vssrln.bu.h"
+		],
+		"description": "vssrln.bu.h vd, vj, vk"
+	},
+
+	"vssrln.hu.w": {
+		"prefix": "vssrln.hu.w",
+		"body": [
+			"vssrln.hu.w"
+		],
+		"description": "vssrln.hu.w vd, vj, vk"
+	},
+
+	"vssrln.wu.d": {
+		"prefix": "vssrln.wu.d",
+		"body": [
+			"vssrln.wu.d"
+		],
+		"description": "vssrln.wu.d vd, vj, vk"
+	},
+
+	"vssran.bu.h": {
+		"prefix": "vssran.bu.h",
+		"body": [
+			"vssran.bu.h"
+		],
+		"description": "vssran.bu.h vd, vj, vk"
+	},
+
+	"vssran.hu.w": {
+		"prefix": "vssran.hu.w",
+		"body": [
+			"vssran.hu.w"
+		],
+		"description": "vssran.hu.w vd, vj, vk"
+	},
+
+	"vssran.wu.d": {
+		"prefix": "vssran.wu.d",
+		"body": [
+			"vssran.wu.d"
+		],
+		"description": "vssran.wu.d vd, vj, vk"
+	},
+
+	"vssrlni.b.h": {
+		"prefix": "vssrlni.b.h",
+		"body": [
+			"vssrlni.b.h"
+		],
+		"description": "vssrlni.b.h vd, vj, ui4"
+	},
+
+	"vssrlni.h.w": {
+		"prefix": "vssrlni.h.w",
+		"body": [
+			"vssrlni.h.w"
+		],
+		"description": "vssrlni.h.w vd, vj, ui5"
+	},
+
+	"vssrlni.w.d": {
+		"prefix": "vssrlni.w.d",
+		"body": [
+			"vssrlni.w.d"
+		],
+		"description": "vssrlni.w.d vd, vj, ui6"
+	},
+
+	"vssrlni.d.q": {
+		"prefix": "vssrlni.d.q",
+		"body": [
+			"vssrlni.d.q"
+		],
+		"description": "vssrlni.d.q vd, vj, ui7"
+	},
+
+	"vssrani.b.h": {
+		"prefix": "vssrani.b.h",
+		"body": [
+			"vssrani.b.h"
+		],
+		"description": "vssrani.b.h vd, vj, ui4"
+	},
+
+	"vssrani.h.w": {
+		"prefix": "vssrani.h.w",
+		"body": [
+			"vssrani.h.w"
+		],
+		"description": "vssrani.h.w vd, vj, ui5"
+	},
+
+	"vssrani.w.d": {
+		"prefix": "vssrani.w.d",
+		"body": [
+			"vssrani.w.d"
+		],
+		"description": "vssrani.w.d vd, vj, ui6"
+	},
+
+	"vssrani.d.q": {
+		"prefix": "vssrani.d.q",
+		"body": [
+			"vssrani.d.q"
+		],
+		"description": "vssrani.d.q vd, vj, ui7"
+	},
+
+	"vssrlni.bu.h": {
+		"prefix": "vssrlni.bu.h",
+		"body": [
+			"vssrlni.bu.h"
+		],
+		"description": "vssrlni.bu.h vd, vj, ui4"
+	},
+
+	"vssrlni.hu.w": {
+		"prefix": "vssrlni.hu.w",
+		"body": [
+			"vssrlni.hu.w"
+		],
+		"description": "vssrlni.hu.w vd, vj, ui5"
+	},
+
+	"vssrlni.wu.d": {
+		"prefix": "vssrlni.wu.d",
+		"body": [
+			"vssrlni.wu.d"
+		],
+		"description": "vssrlni.wu.d vd, vj, ui6"
+	},
+
+	"vssrlni.du.q": {
+		"prefix": "vssrlni.du.q",
+		"body": [
+			"vssrlni.du.q"
+		],
+		"description": "vssrlni.du.q vd, vj, ui7"
+	},
+
+	"vssrani.bu.h": {
+		"prefix": "vssrani.bu.h",
+		"body": [
+			"vssrani.bu.h"
+		],
+		"description": "vssrani.bu.h vd, vj, ui4"
+	},
+
+	"vssrani.hu.w": {
+		"prefix": "vssrani.hu.w",
+		"body": [
+			"vssrani.hu.w"
+		],
+		"description": "vssrani.hu.w vd, vj, ui5"
+	},
+
+	"vssrani.wu.d": {
+		"prefix": "vssrani.wu.d",
+		"body": [
+			"vssrani.wu.d"
+		],
+		"description": "vssrani.wu.d vd, vj, ui6"
+	},
+
+	"vssrani.du.q": {
+		"prefix": "vssrani.du.q",
+		"body": [
+			"vssrani.du.q"
+		],
+		"description": "vssrani.du.q vd, vj, ui7"
+	},
+
+	"vssrlrn.b.h": {
+		"prefix": "vssrlrn.b.h",
+		"body": [
+			"vssrlrn.b.h"
+		],
+		"description": "vssrlrn.b.h vd, vj, vk"
+	},
+
+	"vssrlrn.h.w": {
+		"prefix": "vssrlrn.h.w",
+		"body": [
+			"vssrlrn.h.w"
+		],
+		"description": "vssrlrn.h.w vd, vj, vk"
+	},
+
+	"vssrlrn.w.d": {
+		"prefix": "vssrlrn.w.d",
+		"body": [
+			"vssrlrn.w.d"
+		],
+		"description": "vssrlrn.w.d vd, vj, vk"
+	},
+
+	"vssrarn.b.h": {
+		"prefix": "vssrarn.b.h",
+		"body": [
+			"vssrarn.b.h"
+		],
+		"description": "vssrarn.b.h vd, vj, vk"
+	},
+
+	"vssrarn.h.w": {
+		"prefix": "vssrarn.h.w",
+		"body": [
+			"vssrarn.h.w"
+		],
+		"description": "vssrarn.h.w vd, vj, vk"
+	},
+
+	"vssrarn.w.d": {
+		"prefix": "vssrarn.w.d",
+		"body": [
+			"vssrarn.w.d"
+		],
+		"description": "vssrarn.w.d vd, vj, vk"
+	},
+
+	"vssrlrn.bu.h": {
+		"prefix": "vssrlrn.bu.h",
+		"body": [
+			"vssrlrn.bu.h"
+		],
+		"description": "vssrlrn.bu.h vd, vj, vk"
+	},
+
+	"vssrlrn.hu.w": {
+		"prefix": "vssrlrn.hu.w",
+		"body": [
+			"vssrlrn.hu.w"
+		],
+		"description": "vssrlrn.hu.w vd, vj, vk"
+	},
+
+	"vssrlrn.wu.d": {
+		"prefix": "vssrlrn.wu.d",
+		"body": [
+			"vssrlrn.wu.d"
+		],
+		"description": "vssrlrn.wu.d vd, vj, vk"
+	},
+
+	"vssrarn.bu.h": {
+		"prefix": "vssrarn.bu.h",
+		"body": [
+			"vssrarn.bu.h"
+		],
+		"description": "vssrarn.bu.h vd, vj, vk"
+	},
+
+	"vssrarn.hu.w": {
+		"prefix": "vssrarn.hu.w",
+		"body": [
+			"vssrarn.hu.w"
+		],
+		"description": "vssrarn.hu.w vd, vj, vk"
+	},
+
+	"vssrarn.wu.d": {
+		"prefix": "vssrarn.wu.d",
+		"body": [
+			"vssrarn.wu.d"
+		],
+		"description": "vssrarn.wu.d vd, vj, vk"
+	},
+
+	"vssrlrni.b.h": {
+		"prefix": "vssrlrni.b.h",
+		"body": [
+			"vssrlrni.b.h"
+		],
+		"description": "vssrlrni.b.h vd, vj, ui4"
+	},
+
+	"vssrlrni.h.w": {
+		"prefix": "vssrlrni.h.w",
+		"body": [
+			"vssrlrni.h.w"
+		],
+		"description": "vssrlrni.h.w vd, vj, ui5"
+	},
+
+	"vssrlrni.w.d": {
+		"prefix": "vssrlrni.w.d",
+		"body": [
+			"vssrlrni.w.d"
+		],
+		"description": "vssrlrni.w.d vd, vj, ui6"
+	},
+
+	"vssrlrni.d.q": {
+		"prefix": "vssrlrni.d.q",
+		"body": [
+			"vssrlrni.d.q"
+		],
+		"description": "vssrlrni.d.q vd, vj, ui7"
+	},
+
+	"vssrarni.b.h": {
+		"prefix": "vssrarni.b.h",
+		"body": [
+			"vssrarni.b.h"
+		],
+		"description": "vssrarni.b.h vd, vj, ui4"
+	},
+
+	"vssrarni.h.w": {
+		"prefix": "vssrarni.h.w",
+		"body": [
+			"vssrarni.h.w"
+		],
+		"description": "vssrarni.h.w vd, vj, ui5"
+	},
+
+	"vssrarni.w.d": {
+		"prefix": "vssrarni.w.d",
+		"body": [
+			"vssrarni.w.d"
+		],
+		"description": "vssrarni.w.d vd, vj, ui6"
+	},
+
+	"vssrarni.d.q": {
+		"prefix": "vssrarni.d.q",
+		"body": [
+			"vssrarni.d.q"
+		],
+		"description": "vssrarni.d.q vd, vj, ui7"
+	},
+
+	"vssrlrni.bu.h": {
+		"prefix": "vssrlrni.bu.h",
+		"body": [
+			"vssrlrni.bu.h"
+		],
+		"description": "vssrlrni.bu.h vd, vj, ui4"
+	},
+
+	"vssrlrni.hu.w": {
+		"prefix": "vssrlrni.hu.w",
+		"body": [
+			"vssrlrni.hu.w"
+		],
+		"description": "vssrlrni.hu.w vd, vj, ui5"
+	},
+
+	"vssrlrni.wu.d": {
+		"prefix": "vssrlrni.wu.d",
+		"body": [
+			"vssrlrni.wu.d"
+		],
+		"description": "vssrlrni.wu.d vd, vj, ui6"
+	},
+
+	"vssrlrni.du.q": {
+		"prefix": "vssrlrni.du.q",
+		"body": [
+			"vssrlrni.du.q"
+		],
+		"description": "vssrlrni.du.q vd, vj, ui7"
+	},
+
+	"vssrarni.bu.h": {
+		"prefix": "vssrarni.bu.h",
+		"body": [
+			"vssrarni.bu.h"
+		],
+		"description": "vssrarni.bu.h vd, vj, ui4"
+	},
+
+	"vssrarni.hu.w": {
+		"prefix": "vssrarni.hu.w",
+		"body": [
+			"vssrarni.hu.w"
+		],
+		"description": "vssrarni.hu.w vd, vj, ui5"
+	},
+
+	"vssrarni.wu.d": {
+		"prefix": "vssrarni.wu.d",
+		"body": [
+			"vssrarni.wu.d"
+		],
+		"description": "vssrarni.wu.d vd, vj, ui6"
+	},
+
+	"vssrarni.du.q": {
+		"prefix": "vssrarni.du.q",
+		"body": [
+			"vssrarni.du.q"
+		],
+		"description": "vssrarni.du.q vd, vj, ui7"
+	},
+
+	"vclo.b": {
+		"prefix": "vclo.b",
+		"body": [
+			"vclo.b"
+		],
+		"description": "vclo.b vd, vj"
+	},
+
+	"vclo.h": {
+		"prefix": "vclo.h",
+		"body": [
+			"vclo.h"
+		],
+		"description": "vclo.h vd, vj"
+	},
+
+	"vclo.w": {
+		"prefix": "vclo.w",
+		"body": [
+			"vclo.w"
+		],
+		"description": "vclo.w vd, vj"
+	},
+
+	"vclo.d": {
+		"prefix": "vclo.d",
+		"body": [
+			"vclo.d"
+		],
+		"description": "vclo.d vd, vj"
+	},
+
+	"vclz.b": {
+		"prefix": "vclz.b",
+		"body": [
+			"vclz.b"
+		],
+		"description": "vclz.b vd, vj"
+	},
+
+	"vclz.h": {
+		"prefix": "vclz.h",
+		"body": [
+			"vclz.h"
+		],
+		"description": "vclz.h vd, vj"
+	},
+
+	"vclz.w": {
+		"prefix": "vclz.w",
+		"body": [
+			"vclz.w"
+		],
+		"description": "vclz.w vd, vj"
+	},
+
+	"vclz.d": {
+		"prefix": "vclz.d",
+		"body": [
+			"vclz.d"
+		],
+		"description": "vclz.d vd, vj"
+	},
+
+	"vpcnt.b": {
+		"prefix": "vpcnt.b",
+		"body": [
+			"vpcnt.b"
+		],
+		"description": "vpcnt.b vd, vj"
+	},
+
+	"vpcnt.h": {
+		"prefix": "vpcnt.h",
+		"body": [
+			"vpcnt.h"
+		],
+		"description": "vpcnt.h vd, vj"
+	},
+
+	"vpcnt.w": {
+		"prefix": "vpcnt.w",
+		"body": [
+			"vpcnt.w"
+		],
+		"description": "vpcnt.w vd, vj"
+	},
+
+	"vpcnt.d": {
+		"prefix": "vpcnt.d",
+		"body": [
+			"vpcnt.d"
+		],
+		"description": "vpcnt.d vd, vj"
+	},
+
+	"vbitclr.b": {
+		"prefix": "vbitclr.b",
+		"body": [
+			"vbitclr.b"
+		],
+		"description": "vbitclr.b vd, vj, vk"
+	},
+
+	"vbitclr.h": {
+		"prefix": "vbitclr.h",
+		"body": [
+			"vbitclr.h"
+		],
+		"description": "vbitclr.h vd, vj, vk"
+	},
+
+	"vbitclr.w": {
+		"prefix": "vbitclr.w",
+		"body": [
+			"vbitclr.w"
+		],
+		"description": "vbitclr.w vd, vj, vk"
+	},
+
+	"vbitclr.d": {
+		"prefix": "vbitclr.d",
+		"body": [
+			"vbitclr.d"
+		],
+		"description": "vbitclr.d vd, vj, vk"
+	},
+
+	"vbitclri.b": {
+		"prefix": "vbitclri.b",
+		"body": [
+			"vbitclri.b"
+		],
+		"description": "vbitclri.b vd, vj, ui3"
+	},
+
+	"vbitclri.h": {
+		"prefix": "vbitclri.h",
+		"body": [
+			"vbitclri.h"
+		],
+		"description": "vbitclri.h vd, vj, ui4"
+	},
+
+	"vbitclri.w": {
+		"prefix": "vbitclri.w",
+		"body": [
+			"vbitclri.w"
+		],
+		"description": "vbitclri.w vd, vj, ui5"
+	},
+
+	"vbitclri.d": {
+		"prefix": "vbitclri.d",
+		"body": [
+			"vbitclri.d"
+		],
+		"description": "vbitclri.d vd, vj, ui6"
+	},
+
+	"vbitset.b": {
+		"prefix": "vbitset.b",
+		"body": [
+			"vbitset.b"
+		],
+		"description": "vbitset.b vd, vj, vk"
+	},
+
+	"vbitset.h": {
+		"prefix": "vbitset.h",
+		"body": [
+			"vbitset.h"
+		],
+		"description": "vbitset.h vd, vj, vk"
+	},
+
+	"vbitset.w": {
+		"prefix": "vbitset.w",
+		"body": [
+			"vbitset.w"
+		],
+		"description": "vbitset.w vd, vj, vk"
+	},
+
+	"vbitset.d": {
+		"prefix": "vbitset.d",
+		"body": [
+			"vbitset.d"
+		],
+		"description": "vbitset.d vd, vj, vk"
+	},
+
+	"vbitseti.b": {
+		"prefix": "vbitseti.b",
+		"body": [
+			"vbitseti.b"
+		],
+		"description": "vbitseti.b vd, vj, ui3"
+	},
+
+	"vbitseti.h": {
+		"prefix": "vbitseti.h",
+		"body": [
+			"vbitseti.h"
+		],
+		"description": "vbitseti.h vd, vj, ui4"
+	},
+
+	"vbitseti.w": {
+		"prefix": "vbitseti.w",
+		"body": [
+			"vbitseti.w"
+		],
+		"description": "vbitseti.w vd, vj, ui5"
+	},
+
+	"vbitseti.d": {
+		"prefix": "vbitseti.d",
+		"body": [
+			"vbitseti.d"
+		],
+		"description": "vbitseti.d vd, vj, ui6"
+	},
+
+	"vbitrev.b": {
+		"prefix": "vbitrev.b",
+		"body": [
+			"vbitrev.b"
+		],
+		"description": "vbitrev.b vd, vj, vk"
+	},
+
+	"vbitrev.h": {
+		"prefix": "vbitrev.h",
+		"body": [
+			"vbitrev.h"
+		],
+		"description": "vbitrev.h vd, vj, vk"
+	},
+
+	"vbitrev.w": {
+		"prefix": "vbitrev.w",
+		"body": [
+			"vbitrev.w"
+		],
+		"description": "vbitrev.w vd, vj, vk"
+	},
+
+	"vbitrev.d": {
+		"prefix": "vbitrev.d",
+		"body": [
+			"vbitrev.d"
+		],
+		"description": "vbitrev.d vd, vj, vk"
+	},
+
+	"vbitrevi.b": {
+		"prefix": "vbitrevi.b",
+		"body": [
+			"vbitrevi.b"
+		],
+		"description": "vbitrevi.b vd, vj, ui3"
+	},
+
+	"vbitrevi.h": {
+		"prefix": "vbitrevi.h",
+		"body": [
+			"vbitrevi.h"
+		],
+		"description": "vbitrevi.h vd, vj, ui4"
+	},
+
+	"vbitrevi.w": {
+		"prefix": "vbitrevi.w",
+		"body": [
+			"vbitrevi.w"
+		],
+		"description": "vbitrevi.w vd, vj, ui5"
+	},
+
+	"vbitrevi.d": {
+		"prefix": "vbitrevi.d",
+		"body": [
+			"vbitrevi.d"
+		],
+		"description": "vbitrevi.d vd, vj, ui6"
+	},
+
+	"vfrstp.b": {
+		"prefix": "vfrstp.b",
+		"body": [
+			"vfrstp.b"
+		],
+		"description": "vfrstp.b vd, vj, vk"
+	},
+
+	"vfrstp.h": {
+		"prefix": "vfrstp.h",
+		"body": [
+			"vfrstp.h"
+		],
+		"description": "vfrstp.h vd, vj, vk"
+	},
+
+	"vfrstpi.b": {
+		"prefix": "vfrstpi.b",
+		"body": [
+			"vfrstpi.b"
+		],
+		"description": "vfrstpi.b vd, vj, ui5"
+	},
+
+	"vfrstpi.h": {
+		"prefix": "vfrstpi.h",
+		"body": [
+			"vfrstpi.h"
+		],
+		"description": "vfrstpi.h vd, vj, ui5"
+	},
+
+	"vfadd.s": {
+		"prefix": "vfadd.s",
+		"body": [
+			"vfadd.s"
+		],
+		"description": "vfadd.s vd, vj, vk"
+	},
+
+	"vfadd.d": {
+		"prefix": "vfadd.d",
+		"body": [
+			"vfadd.d"
+		],
+		"description": "vfadd.d vd, vj, vk"
+	},
+
+	"vfsub.s": {
+		"prefix": "vfsub.s",
+		"body": [
+			"vfsub.s"
+		],
+		"description": "vfsub.s vd, vj, vk"
+	},
+
+	"vfsub.d": {
+		"prefix": "vfsub.d",
+		"body": [
+			"vfsub.d"
+		],
+		"description": "vfsub.d vd, vj, vk"
+	},
+
+	"vfmul.s": {
+		"prefix": "vfmul.s",
+		"body": [
+			"vfmul.s"
+		],
+		"description": "vfmul.s vd, vj, vk"
+	},
+
+	"vfmul.d": {
+		"prefix": "vfmul.d",
+		"body": [
+			"vfmul.d"
+		],
+		"description": "vfmul.d vd, vj, vk"
+	},
+
+	"vfdiv.s": {
+		"prefix": "vfdiv.s",
+		"body": [
+			"vfdiv.s"
+		],
+		"description": "vfdiv.s vd, vj, vk"
+	},
+
+	"vfdiv.d": {
+		"prefix": "vfdiv.d",
+		"body": [
+			"vfdiv.d"
+		],
+		"description": "vfdiv.d vd, vj, vk"
+	},
+
+	"vfmadd.s": {
+		"prefix": "vfmadd.s",
+		"body": [
+			"vfmadd.s"
+		],
+		"description": "vfmadd.s vd, vj, vk, va"
+	},
+
+	"vfmadd.d": {
+		"prefix": "vfmadd.d",
+		"body": [
+			"vfmadd.d"
+		],
+		"description": "vfmadd.d vd, vj, vk, va"
+	},
+
+	"vfmsub.s": {
+		"prefix": "vfmsub.s",
+		"body": [
+			"vfmsub.s"
+		],
+		"description": "vfmsub.s vd, vj, vk, va"
+	},
+
+	"vfmsub.d": {
+		"prefix": "vfmsub.d",
+		"body": [
+			"vfmsub.d"
+		],
+		"description": "vfmsub.d vd, vj, vk, va"
+	},
+
+	"vfnmadd.s": {
+		"prefix": "vfnmadd.s",
+		"body": [
+			"vfnmadd.s"
+		],
+		"description": "vfnmadd.s vd, vj, vk, va"
+	},
+
+	"vfnmadd.d": {
+		"prefix": "vfnmadd.d",
+		"body": [
+			"vfnmadd.d"
+		],
+		"description": "vfnmadd.d vd, vj, vk, va"
+	},
+
+	"vfnmsub.s": {
+		"prefix": "vfnmsub.s",
+		"body": [
+			"vfnmsub.s"
+		],
+		"description": "vfnmsub.s vd, vj, vk, va"
+	},
+
+	"vfnmsub.d": {
+		"prefix": "vfnmsub.d",
+		"body": [
+			"vfnmsub.d"
+		],
+		"description": "vfnmsub.d vd, vj, vk, va"
+	},
+
+	"vfmax.s": {
+		"prefix": "vfmax.s",
+		"body": [
+			"vfmax.s"
+		],
+		"description": "vfmax.s vd, vj, vk"
+	},
+
+	"vfmax.d": {
+		"prefix": "vfmax.d",
+		"body": [
+			"vfmax.d"
+		],
+		"description": "vfmax.d vd, vj, vk"
+	},
+
+	"vfmin.s": {
+		"prefix": "vfmin.s",
+		"body": [
+			"vfmin.s"
+		],
+		"description": "vfmin.s vd, vj, vk"
+	},
+
+	"vfmin.d": {
+		"prefix": "vfmin.d",
+		"body": [
+			"vfmin.d"
+		],
+		"description": "vfmin.d vd, vj, vk"
+	},
+
+	"vfmava.s": {
+		"prefix": "vfmava.s",
+		"body": [
+			"vfmava.s"
+		],
+		"description": "vfmava.s vd, vj, vk"
+	},
+
+	"vfmava.d": {
+		"prefix": "vfmava.d",
+		"body": [
+			"vfmava.d"
+		],
+		"description": "vfmava.d vd, vj, vk"
+	},
+
+	"vfmina.s": {
+		"prefix": "vfmina.s",
+		"body": [
+			"vfmina.s"
+		],
+		"description": "vfmina.s vd, vj, vk"
+	},
+
+	"vfmina.d": {
+		"prefix": "vfmina.d",
+		"body": [
+			"vfmina.d"
+		],
+		"description": "vfmina.d vd, vj, vk"
+	},
+
+	"vflogb.s": {
+		"prefix": "vflogb.s",
+		"body": [
+			"vflogb.s"
+		],
+		"description": "vflogb.s vd, vj"
+	},
+
+	"vflogb.d": {
+		"prefix": "vflogb.d",
+		"body": [
+			"vflogb.d"
+		],
+		"description": "vflogb.d vd, vj"
+	},
+
+	"vfclass.s": {
+		"prefix": "vfclass.s",
+		"body": [
+			"vfclass.s"
+		],
+		"description": "vfclass.s vd, vj"
+	},
+
+	"vfclass.d": {
+		"prefix": "vfclass.d",
+		"body": [
+			"vfclass.d"
+		],
+		"description": "vfclass.d vd, vj"
+	},
+
+	"vfsqrt.s": {
+		"prefix": "vfsqrt.s",
+		"body": [
+			"vfsqrt.s"
+		],
+		"description": "vfsqrt.s vd, vj"
+	},
+
+	"vfsqrt.d": {
+		"prefix": "vfsqrt.d",
+		"body": [
+			"vfsqrt.d"
+		],
+		"description": "vfsqrt.d vd, vj"
+	},
+
+	"vfrecip.s": {
+		"prefix": "vfrecip.s",
+		"body": [
+			"vfrecip.s"
+		],
+		"description": "vfrecip.s vd, vj"
+	},
+
+	"vfrecip.d": {
+		"prefix": "vfrecip.d",
+		"body": [
+			"vfrecip.d"
+		],
+		"description": "vfrecip.d vd, vj"
+	},
+
+	"vfrsqrt.s": {
+		"prefix": "vfrsqrt.s",
+		"body": [
+			"vfrsqrt.s"
+		],
+		"description": "vfrsqrt.s vd, vj"
+	},
+
+	"vfrsqrt.d": {
+		"prefix": "vfrsqrt.d",
+		"body": [
+			"vfrsqrt.d"
+		],
+		"description": "vfrsqrt.d vd, vj"
+	},
+
+	"vfcvtl.s.h": {
+		"prefix": "vfcvtl.s.h",
+		"body": [
+			"vfcvtl.s.h"
+		],
+		"description": "vfcvtl.s.h vd, vj"
+	},
+
+	"vfcvtl.d.s": {
+		"prefix": "vfcvtl.d.s",
+		"body": [
+			"vfcvtl.d.s"
+		],
+		"description": "vfcvtl.d.s vd, vj"
+	},
+
+	"vfcvth.s.h": {
+		"prefix": "vfcvth.s.h",
+		"body": [
+			"vfcvth.s.h"
+		],
+		"description": "vfcvth.s.h vd, vj"
+	},
+
+	"vfcvth.d.s": {
+		"prefix": "vfcvth.d.s",
+		"body": [
+			"vfcvth.d.s"
+		],
+		"description": "vfcvth.d.s vd, vj"
+	},
+
+	"vfcvt.h.s": {
+		"prefix": "vfcvt.h.s",
+		"body": [
+			"vfcvt.h.s"
+		],
+		"description": "vfcvt.h.s vd, vj"
+	},
+
+	"vfcvt.s.d": {
+		"prefix": "vfcvt.s.d",
+		"body": [
+			"vfcvt.s.d"
+		],
+		"description": "vfcvt.s.d vd, vj"
+	},
+
+	"vfrintrne.s": {
+		"prefix": "vfrintrne.s",
+		"body": [
+			"vfrintrne.s"
+		],
+		"description": "vfrintrne.s vd, vj"
+	},
+
+	"vfrintrne.d": {
+		"prefix": "vfrintrne.d",
+		"body": [
+			"vfrintrne.d"
+		],
+		"description": "vfrintrne.d vd, vj"
+	},
+
+	"vfrintrz.s": {
+		"prefix": "vfrintrz.s",
+		"body": [
+			"vfrintrz.s"
+		],
+		"description": "vfrintrz.s vd, vj"
+	},
+
+	"vfrintrz.d": {
+		"prefix": "vfrintrz.d",
+		"body": [
+			"vfrintrz.d"
+		],
+		"description": "vfrintrz.d vd, vj"
+	},
+
+	"vfrintrp.s": {
+		"prefix": "vfrintrp.s",
+		"body": [
+			"vfrintrp.s"
+		],
+		"description": "vfrintrp.s vd, vj"
+	},
+
+	"vfrintrp.d": {
+		"prefix": "vfrintrp.d",
+		"body": [
+			"vfrintrp.d"
+		],
+		"description": "vfrintrp.d vd, vj"
+	},
+
+	"vfrintrm.s": {
+		"prefix": "vfrintrm.s",
+		"body": [
+			"vfrintrm.s"
+		],
+		"description": "vfrintrm.s vd, vj"
+	},
+
+	"vfrintrm.d": {
+		"prefix": "vfrintrm.d",
+		"body": [
+			"vfrintrm.d"
+		],
+		"description": "vfrintrm.d vd, vj"
+	},
+
+	"vftintrne.w.s": {
+		"prefix": "vftintrne.w.s",
+		"body": [
+			"vftintrne.w.s"
+		],
+		"description": "vftintrne.w.s vd, vj"
+	},
+
+	"vftintrne.l.d": {
+		"prefix": "vftintrne.l.d",
+		"body": [
+			"vftintrne.l.d"
+		],
+		"description": "vftintrne.l.d vd, vj"
+	},
+
+	"vftintrz.w.s": {
+		"prefix": "vftintrz.w.s",
+		"body": [
+			"vftintrz.w.s"
+		],
+		"description": "vftintrz.w.s vd, vj"
+	},
+
+	"vftintrz.l.d": {
+		"prefix": "vftintrz.l.d",
+		"body": [
+			"vftintrz.l.d"
+		],
+		"description": "vftintrz.l.d vd, vj"
+	},
+
+	"vftintrp.w.s": {
+		"prefix": "vftintrp.w.s",
+		"body": [
+			"vftintrp.w.s"
+		],
+		"description": "vftintrp.w.s vd, vj"
+	},
+
+	"vftintrp.l.d": {
+		"prefix": "vftintrp.l.d",
+		"body": [
+			"vftintrp.l.d"
+		],
+		"description": "vftintrp.l.d vd, vj"
+	},
+
+	"vftintrm.w.s": {
+		"prefix": "vftintrm.w.s",
+		"body": [
+			"vftintrm.w.s"
+		],
+		"description": "vftintrm.w.s vd, vj"
+	},
+
+	"vftintrm.l.d": {
+		"prefix": "vftintrm.l.d",
+		"body": [
+			"vftintrm.l.d"
+		],
+		"description": "vftintrm.l.d vd, vj"
+	},
+
+	"vftintrz.wu.s": {
+		"prefix": "vftintrz.wu.s",
+		"body": [
+			"vftintrz.wu.s"
+		],
+		"description": "vftintrz.wu.s vd, vj"
+	},
+
+	"vftintrz.lu.d": {
+		"prefix": "vftintrz.lu.d",
+		"body": [
+			"vftintrz.lu.d"
+		],
+		"description": "vftintrz.lu.d vd, vj"
+	},
+
+	"vftintrne.w.d": {
+		"prefix": "vftintrne.w.d",
+		"body": [
+			"vftintrne.w.d"
+		],
+		"description": "vftintrne.w.d vd, vj"
+	},
+
+	"vftintrz.w.d": {
+		"prefix": "vftintrz.w.d",
+		"body": [
+			"vftintrz.w.d"
+		],
+		"description": "vftintrz.w.d vd, vj"
+	},
+
+	"vftintrp.w.d": {
+		"prefix": "vftintrp.w.d",
+		"body": [
+			"vftintrp.w.d"
+		],
+		"description": "vftintrp.w.d vd, vj"
+	},
+
+	"vftintrm.w.d": {
+		"prefix": "vftintrm.w.d",
+		"body": [
+			"vftintrm.w.d"
+		],
+		"description": "vftintrm.w.d vd, vj"
+	},
+
+	"vftintrnel.l.s": {
+		"prefix": "vftintrnel.l.s",
+		"body": [
+			"vftintrnel.l.s"
+		],
+		"description": "vftintrnel.l.s vd, vj"
+	},
+
+	"vftintrneh.l.s": {
+		"prefix": "vftintrneh.l.s",
+		"body": [
+			"vftintrneh.l.s"
+		],
+		"description": "vftintrneh.l.s vd, vj"
+	},
+
+	"vftintrzl.l.s": {
+		"prefix": "vftintrzl.l.s",
+		"body": [
+			"vftintrzl.l.s"
+		],
+		"description": "vftintrzl.l.s vd, vj"
+	},
+
+	"vftintrzh.l.s": {
+		"prefix": "vftintrzh.l.s",
+		"body": [
+			"vftintrzh.l.s"
+		],
+		"description": "vftintrzh.l.s vd, vj"
+	},
+
+	"vftintrpl.l.s": {
+		"prefix": "vftintrpl.l.s",
+		"body": [
+			"vftintrpl.l.s"
+		],
+		"description": "vftintrpl.l.s vd, vj"
+	},
+
+	"vftintrph.l.s": {
+		"prefix": "vftintrph.l.s",
+		"body": [
+			"vftintrph.l.s"
+		],
+		"description": "vftintrph.l.s vd, vj"
+	},
+
+	"vftintrml.l.s": {
+		"prefix": "vftintrml.l.s",
+		"body": [
+			"vftintrml.l.s"
+		],
+		"description": "vftintrml.l.s vd, vj"
+	},
+
+	"vftintrmh.l.s": {
+		"prefix": "vftintrmh.l.s",
+		"body": [
+			"vftintrmh.l.s"
+		],
+		"description": "vftintrmh.l.s vd, vj"
+	},
+
+	"vffint.s.w": {
+		"prefix": "vffint.s.w",
+		"body": [
+			"vffint.s.w"
+		],
+		"description": "vffint.s.w vd, vj"
+	},
+
+	"vffint.d.l": {
+		"prefix": "vffint.d.l",
+		"body": [
+			"vffint.d.l"
+		],
+		"description": "vffint.d.l vd, vj"
+	},
+
+	"vffint.s.wu": {
+		"prefix": "vffint.s.wu",
+		"body": [
+			"vffint.s.wu"
+		],
+		"description": "vffint.s.wu vd, vj"
+	},
+
+	"vffint.d.lu": {
+		"prefix": "vffint.d.lu",
+		"body": [
+			"vffint.d.lu"
+		],
+		"description": "vffint.d.lu vd, vj"
+	},
+
+	"vffint.s.l": {
+		"prefix": "vffint.s.l",
+		"body": [
+			"vffint.s.l"
+		],
+		"description": "vffint.s.l vd, vj"
+	},
+
+	"vffintl.d.w": {
+		"prefix": "vffintl.d.w",
+		"body": [
+			"vffintl.d.w"
+		],
+		"description": "vffintl.d.w vd, vj"
+	},
+
+	"vffinth.d.w": {
+		"prefix": "vffinth.d.w",
+		"body": [
+			"vffinth.d.w"
+		],
+		"description": "vffinth.d.w vd, vj"
+	},
+
+	"vseq.b": {
+		"prefix": "vseq.b",
+		"body": [
+			"vseq.b"
+		],
+		"description": "vseq.b vd, vj, vk"
+	},
+
+	"vseq.h": {
+		"prefix": "vseq.h",
+		"body": [
+			"vseq.h"
+		],
+		"description": "vseq.h vd, vj, vk"
+	},
+
+	"vseq.w": {
+		"prefix": "vseq.w",
+		"body": [
+			"vseq.w"
+		],
+		"description": "vseq.w vd, vj, vk"
+	},
+
+	"vseq.d": {
+		"prefix": "vseq.d",
+		"body": [
+			"vseq.d"
+		],
+		"description": "vseq.d vd, vj, vk"
+	},
+
+	"vseqi.b": {
+		"prefix": "vseqi.b",
+		"body": [
+			"vseqi.b"
+		],
+		"description": "vseqi.b vd, vj, si5"
+	},
+
+	"vseqi.h": {
+		"prefix": "vseqi.h",
+		"body": [
+			"vseqi.h"
+		],
+		"description": "vseqi.h vd, vj, si5"
+	},
+
+	"vseqi.w": {
+		"prefix": "vseqi.w",
+		"body": [
+			"vseqi.w"
+		],
+		"description": "vseqi.w vd, vj, si5"
+	},
+
+	"vseqi.d": {
+		"prefix": "vseqi.d",
+		"body": [
+			"vseqi.d"
+		],
+		"description": "vseqi.d vd, vj, si5"
+	},
+
+	"vsle.b": {
+		"prefix": "vsle.b",
+		"body": [
+			"vsle.b"
+		],
+		"description": "vsle.b vd, vj, vk"
+	},
+
+	"vsle.h": {
+		"prefix": "vsle.h",
+		"body": [
+			"vsle.h"
+		],
+		"description": "vsle.h vd, vj, vk"
+	},
+
+	"vsle.w": {
+		"prefix": "vsle.w",
+		"body": [
+			"vsle.w"
+		],
+		"description": "vsle.w vd, vj, vk"
+	},
+
+	"vsle.d": {
+		"prefix": "vsle.d",
+		"body": [
+			"vsle.d"
+		],
+		"description": "vsle.d vd, vj, vk"
+	},
+
+	"vslei.b": {
+		"prefix": "vslei.b",
+		"body": [
+			"vslei.b"
+		],
+		"description": "vslei.b vd, vj, si5"
+	},
+
+	"vslei.h": {
+		"prefix": "vslei.h",
+		"body": [
+			"vslei.h"
+		],
+		"description": "vslei.h vd, vj, si5"
+	},
+
+	"vslei.w": {
+		"prefix": "vslei.w",
+		"body": [
+			"vslei.w"
+		],
+		"description": "vslei.w vd, vj, si5"
+	},
+
+	"vslei.d": {
+		"prefix": "vslei.d",
+		"body": [
+			"vslei.d"
+		],
+		"description": "vslei.d vd, vj, si5"
+	},
+
+	"vsle.bu": {
+		"prefix": "vsle.bu",
+		"body": [
+			"vsle.bu"
+		],
+		"description": "vsle.bu vd, vj, vk"
+	},
+
+	"vsle.hu": {
+		"prefix": "vsle.hu",
+		"body": [
+			"vsle.hu"
+		],
+		"description": "vsle.hu vd, vj, vk"
+	},
+
+	"vsle.wu": {
+		"prefix": "vsle.wu",
+		"body": [
+			"vsle.wu"
+		],
+		"description": "vsle.wu vd, vj, vk"
+	},
+
+	"vsle.du": {
+		"prefix": "vsle.du",
+		"body": [
+			"vsle.du"
+		],
+		"description": "vsle.du vd, vj, vk"
+	},
+
+	"vslei.bu": {
+		"prefix": "vslei.bu",
+		"body": [
+			"vslei.bu"
+		],
+		"description": "vslei.bu vd, vj, ui5"
+	},
+
+	"vslei.hu": {
+		"prefix": "vslei.hu",
+		"body": [
+			"vslei.hu"
+		],
+		"description": "vslei.hu vd, vj, ui5"
+	},
+
+	"vslei.wu": {
+		"prefix": "vslei.wu",
+		"body": [
+			"vslei.wu"
+		],
+		"description": "vslei.wu vd, vj, ui5"
+	},
+
+	"vslei.du": {
+		"prefix": "vslei.du",
+		"body": [
+			"vslei.du"
+		],
+		"description": "vslei.du vd, vj, ui5"
+	},
+
+	"vslt.b": {
+		"prefix": "vslt.b",
+		"body": [
+			"vslt.b"
+		],
+		"description": "vslt.b vd, vj, vk"
+	},
+
+	"vslt.h": {
+		"prefix": "vslt.h",
+		"body": [
+			"vslt.h"
+		],
+		"description": "vslt.h vd, vj, vk"
+	},
+
+	"vslt.w": {
+		"prefix": "vslt.w",
+		"body": [
+			"vslt.w"
+		],
+		"description": "vslt.w vd, vj, vk"
+	},
+
+	"vslt.d": {
+		"prefix": "vslt.d",
+		"body": [
+			"vslt.d"
+		],
+		"description": "vslt.d vd, vj, vk"
+	},
+
+	"vslti.b": {
+		"prefix": "vslti.b",
+		"body": [
+			"vslti.b"
+		],
+		"description": "vslti.b vd, vj, si5"
+	},
+
+	"vslti.h": {
+		"prefix": "vslti.h",
+		"body": [
+			"vslti.h"
+		],
+		"description": "vslti.h vd, vj, si5"
+	},
+
+	"vslti.w": {
+		"prefix": "vslti.w",
+		"body": [
+			"vslti.w"
+		],
+		"description": "vslti.w vd, vj, si5"
+	},
+
+	"vslti.d": {
+		"prefix": "vslti.d",
+		"body": [
+			"vslti.d"
+		],
+		"description": "vslti.d vd, vj, si5"
+	},
+
+	"vslt.bu": {
+		"prefix": "vslt.bu",
+		"body": [
+			"vslt.bu"
+		],
+		"description": "vslt.bu vd, vj, vk"
+	},
+
+	"vslt.hu": {
+		"prefix": "vslt.hu",
+		"body": [
+			"vslt.hu"
+		],
+		"description": "vslt.hu vd, vj, vk"
+	},
+
+	"vslt.wu": {
+		"prefix": "vslt.wu",
+		"body": [
+			"vslt.wu"
+		],
+		"description": "vslt.wu vd, vj, vk"
+	},
+
+	"vslt.du": {
+		"prefix": "vslt.du",
+		"body": [
+			"vslt.du"
+		],
+		"description": "vslt.du vd, vj, vk"
+	},
+
+	"vslti.bu": {
+		"prefix": "vslti.bu",
+		"body": [
+			"vslti.bu"
+		],
+		"description": "vslti.bu vd, vj, ui5"
+	},
+
+	"vslti.hu": {
+		"prefix": "vslti.hu",
+		"body": [
+			"vslti.hu"
+		],
+		"description": "vslti.hu vd, vj, ui5"
+	},
+
+	"vslti.wu": {
+		"prefix": "vslti.wu",
+		"body": [
+			"vslti.wu"
+		],
+		"description": "vslti.wu vd, vj, ui5"
+	},
+
+	"vslti.du": {
+		"prefix": "vslti.du",
+		"body": [
+			"vslti.du"
+		],
+		"description": "vslti.du vd, vj, ui5"
+	},
+
+
+	"vfcmp.caf.s": {
+		"prefix": "vfcmp.caf.s",
+		"body": [
+			"vfcmp.caf.s"
+		],
+		"description": "vfcmp.caf.s vd, vj, vk"
+	},
+
+	"vfcmp.cun.s": {
+		"prefix": "vfcmp.cun.s",
+		"body": [
+			"vfcmp.cun.s"
+		],
+		"description": "vfcmp.cun.s vd, vj, vk"
+	},
+
+	"vfcmp.ceq.s": {
+		"prefix": "vfcmp.ceq.s",
+		"body": [
+			"vfcmp.ceq.s"
+		],
+		"description": "vfcmp.ceq.s vd, vj, vk"
+	},
+
+	"vfcmp.cueq.s": {
+		"prefix": "vfcmp.cueq.s",
+		"body": [
+			"vfcmp.cueq.s"
+		],
+		"description": "vfcmp.cueq.s vd, vj, vk"
+	},
+
+	"vfcmp.clt.s": {
+		"prefix": "vfcmp.clt.s",
+		"body": [
+			"vfcmp.clt.s"
+		],
+		"description": "vfcmp.clt.s vd, vj, vk"
+	},
+
+	"vfcmp.cult.s": {
+		"prefix": "vfcmp.cult.s",
+		"body": [
+			"vfcmp.cult.s"
+		],
+		"description": "vfcmp.cult.s vd, vj, vk"
+	},
+
+	"vfcmp.cle.s": {
+		"prefix": "vfcmp.cle.s",
+		"body": [
+			"vfcmp.cle.s"
+		],
+		"description": "vfcmp.cle.s vd, vj, vk"
+	},
+
+	"vfcmp.cule.s": {
+		"prefix": "vfcmp.cule.s",
+		"body": [
+			"vfcmp.cule.s"
+		],
+		"description": "vfcmp.cule.s vd, vj, vk"
+	},
+
+	"vfcmp.cne.s": {
+		"prefix": "vfcmp.cne.s",
+		"body": [
+			"vfcmp.cne.s"
+		],
+		"description": "vfcmp.cne.s vd, vj, vk"
+	},
+
+	"vfcmp.cor.s": {
+		"prefix": "vfcmp.cor.s",
+		"body": [
+			"vfcmp.cor.s"
+		],
+		"description": "vfcmp.cor.s vd, vj, vk"
+	},
+
+	"vfcmp.cune.s": {
+		"prefix": "vfcmp.cune.s",
+		"body": [
+			"vfcmp.cune.s"
+		],
+		"description": "vfcmp.cune.s vd, vj, vk"
+	},
+
+	"vfcmp.saf.s": {
+		"prefix": "vfcmp.saf.s",
+		"body": [
+			"vfcmp.saf.s"
+		],
+		"description": "vfcmp.saf.s vd, vj, vk"
+	},
+
+	"vfcmp.sun.s": {
+		"prefix": "vfcmp.sun.s",
+		"body": [
+			"vfcmp.sun.s"
+		],
+		"description": "vfcmp.sun.s vd, vj, vk"
+	},
+
+	"vfcmp.seq.s": {
+		"prefix": "vfcmp.seq.s",
+		"body": [
+			"vfcmp.seq.s"
+		],
+		"description": "vfcmp.seq.s vd, vj, vk"
+	},
+
+	"vfcmp.sueq.s": {
+		"prefix": "vfcmp.sueq.s",
+		"body": [
+			"vfcmp.sueq.s"
+		],
+		"description": "vfcmp.sueq.s vd, vj, vk"
+	},
+
+	"vfcmp.slt.s": {
+		"prefix": "vfcmp.slt.s",
+		"body": [
+			"vfcmp.slt.s"
+		],
+		"description": "vfcmp.slt.s vd, vj, vk"
+	},
+
+	"vfcmp.sult.s": {
+		"prefix": "vfcmp.sult.s",
+		"body": [
+			"vfcmp.sult.s"
+		],
+		"description": "vfcmp.sult.s vd, vj, vk"
+	},
+
+	"vfcmp.sle.s": {
+		"prefix": "vfcmp.sle.s",
+		"body": [
+			"vfcmp.sle.s"
+		],
+		"description": "vfcmp.sle.s vd, vj, vk"
+	},
+
+	"vfcmp.sule.s": {
+		"prefix": "vfcmp.sule.s",
+		"body": [
+			"vfcmp.sule.s"
+		],
+		"description": "vfcmp.sule.s vd, vj, vk"
+	},
+
+	"vfcmp.sne.s": {
+		"prefix": "vfcmp.sne.s",
+		"body": [
+			"vfcmp.sne.s"
+		],
+		"description": "vfcmp.sne.s vd, vj, vk"
+	},
+
+	"vfcmp.sor.s": {
+		"prefix": "vfcmp.sor.s",
+		"body": [
+			"vfcmp.sor.s"
+		],
+		"description": "vfcmp.sor.s vd, vj, vk"
+	},
+
+	"vfcmp.sune.s": {
+		"prefix": "vfcmp.sune.s",
+		"body": [
+			"vfcmp.sune.s"
+		],
+		"description": "vfcmp.sune.s vd, vj, vk"
+	},
+
+	"vfcmp.caf.d": {
+		"prefix": "vfcmp.caf.d",
+		"body": [
+			"vfcmp.caf.d"
+		],
+		"description": "vfcmp.caf.d vd, vj, vk"
+	},
+
+	"vfcmp.cun.d": {
+		"prefix": "vfcmp.cun.d",
+		"body": [
+			"vfcmp.cun.d"
+		],
+		"description": "vfcmp.cun.d vd, vj, vk"
+	},
+
+	"vfcmp.ceq.d": {
+		"prefix": "vfcmp.ceq.d",
+		"body": [
+			"vfcmp.ceq.d"
+		],
+		"description": "vfcmp.ceq.d vd, vj, vk"
+	},
+
+	"vfcmp.cueq.d": {
+		"prefix": "vfcmp.cueq.d",
+		"body": [
+			"vfcmp.cueq.d"
+		],
+		"description": "vfcmp.cueq.d vd, vj, vk"
+	},
+
+	"vfcmp.clt.d": {
+		"prefix": "vfcmp.clt.d",
+		"body": [
+			"vfcmp.clt.d"
+		],
+		"description": "vfcmp.clt.d vd, vj, vk"
+	},
+
+	"vfcmp.cult.d": {
+		"prefix": "vfcmp.cult.d",
+		"body": [
+			"vfcmp.cult.d"
+		],
+		"description": "vfcmp.cult.d vd, vj, vk"
+	},
+
+	"vfcmp.cle.d": {
+		"prefix": "vfcmp.cle.d",
+		"body": [
+			"vfcmp.cle.d"
+		],
+		"description": "vfcmp.cle.d vd, vj, vk"
+	},
+
+	"vfcmp.cule.d": {
+		"prefix": "vfcmp.cule.d",
+		"body": [
+			"vfcmp.cule.d"
+		],
+		"description": "vfcmp.cule.d vd, vj, vk"
+	},
+
+	"vfcmp.cne.d": {
+		"prefix": "vfcmp.cne.d",
+		"body": [
+			"vfcmp.cne.d"
+		],
+		"description": "vfcmp.cne.d vd, vj, vk"
+	},
+
+	"vfcmp.cor.d": {
+		"prefix": "vfcmp.cor.d",
+		"body": [
+			"vfcmp.cor.d"
+		],
+		"description": "vfcmp.cor.d vd, vj, vk"
+	},
+
+	"vfcmp.cune.d": {
+		"prefix": "vfcmp.cune.d",
+		"body": [
+			"vfcmp.cune.d"
+		],
+		"description": "vfcmp.cune.d vd, vj, vk"
+	},
+
+	"vfcmp.saf.d": {
+		"prefix": "vfcmp.saf.d",
+		"body": [
+			"vfcmp.saf.d"
+		],
+		"description": "vfcmp.saf.d vd, vj, vk"
+	},
+
+	"vfcmp.sun.d": {
+		"prefix": "vfcmp.sun.d",
+		"body": [
+			"vfcmp.sun.d"
+		],
+		"description": "vfcmp.sun.d vd, vj, vk"
+	},
+
+	"vfcmp.seq.d": {
+		"prefix": "vfcmp.seq.d",
+		"body": [
+			"vfcmp.seq.d"
+		],
+		"description": "vfcmp.seq.d vd, vj, vk"
+	},
+
+	"vfcmp.sueq.d": {
+		"prefix": "vfcmp.sueq.d",
+		"body": [
+			"vfcmp.sueq.d"
+		],
+		"description": "vfcmp.sueq.d vd, vj, vk"
+	},
+
+	"vfcmp.slt.d": {
+		"prefix": "vfcmp.slt.d",
+		"body": [
+			"vfcmp.slt.d"
+		],
+		"description": "vfcmp.slt.d vd, vj, vk"
+	},
+
+	"vfcmp.sult.d": {
+		"prefix": "vfcmp.sult.d",
+		"body": [
+			"vfcmp.sult.d"
+		],
+		"description": "vfcmp.sult.d vd, vj, vk"
+	},
+
+	"vfcmp.sle.d": {
+		"prefix": "vfcmp.sle.d",
+		"body": [
+			"vfcmp.sle.d"
+		],
+		"description": "vfcmp.sle.d vd, vj, vk"
+	},
+
+	"vfcmp.sule.d": {
+		"prefix": "vfcmp.sule.d",
+		"body": [
+			"vfcmp.sule.d"
+		],
+		"description": "vfcmp.sule.d vd, vj, vk"
+	},
+
+	"vfcmp.sne.d": {
+		"prefix": "vfcmp.sne.d",
+		"body": [
+			"vfcmp.sne.d"
+		],
+		"description": "vfcmp.sne.d vd, vj, vk"
+	},
+
+	"vfcmp.sor.d": {
+		"prefix": "vfcmp.sor.d",
+		"body": [
+			"vfcmp.sor.d"
+		],
+		"description": "vfcmp.sor.d vd, vj, vk"
+	},
+
+	"vfcmp.sune.d": {
+		"prefix": "vfcmp.sune.d",
+		"body": [
+			"vfcmp.sune.d"
+		],
+		"description": "vfcmp.sune.d vd, vj, vk"
+	},
+
+	"vbitsel.v": {
+		"prefix": "vbitsel.v",
+		"body": [
+			"vbitsel.v"
+		],
+		"description": "vbitsel.v vd, vj, vk, va"
+	},
+
+	"vbitsel.b": {
+		"prefix": "vbitsel.b",
+		"body": [
+			"vbitsel.b"
+		],
+		"description": "vbitsel.b vd, vj, ui8"
+	},
+
+	"vseteqz.v": {
+		"prefix": "vseteqz.v",
+		"body": [
+			"vseteqz.v"
+		],
+		"description": "vseteqz.v cd, vj"
+	},
+
+	"vsetnez.v": {
+		"prefix": "vsetnez.v",
+		"body": [
+			"vsetnez.v"
+		],
+		"description": "vsetnez.v cd, vj"
+	},
+
+	"vsetanyeqz.b": {
+		"prefix": "vsetanyeqz.b",
+		"body": [
+			"vsetanyeqz.b"
+		],
+		"description": "vsetanyeqz.b cd, vj"
+	},
+
+	"vsetanyeqz.h": {
+		"prefix": "vsetanyeqz.h",
+		"body": [
+			"vsetanyeqz.h"
+		],
+		"description": "vsetanyeqz.h cd, vj"
+	},
+
+	"vsetanyeqz.w": {
+		"prefix": "vsetanyeqz.w",
+		"body": [
+			"vsetanyeqz.w"
+		],
+		"description": "vsetanyeqz.w cd, vj"
+	},
+
+	"vsetanyeqz.d": {
+		"prefix": "vsetanyeqz.d",
+		"body": [
+			"vsetanyeqz.d"
+		],
+		"description": "vsetanyeqz.d cd, vj"
+	},
+
+	"vsetanynez.b": {
+		"prefix": "vsetanynez.b",
+		"body": [
+			"vsetanynez.b"
+		],
+		"description": "vsetanynez.b cd, vj"
+	},
+
+	"vsetanynez.h": {
+		"prefix": "vsetanynez.h",
+		"body": [
+			"vsetanynez.h"
+		],
+		"description": "vsetanynez.h cd, vj"
+	},
+
+	"vsetanynez.w": {
+		"prefix": "vsetanynez.w",
+		"body": [
+			"vsetanynez.w"
+		],
+		"description": "vsetanynez.w cd, vj"
+	},
+
+	"vsetanynez.d": {
+		"prefix": "vsetanynez.d",
+		"body": [
+			"vsetanynez.d"
+		],
+		"description": "vsetanynez.d cd, vj"
+	},
+
+	"vinsgr2vr.b": {
+		"prefix": "vinsgr2vr.b",
+		"body": [
+			"vinsgr2vr.b"
+		],
+		"description": "vinsgr2vr.b vd, rj, ui4"
+	},
+
+	"vinsgr2vr.h": {
+		"prefix": "vinsgr2vr.h",
+		"body": [
+			"vinsgr2vr.h"
+		],
+		"description": "vinsgr2vr.h vd, rj, ui3"
+	},
+
+	"vinsgr2vr.w": {
+		"prefix": "vinsgr2vr.w",
+		"body": [
+			"vinsgr2vr.w"
+		],
+		"description": "vinsgr2vr.w vd, rj, ui2"
+	},
+
+	"vinsgr2vr.d": {
+		"prefix": "vinsgr2vr.d",
+		"body": [
+			"vinsgr2vr.d"
+		],
+		"description": "vinsgr2vr.d vd, rj, ui1"
+	},
+
+	"vpickve2gr.b": {
+		"prefix": "vpickve2gr.b",
+		"body": [
+			"vpickve2gr.b"
+		],
+		"description": "vpickve2gr.b rd, vj, ui4"
+	},
+
+	"vpickve2gr.h": {
+		"prefix": "vpickve2gr.h",
+		"body": [
+			"vpickve2gr.h"
+		],
+		"description": "vpickve2gr.h rd, vj, ui3"
+	},
+
+	"vpickve2gr.w": {
+		"prefix": "vpickve2gr.w",
+		"body": [
+			"vpickve2gr.w"
+		],
+		"description": "vpickve2gr.w rd, vj, ui2"
+	},
+
+	"vpickve2gr.d": {
+		"prefix": "vpickve2gr.d",
+		"body": [
+			"vpickve2gr.d"
+		],
+		"description": "vpickve2gr.d rd, vj, ui1"
+	},
+
+	"vpickve2gr.bu": {
+		"prefix": "vpickve2gr.bu",
+		"body": [
+			"vpickve2gr.bu"
+		],
+		"description": "vpickve2gr.bu rd, vj, ui4"
+	},
+
+	"vpickve2gr.hu": {
+		"prefix": "vpickve2gr.hu",
+		"body": [
+			"vpickve2gr.hu"
+		],
+		"description": "vpickve2gr.hu rd, vj, ui3"
+	},
+
+	"vpickve2gr.wu": {
+		"prefix": "vpickve2gr.wu",
+		"body": [
+			"vpickve2gr.wu"
+		],
+		"description": "vpickve2gr.wu rd, vj, ui2"
+	},
+
+	"vpickve2gr.du": {
+		"prefix": "vpickve2gr.du",
+		"body": [
+			"vpickve2gr.du"
+		],
+		"description": "vpickve2gr.du rd, vj, ui1"
+	},
+
+	"vreplgr2vr.b": {
+		"prefix": "vreplgr2vr.b",
+		"body": [
+			"vreplgr2vr.b"
+		],
+		"description": "vreplgr2vr.b vd, rj"
+	},
+
+	"vreplgr2vr.h": {
+		"prefix": "vreplgr2vr.h",
+		"body": [
+			"vreplgr2vr.h"
+		],
+		"description": "vreplgr2vr.h vd, rj"
+	},
+
+	"vreplgr2vr.w": {
+		"prefix": "vreplgr2vr.w",
+		"body": [
+			"vreplgr2vr.w"
+		],
+		"description": "vreplgr2vr.w vd, rj"
+	},
+
+	"vreplgr2vr.d": {
+		"prefix": "vreplgr2vr.d",
+		"body": [
+			"vreplgr2vr.d"
+		],
+		"description": "vreplgr2vr.d vd, rj"
+	},
+
+	"vreplve.b": {
+		"prefix": "vreplve.b",
+		"body": [
+			"vreplve.b"
+		],
+		"description": "vreplve.b vd, vj, vk"
+	},
+
+	"vreplve.h": {
+		"prefix": "vreplve.h",
+		"body": [
+			"vreplve.h"
+		],
+		"description": "vreplve.h vd, vj, vk"
+	},
+
+	"vreplve.w": {
+		"prefix": "vreplve.w",
+		"body": [
+			"vreplve.w"
+		],
+		"description": "vreplve.w vd, vj, vk"
+	},
+
+	"vreplve.d": {
+		"prefix": "vreplve.d",
+		"body": [
+			"vreplve.d"
+		],
+		"description": "vreplve.d vd, vj, vk"
+	},
+
+	"vrepl128vei.b": {
+		"prefix": "vrepl128vei.b",
+		"body": [
+			"vrepl128vei.b"
+		],
+		"description": "vrepl128vei.b vd, vj, ui4"
+	},
+
+	"vrepl128vei.h": {
+		"prefix": "vrepl128vei.h",
+		"body": [
+			"vrepl128vei.h"
+		],
+		"description": "vrepl128vei.h vd, vj, ui3"
+	},
+
+	"vrepl128vei.w": {
+		"prefix": "vrepl128vei.w",
+		"body": [
+			"vrepl128vei.w"
+		],
+		"description": "vrepl128vei.w vd, vj, ui2"
+	},
+
+	"vrepl128vei.d": {
+		"prefix": "vrepl128vei.d",
+		"body": [
+			"vrepl128vei.d"
+		],
+		"description": "vrepl128vei.d vd, vj, ui1"
+	},
+
+	"vbsll.v": {
+		"prefix": "vbsll.v",
+		"body": [
+			"vbsll.v"
+		],
+		"description": "vbsll.v vd, vj, ui5"
+	},
+
+	"vbsrl.v": {
+		"prefix": "vbsrl.v",
+		"body": [
+			"vbsrl.v"
+		],
+		"description": "vbsrl.v vd, vj, ui5"
+	},
+
+	"vpackev.b": {
+		"prefix": "vpackev.b",
+		"body": [
+			"vpackev.b"
+		],
+		"description": "vpackev.b vd, vj, vk"
+	},
+
+	"vpackev.h": {
+		"prefix": "vpackev.h",
+		"body": [
+			"vpackev.h"
+		],
+		"description": "vpackev.h vd, vj, vk"
+	},
+
+	"vpackev.w": {
+		"prefix": "vpackev.w",
+		"body": [
+			"vpackev.w"
+		],
+		"description": "vpackev.w vd, vj, vk"
+	},
+
+	"vpackev.d": {
+		"prefix": "vpackev.d",
+		"body": [
+			"vpackev.d"
+		],
+		"description": "vpackev.d vd, vj, vk"
+	},
+
+	"vpackod.b": {
+		"prefix": "vpackod.b",
+		"body": [
+			"vpackod.b"
+		],
+		"description": "vpackod.b vd, vj, vk"
+	},
+
+	"vpackod.h": {
+		"prefix": "vpackod.h",
+		"body": [
+			"vpackod.h"
+		],
+		"description": "vpackod.h vd, vj, vk"
+	},
+
+	"vpackod.w": {
+		"prefix": "vpackod.w",
+		"body": [
+			"vpackod.w"
+		],
+		"description": "vpackod.w vd, vj, vk"
+	},
+
+	"vpackod.d": {
+		"prefix": "vpackod.d",
+		"body": [
+			"vpackod.d"
+		],
+		"description": "vpackod.d vd, vj, vk"
+	},
+
+	"vpickev.b": {
+		"prefix": "vpickev.b",
+		"body": [
+			"vpickev.b"
+		],
+		"description": "vpickev.b vd, vj, vk"
+	},
+
+	"vpickev.h": {
+		"prefix": "vpickev.h",
+		"body": [
+			"vpickev.h"
+		],
+		"description": "vpickev.h vd, vj, vk"
+	},
+
+	"vpickev.w": {
+		"prefix": "vpickev.w",
+		"body": [
+			"vpickev.w"
+		],
+		"description": "vpickev.w vd, vj, vk"
+	},
+
+	"vpickev.d": {
+		"prefix": "vpickev.d",
+		"body": [
+			"vpickev.d"
+		],
+		"description": "vpickev.d vd, vj, vk"
+	},
+
+	"vpickod.b": {
+		"prefix": "vpickod.b",
+		"body": [
+			"vpickod.b"
+		],
+		"description": "vpickod.b vd, vj, vk"
+	},
+
+	"vpickod.h": {
+		"prefix": "vpickod.h",
+		"body": [
+			"vpickod.h"
+		],
+		"description": "vpickod.h vd, vj, vk"
+	},
+
+	"vpickod.w": {
+		"prefix": "vpickod.w",
+		"body": [
+			"vpickod.w"
+		],
+		"description": "vpickod.w vd, vj, vk"
+	},
+
+	"vpickod.d": {
+		"prefix": "vpickod.d",
+		"body": [
+			"vpickod.d"
+		],
+		"description": "vpickod.d vd, vj, vk"
+	},
+
+	"vshuf.b": {
+		"prefix": "vshuf.b",
+		"body": [
+			"vshuf.b"
+		],
+		"description": "vshuf.b vd, vj, vk, va"
+	},
+
+	"vshuf.h": {
+		"prefix": "vshuf.h",
+		"body": [
+			"vshuf.h"
+		],
+		"description": "vshuf.h vd, vj, vk"
+	},
+
+	"vshuf.w": {
+		"prefix": "vshuf.w",
+		"body": [
+			"vshuf.w"
+		],
+		"description": "vshuf.w vd, vj, vk"
+	},
+
+	"vshuf.d": {
+		"prefix": "vshuf.d",
+		"body": [
+			"vshuf.d"
+		],
+		"description": "vshuf.d vd, vj, vk"
+	},
+
+	"vshu4i.b": {
+		"prefix": "vshu4i.b",
+		"body": [
+			"vshu4i.b"
+		],
+		"description": "vshu4i.b vd, vj, ui8"
+	},
+
+	"vshu4i.h": {
+		"prefix": "vshu4i.h",
+		"body": [
+			"vshu4i.h"
+		],
+		"description": "vshu4i.h vd, vj, ui8"
+	},
+
+	"vshu4i.w": {
+		"prefix": "vshu4i.w",
+		"body": [
+			"vshu4i.w"
+		],
+		"description": "vshu4i.w vd, vj, ui8"
+	},
+
+	"vshu4i.d": {
+		"prefix": "vshu4i.d",
+		"body": [
+			"vshu4i.d"
+		],
+		"description": "vshu4i.d vd, vj, ui8"
+	},
+
+	"vpermi.w": {
+		"prefix": "vpermi.w",
+		"body": [
+			"vpermi.w"
+		],
+		"description": "vpermi.w vd, vj, ui8"
+	},
+
+	"vextrins.b": {
+		"prefix": "vextrins.b",
+		"body": [
+			"vextrins.b"
+		],
+		"description": "vextrins.b vd, vj, ui8"
+	},
+
+	"vextrins.h": {
+		"prefix": "vextrins.h",
+		"body": [
+			"vextrins.h"
+		],
+		"description": "vextrins.h vd, vj, ui8"
+	},
+
+	"vextrins.w": {
+		"prefix": "vextrins.w",
+		"body": [
+			"vextrins.w"
+		],
+		"description": "vextrins.w vd, vj, ui8"
+	},
+
+	"vextrins.d": {
+		"prefix": "vextrins.d",
+		"body": [
+			"vextrins.d"
+		],
+		"description": "vextrins.d vd, vj, ui8"
+	},
+
+	"vld": {
+		"prefix": "vld",
+		"body": [
+			"vld"
+		],
+		"description": "vld vd, rj, si12"
+	},
+
+	"vst": {
+		"prefix": "vst",
+		"body": [
+			"vst"
+		],
+		"description": "vst vd, rj, si12"
+	},
+
+	"vldx": {
+		"prefix": "vldx",
+		"body": [
+			"vldx"
+		],
+		"description": "vldx vd, rj, rk"
+	},
+
+	"vstx": {
+		"prefix": "vstx",
+		"body": [
+			"vstx"
+		],
+		"description": "vstx vd, rj, rk"
+	},
+
+	"vldrepl.b": {
+		"prefix": "vldrepl.b",
+		"body": [
+			"vldrepl.b"
+		],
+		"description": "vldrepl.b vd, rj, si12"
+	},
+
+	"vldrepl.h": {
+		"prefix": "vldrepl.h",
+		"body": [
+			"vldrepl.h"
+		],
+		"description": "vldrepl.h vd, rj, si11"
+	},
+
+	"vldrepl.w": {
+		"prefix": "vldrepl.w",
+		"body": [
+			"vldrepl.w"
+		],
+		"description": "vldrepl.w vd, rj, si10"
+	},
+
+	"vldrepl.d": {
+		"prefix": "vldrepl.d",
+		"body": [
+			"vldrepl.d"
+		],
+		"description": "vldrepl.d vd, rj, si9"
+	},
+
+	"vstelm.b": {
+		"prefix": "vstelm.b",
+		"body": [
+			"vstelm.b"
+		],
+		"description": "vstelm.b vd, rj, si8, idx"
+	},
+
+	"vstelm.h": {
+		"prefix": "vstelm.h",
+		"body": [
+			"vstelm.h"
+		],
+		"description": "vstelm.h vd, rj, si8, idx"
+	},
+
+	"vstelm.w": {
+		"prefix": "vstelm.w",
+		"body": [
+			"vstelm.w"
+		],
+		"description": "vstelm.w vd, rj, si8, idx"
+	},
+
+	"vstelm.d": {
+		"prefix": "vstelm.d",
+		"body": [
+			"vstelm.d"
+		],
+		"description": "vstelm.d vd, rj, si8, idx"
+	},
+
+	"$vr0": {
+		"prefix": "$vr0",
+		"body": [
+			"\\$vr0"
+		]
+	},
+
+	"$vr1": {
+		"prefix": "$vr1",
+		"body": [
+			"\\$vr1"
+		]
+	},
+
+	"$vr2": {
+		"prefix": "$vr2",
+		"body": [
+			"\\$vr2"
+		]
+	},
+
+	"$vr3": {
+		"prefix": "$vr3",
+		"body": [
+			"\\$vr3"
+		]
+	},
+
+	"$vr4": {
+		"prefix": "$vr4",
+		"body": [
+			"\\$vr4"
+		]
+	},
+
+	"$vr5": {
+		"prefix": "$vr5",
+		"body": [
+			"\\$vr5"
+		]
+	},
+
+	"$vr6": {
+		"prefix": "$vr6",
+		"body": [
+			"\\$vr6"
+		]
+	},
+
+	"$vr7": {
+		"prefix": "$vr7",
+		"body": [
+			"\\$vr7"
+		]
+	},
+
+	"$vr8": {
+		"prefix": "$vr8",
+		"body": [
+			"\\$vr8"
+		]
+	},
+
+	"$vr9": {
+		"prefix": "$vr9",
+		"body": [
+			"\\$vr9"
+		]
+	},
+
+	"$vr10": {
+		"prefix": "$vr10",
+		"body": [
+			"\\$vr10"
+		]
+	},
+
+	"$vr11": {
+		"prefix": "$vr11",
+		"body": [
+			"\\$vr11"
+		]
+	},
+
+	"$vr12": {
+		"prefix": "$vr12",
+		"body": [
+			"\\$vr12"
+		]
+	},
+
+	"$vr13": {
+		"prefix": "$vr13",
+		"body": [
+			"\\$vr13"
+		]
+	},
+
+	"$vr14": {
+		"prefix": "$vr14",
+		"body": [
+			"\\$vr14"
+		]
+	},
+
+	"$vr15": {
+		"prefix": "$vr15",
+		"body": [
+			"\\$vr15"
+		]
+	},
+
+	"$vr16": {
+		"prefix": "$vr16",
+		"body": [
+			"\\$vr16"
+		]
+	},
+
+	"$vr17": {
+		"prefix": "$vr17",
+		"body": [
+			"\\$vr17"
+		]
+	},
+
+	"$vr18": {
+		"prefix": "$vr18",
+		"body": [
+			"\\$vr18"
+		]
+	},
+
+	"$vr19": {
+		"prefix": "$vr19",
+		"body": [
+			"\\$vr19"
+		]
+	},
+
+	"$vr20": {
+		"prefix": "$vr20",
+		"body": [
+			"\\$vr20"
+		]
+	},
+
+	"$vr21": {
+		"prefix": "$vr21",
+		"body": [
+			"\\$vr21"
+		]
+	},
+
+	"$vr22": {
+		"prefix": "$vr22",
+		"body": [
+			"\\$vr22"
+		]
+	},
+
+	"$vr23": {
+		"prefix": "$vr23",
+		"body": [
+			"\\$vr23"
+		]
+	},
+
+	"$vr24": {
+		"prefix": "$vr24",
+		"body": [
+			"\\$vr24"
+		]
+	},
+
+	"$vr25": {
+		"prefix": "$vr25",
+		"body": [
+			"\\$vr25"
+		]
+	},
+
+	"$vr26": {
+		"prefix": "$vr26",
+		"body": [
+			"\\$vr26"
+		]
+	},
+
+	"$vr27": {
+		"prefix": "$vr27",
+		"body": [
+			"\\$vr27"
+		]
+	},
+
+	"$vr28": {
+		"prefix": "$vr28",
+		"body": [
+			"\\$vr28"
+		]
+	},
+
+	"$vr29": {
+		"prefix": "$vr29",
+		"body": [
+			"\\$vr29"
+		]
+	},
+
+	"$vr30": {
+		"prefix": "$vr30",
+		"body": [
+			"\\$vr30"
+		]
+	},
+
+	"$vr31": {
+		"prefix": "$vr31",
+		"body": [
+			"\\$vr31"
+		]
+	},
+
+	"vr0": {
+		"prefix": "vr0",
+		"body": [
+			"vr0"
+		]
+	},
+
+	"vr1": {
+		"prefix": "vr1",
+		"body": [
+			"vr1"
+		]
+	},
+
+	"vr2": {
+		"prefix": "vr2",
+		"body": [
+			"vr2"
+		]
+	},
+
+	"vr3": {
+		"prefix": "vr3",
+		"body": [
+			"vr3"
+		]
+	},
+
+	"vr4": {
+		"prefix": "vr4",
+		"body": [
+			"vr4"
+		]
+	},
+
+	"vr5": {
+		"prefix": "vr5",
+		"body": [
+			"vr5"
+		]
+	},
+
+	"vr6": {
+		"prefix": "vr6",
+		"body": [
+			"vr6"
+		]
+	},
+
+	"vr7": {
+		"prefix": "vr7",
+		"body": [
+			"vr7"
+		]
+	},
+
+	"vr8": {
+		"prefix": "vr8",
+		"body": [
+			"vr8"
+		]
+	},
+
+	"vr9": {
+		"prefix": "vr9",
+		"body": [
+			"vr9"
+		]
+	},
+
+	"vr10": {
+		"prefix": "vr10",
+		"body": [
+			"vr10"
+		]
+	},
+
+	"vr11": {
+		"prefix": "vr11",
+		"body": [
+			"vr11"
+		]
+	},
+
+	"vr12": {
+		"prefix": "vr12",
+		"body": [
+			"vr12"
+		]
+	},
+
+	"vr13": {
+		"prefix": "vr13",
+		"body": [
+			"vr13"
+		]
+	},
+
+	"vr14": {
+		"prefix": "vr14",
+		"body": [
+			"vr14"
+		]
+	},
+
+	"vr15": {
+		"prefix": "vr15",
+		"body": [
+			"vr15"
+		]
+	},
+
+	"vr16": {
+		"prefix": "vr16",
+		"body": [
+			"vr16"
+		]
+	},
+
+	"vr17": {
+		"prefix": "vr17",
+		"body": [
+			"vr17"
+		]
+	},
+
+	"vr18": {
+		"prefix": "vr18",
+		"body": [
+			"vr18"
+		]
+	},
+
+	"vr19": {
+		"prefix": "vr19",
+		"body": [
+			"vr19"
+		]
+	},
+
+	"vr20": {
+		"prefix": "vr20",
+		"body": [
+			"vr20"
+		]
+	},
+
+	"vr21": {
+		"prefix": "vr21",
+		"body": [
+			"vr21"
+		]
+	},
+
+	"vr22": {
+		"prefix": "vr22",
+		"body": [
+			"vr22"
+		]
+	},
+
+	"vr23": {
+		"prefix": "vr23",
+		"body": [
+			"vr23"
+		]
+	},
+
+	"vr24": {
+		"prefix": "vr24",
+		"body": [
+			"vr24"
+		]
+	},
+
+	"vr25": {
+		"prefix": "vr25",
+		"body": [
+			"vr25"
+		]
+	},
+
+	"vr26": {
+		"prefix": "vr26",
+		"body": [
+			"vr26"
+		]
+	},
+
+	"vr27": {
+		"prefix": "vr27",
+		"body": [
+			"vr27"
+		]
+	},
+
+	"vr28": {
+		"prefix": "vr28",
+		"body": [
+			"vr28"
+		]
+	},
+
+	"vr29": {
+		"prefix": "vr29",
+		"body": [
+			"vr29"
+		]
+	},
+
+	"vr30": {
+		"prefix": "vr30",
+		"body": [
+			"vr30"
+		]
+	},
+
+	"vr31": {
+		"prefix": "vr31",
+		"body": [
+			"vr31"
+		]
+	}
+}
