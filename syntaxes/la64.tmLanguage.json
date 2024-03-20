@@ -83,6 +83,9 @@
 				},
 				{
 					"include": "#Vector_Comparison_Op"
+				},
+				{
+					"include": "#Vector_Shuffle_and_Move_Op"
 				}
 			]
 		},
@@ -325,6 +328,15 @@
 				{
 					"name":"constant.character.la64",
 					"match": "\\bx?vseqi?\\.(b|h|w|d)\\b|\\bx?v(sle|slt)i?\\.(b|h|w|d)u?\\b|\\bx?vfcmp\\.(caf|cun|ceq|cueq|clt|cult|cle|cule|cne|cor|cune|saf|sun|seq|sueq|slt|sult|sle|sule|sne|sor|sune)\\.(s|d)\\b|\\bx?vbitsel\\.v\\b|\\bx?vbitseli\\.b\\b|\\bx?vset(eqz|nez)\\.v\\b|\\bx?v(setanyeqz|setallnez)\\.(b|h|w|d)\\b"
+				}
+			]
+		},
+
+		"Vector_Shuffle_and_Move_Op":{
+			"patterns": [
+				{
+					"name":"constant.character.la64",
+					"match": "\\bvinsgr2vr\\.(b|h|w|d)\\b|\\bxvinsgr2vr\\.(w|d)\\b|vpickve2gr\\.(b|h|w|d)u?\\b|\\bxvpickve2gr\\.(w|d)u?\\b|\\bx?v(replgr2vr|replve)\\,(b|h|w|d)\\b|\\b(vreplvei|xvrepl128vei)\\.(b|h|w|d)\\b|\\bxvreplve0\\.(b|h|w|d|q)\\b|\\b(xvinsve0|xvpickve)\\.(w|d)\\b|\\bx?v(bsll|bsrl)\\.v\\b|\\bx?v(pack|pick)(ev|od)\\.(b|h|w|d)\\b|\\bx?vilv(l|h)\\.(b|h|w|d)\\b|\\bx?vshuf\\.b\\b|\\bx?v(shuf|shuf4i|extrins)\\.(b|h|w|d)\\b|\\bxvperm\\.w\\b|\\bvpermi\\.w\\b|\\bxvpermi\\.(w|d|q)\\b"
 				}
 			]
 		}
