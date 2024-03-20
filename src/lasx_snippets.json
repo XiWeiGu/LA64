@@ -5608,6 +5608,102 @@
 		"description": "xvextrins.d xd, xj, ui8"
 	},
 
+	"xvld": {
+		"prefix": "xvld",
+		"body": [
+			"xvld"
+		],
+		"description": "xvld xd, rj, si12"
+	},
+
+	"xvst": {
+		"prefix": "xvst",
+		"body": [
+			"xvst"
+		],
+		"description": "xvst xd, rj, si12"
+	},
+
+	"xvldx": {
+		"prefix": "xvldx",
+		"body": [
+			"xvldx"
+		],
+		"description": "xvldx xd, rj, rk"
+	},
+
+	"xvstx": {
+		"prefix": "xvstx",
+		"body": [
+			"xvstx"
+		],
+		"description": "xvstx xd, rj, rk"
+	},
+
+	"xvldrepl.b": {
+		"prefix": "xvldrepl.b",
+		"body": [
+			"xvldrepl.b"
+		],
+		"description": "xvldrepl.b xd, rj, si12"
+	},
+
+	"xvldrepl.h": {
+		"prefix": "xvldrepl.h",
+		"body": [
+			"xvldrepl.h"
+		],
+		"description": "xvldrepl.h xd, rj, si11"
+	},
+
+	"xvldrepl.w": {
+		"prefix": "xvldrepl.w",
+		"body": [
+			"xvldrepl.w"
+		],
+		"description": "xvldrepl.w xd, rj, si10"
+	},
+
+	"xvldrepl.d": {
+		"prefix": "xvldrepl.d",
+		"body": [
+			"xvldrepl.d"
+		],
+		"description": "xvldrepl.d xd, rj, si9"
+	},
+
+	"xvstelm.b": {
+		"prefix": "xvstelm.b",
+		"body": [
+			"xvstelm.b"
+		],
+		"description": "xvstelm.b xd, rj, si8, idx"
+	},
+
+	"xvstelm.h": {
+		"prefix": "xvstelm.h",
+		"body": [
+			"xvstelm.h"
+		],
+		"description": "xvstelm.h xd, rj, si8, idx"
+	},
+
+	"xvstelm.w": {
+		"prefix": "xvstelm.w",
+		"body": [
+			"xvstelm.w"
+		],
+		"description": "xvstelm.w xd, rj, si8, idx"
+	},
+
+	"xvstelm.d": {
+		"prefix": "xvstelm.d",
+		"body": [
+			"xvstelm.d"
+		],
+		"description": "xvstelm.d xd, rj, si8, idx"
+	},
+
 	"$xr0": {
 		"prefix": "$xr0",
 		"body": [
