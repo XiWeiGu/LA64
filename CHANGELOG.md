@@ -16,3 +16,4 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Add highlighting and prompts for register aliases
 - Add floating point condition flag register
 - Add LASX/LSX registers and instructions
+- Add Loongson asm Macros v0.0.1

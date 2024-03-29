@@ -1,5 +1,5 @@
 {
-	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
 	"name": "la64",
 	"patterns": [
 		{
@@ -103,7 +103,7 @@
 			"patterns": [
 				{
 					"name": "string.regexp.la64",
-					"match": "(\\$)?r([0-9]|[1-2][0-9]|3[0-1])\\b|(\\$)?(zero|ra|tp|sp|fp)\\b|(\\$)?a[0-7]\\b|(\\$)?t[0-8]\\b|(\\$)?s[0-8]\\b"
+					"match": "(\\$)?r([0-9]|[1-2][0-9]|3[0-1])\\b|(\\$)?(zero|ra|tp|sp|fp)\\b|(\\$)?a[0-7]\\b|\\bt[0-8]\\b|\\$t[0-8]\\b|\\bs[0-8]\\b|\\$s[0-8]\\b"
 				}
 			]
 		},
