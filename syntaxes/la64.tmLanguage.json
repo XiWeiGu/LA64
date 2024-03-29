@@ -92,6 +92,9 @@
 				},
 				{
 					"include": "#Vector_Mem_Op"
+				},
+				{
+					"include":"#Macro_Op"
 				}
 			]
 		},
@@ -352,6 +355,15 @@
 				{
 					"name":"constant.character.la64",
 					"match": "\\bx?v(ld|st)x?\\b|\\bx?v(ldrepl|stelm)\\.(b|h|w|d)\\b"
+				}
+			]
+		},
+
+		"Macro_Op":{
+			"patterns": [
+				{
+					"name":"constant.character.la64",
+					"match":"\\bG(LD|LD_INC|LDX|LDREPL|ST|MUL|MADD|ADD|ADDI|SUB|SLLI|INSVE0|XOR|PERMI|NMSUB|PRELD|ACC|MOV|COMPLEXACC|GCOMPLEXMUL|GCOMPLEXMADD|SBUTTERFLY|TRANSPOSE8x8_W|TRANSPOSE4x4_D|INTERLACE)\\b|\\bREG_(SIZE|LOG)\\b|\\bPTR_(LOG|ADDI|ADD|SUB|LD|ST|SLLI|SRLI|ALSL)\\b|\\bFREG_(SIZE|LOG)\\b|\\bPTR_(FLD|FST)\\b"
 				}
 			]
 		}

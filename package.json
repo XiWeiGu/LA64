@@ -48,6 +48,10 @@
       {
         "language": "la64",
         "path": "./src/lsx_snippets.json"
+      },
+      {
+        "language": "la64",
+        "path": "./src/macro_snippets.json"
       }
     ]
   },

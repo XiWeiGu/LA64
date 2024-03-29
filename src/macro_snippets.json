@@ -1,0 +1,378 @@
+{
+	"REG_SIZE": {
+		"prefix": "REG_SIZE",
+		"body": [
+			"REG_SIZE"
+		],
+		"description": "General-purpose register width: 8 or 4"
+	},
+
+	"REG_LOG": {
+		"prefix": "REG_LOG",
+		"body": [
+			"REG_LOG"
+		],
+		"description": "General-purpose register log: 3 or 2"
+	},
+
+	"PTR_ADDI": {
+		"prefix": "PTR_ADDI",
+		"body": [
+			"PTR_ADDI"
+		],
+		"description": "addi.d or addi.w"
+	},
+
+	"PTR_ADD": {
+		"prefix": "PTR_ADD",
+		"body": [
+			"PTR_ADD"
+		],
+		"description": "add.d or add.w"
+	},
+
+	"PTR_SUB": {
+		"prefix": "PTR_SUB",
+		"body": [
+			"PTR_SUB"
+		],
+		"description": "sub.d or sub.w"
+	},
+
+	"PTR_LD": {
+		"prefix": "PTR_LD",
+		"body": [
+			"PTR_LD"
+		],
+		"description": "ld.d or ld.w"
+	},
+
+	"PTR_ST": {
+		"prefix": "PTR_ST",
+		"body": [
+			"PTR_ST"
+		],
+		"description": "st.d or st.w"
+	},
+
+	"PTR_SLLI": {
+		"prefix": "PTR_SLLI",
+		"body": [
+			"PTR_SLLI"
+		],
+		"description": "slli.d or slli.w"
+	},
+
+	"PTR_SRLI": {
+		"prefix": "PTR_SRLI",
+		"body": [
+			"PTR_SRLI"
+		],
+		"description": "srli.d or srli.w"
+	},
+
+	"PTR_ALSL": {
+		"prefix": "PTR_ALSL",
+		"body": [
+			"PTR_ALSL"
+		],
+		"description": "alsl.d or alsl.w"
+	},
+
+	"FREG_SIZE": {
+		"prefix": "FREG_SIZE",
+		"body": [
+			"FREG_SIZE"
+		],
+		"description": "Floating-point register width: 8 or 4"
+	},
+
+	"FREG_LOG": {
+		"prefix": "FREG_LOG",
+		"body": [
+			"FREG_LOG"
+		],
+		"description": "Floating-point register log: 3 or 2"
+	},
+
+	"PTR_FLD": {
+		"prefix": "PTR_FLD",
+		"body": [
+			"PTR_FLD"
+		],
+		"description": "fld.d or fld.s"
+	},
+
+	"PTR_FST": {
+		"prefix": "PTR_FST",
+		"body": [
+			"PTR_FST"
+		],
+		"description": "fst.d or fst.s"
+	},
+
+	"function": {
+		"prefix": "function",
+		"body": [
+			"function ${1:name}",
+            "    ${2:body}",
+            "endfunc"
+		],
+		"description": "The definition of assembly function"
+	},
+
+	"const": {
+		"prefix": "const",
+		"body": [
+			"const ${1:name}",
+            "    ${2:body}",
+            "endconst"
+		],
+		"description": "The definition of assembly const"
+	},
+
+	"push_if_used": {
+		"prefix": "push_if_used",
+		"body": [
+			"push_if_used ${1:regs<=9}, ${2:fregs<=8}"
+		],
+		"description": "Pushing static registers onto the stack."
+	},
+
+	"pop_if_used": {
+		"prefix": "pop_if_used",
+		"body": [
+			"pop_if_used ${1:regs<=9}, ${2:fregs<=8}"
+		],
+		"description": "Poping static registers from the stack."
+	},
+
+	"GLD": {
+		"prefix": "GLD",
+		"body": [
+			"GLD ${1:pre_op:req}, ${2:suf_op=0}, ${3:out:req}, ${4:src:req}, ${5:offset:req/* imm */}, ${6:more:vararg}"
+		],
+		"description": "Abstraction for the LD instruction"
+	},
+
+	"GLD_INC": {
+		"prefix": "GLD_INC",
+		"body": [
+			"GLD_INC ${1:pre_op:req}, ${2:suf_op=0}, ${3:inc:req}, ${4:out:req}, ${5:src:req}, ${6:offset:req/* imm */}, ${7:more:vararg}"
+		],
+		"description": "Abstraction for the LD instruction, incrementing the src address"
+	},
+
+	"GLDX": {
+		"prefix": "GLDX",
+		"body": [
+			"GLDX ${1:pre_op:req}, ${2:suf_op=0}, ${3:out:req}, ${4:src:req}, ${5:offset:req/* reg */}, ${6:more:vararg}"
+		],
+		"description": "Abstraction for the LDX instruction"
+	},
+
+	"GLDREPL": {
+		"prefix": "GLDREPL",
+		"body": [
+			"GLDREPL ${1:pre_op:req}, ${2:suf_op=req}, ${3:out:req}, ${4:src:req}, ${5:offset:req/* imm */}, ${6:more:vararg}"
+		],
+		"description": "Abstraction for the LDREPL instruction"
+	},
+
+	"GST": {
+		"prefix": "GST",
+		"body": [
+			"GST ${1:pre_op:req}, ${2:suf_op=0}, ${3:src:req}, ${4:dst:req}, ${5:offset:req/* imm */}, ${6:more:vararg}"
+		],
+		"description": "Abstraction for the ST instruction"
+	},
+
+	"GMUL": {
+		"prefix": "GMUL",
+		"body": [
+			"GMUL ${1:pre_op}, ${2:suf_op:req}, ${3:out:req}, ${4:in0:req}, ${5:in1:req}, ${6:more:vararg}"
+		],
+		"description": "Abstraction for the MUL instruction"
+	},
+
+	"GMADD": {
+		"prefix": "GMADD",
+		"body": [
+			"GMADD ${1:pre_op}, ${2:suf_op:req}, ${3:out:req}, ${4:in0:req}, ${5:in1:req}, ${6:in2:req}, ${7:more:vararg}"
+		],
+		"description": "Abstraction for the MADD instruction, out = in0 * in1 + in2"
+	},
+
+	"GADD": {
+		"prefix": "GADD",
+		"body": [
+			"GADD ${1:pre_op}, ${2:suf_op:req}, ${3:out:req}, ${4:in0:req}, ${5:in1:req}, ${6:more:vararg}"
+		],
+		"description": "Abstraction for the ADD instruction"
+	},
+
+	"GADDI": {
+		"prefix": "GADDI",
+		"body": [
+			"GADDI ${1:pre_op}, ${2:suf_op:req}, ${3:out:req}, ${4:in0:req}, ${5:in1:req}, ${6:more:vararg}"
+		],
+		"description": "Abstraction for the ADDI instruction"
+	},
+
+	"GSUB": {
+		"prefix": "GSUB",
+		"body": [
+			"GSUB ${1:pre_op}, ${2:suf_op:req}, ${3:out:req}, ${4:in0:req}, ${5:in1:req}, ${6:more:vararg}"
+		],
+		"description": "Abstraction for the SUB instruction"
+	},
+
+	"GSLLI": {
+		"prefix": "GSLLI",
+		"body": [
+			"GSLLI ${1:pre_op}, ${2:suf_op:req}, ${3:out:req}, ${4:in0:req}, ${5:in1:req}, ${6:more:vararg}"
+		],
+		"description": "Abstraction for the SLLI instruction"
+	},
+
+	"GINSVE0": {
+		"prefix": "GINSVE0",
+		"body": [
+			"GINSVE0 ${1:pre_op:req}, ${2:suf_op:req}, ${3:out:req}, ${4:in0:req}, ${5:in1:req}, ${6:more:vararg}"
+		],
+		"description": "Abstraction for the INSVE0 instruction"
+	},
+
+	"GXOR": {
+		"prefix": "GXOR",
+		"body": [
+			"GXOR ${1:pre_op}, ${2:suf_op:req}, ${3:out:req}, ${4:in0:req}, ${5:in1:req}, ${6:more:vararg}"
+		],
+		"description": "Abstraction for the XOR instruction"
+	},
+
+	"GPERMI": {
+		"prefix": "GPERMI",
+		"body": [
+			"GPERMI ${1:pre_op}, ${2:suf_op:req}, ${3:out:req}, ${4:in0:req}, ${5:in1:req}, ${6:more:vararg}"
+		],
+		"description": "Abstraction for the PERMI instruction"
+	},
+
+	"GNMSUB": {
+		"prefix": "GNMSUB",
+		"body": [
+			"GNMSUB ${1:pre_op}, ${2:suf_op:req}, ${3:out:req}, ${4:in0:req}, ${5:in1:req}, ${6:in2:req}, ${7:more:vararg}"
+		],
+		"description": "Abstraction for the NMSUB instruction, out = -(in0 * in1 - in2)"
+	},
+
+	"GPRELD": {
+		"prefix": "GPRELD",
+		"body": [
+			"GPRELD ${1:in0:req}, ${2:in1:req}, ${3:in2:req}, ${4:more:vararg}"
+		],
+		"description": "Abstraction for the PRELD instruction"
+	},
+
+	"GACC": {
+		"prefix": "GACC",
+		"body": [
+			"GACC ${1:pre_op:req}, ${2:suf_op:req}, ${3:out:req}, ${4:in:req}, ${5:more:vararg}"
+		],
+		"description": "Accumulate the values of vector registers"
+	},
+
+	"GMOV": {
+		"prefix": "GMOV",
+		"body": [
+			"GMOV ${1:pre_op:req}, ${2:out:req}, ${3:in:req}, ${4:more:vararg}"
+		],
+		"description": "Mov"
+	},
+
+	"GCOMPLEXACC": {
+		"prefix": "GCOMPLEXACC",
+		"body": [
+			"GCOMPLEXACC ${1:pre_op:req}, ${2:suf_op:req}, ${3:out:req}, ${4:in:req}, ${5:more:vararg}"
+		],
+		"description": "Complex accumulate the values of vector registers; Note: When pre_op = xvf && suf_op = s, in will be modified"
+	},
+
+	"GCOMPLEXMUL": {
+		"prefix": "GCOMPLEXMUL",
+		"body": [
+			"GCOMPLEXMUL ${1:xconj=0}, ${2:pre_op:req}, ${3:suf_op:req}, ${4:out:req}, ${5:in0:req}, ${6:in1:req}, ${7:tmp0:req}, ${8:tmp1:req}, ${9:tmp2:req}, ${10:more:vararg}"
+		],
+		"description": [
+            "Complex multiplication, out = in0 * in1;",
+            "xconj: default value 0.",
+            "if !(xconj)",
+            "   out_r = in0_r * in1_r - in0_i * in1_i;",
+            "   out_i = in0_r * in1_i + in0_i * in1_r;",
+            "else",
+            "   out_r = in0_r * in1_r + in0_i * in1_i;",
+            "   out_i = in0_r * in1_i - in0_i * in1_r;"
+        ]
+	},
+
+	"GCOMPLEXMADD": {
+		"prefix": "GCOMPLEXMADD",
+		"body": [
+			"GCOMPLEXMADD ${1:xconj=0}, ${2:conj=0}, ${3:pre_op:req}, ${4:suf_op:req}, ${5:out:req}, ${6:in0:req}, ${7:in1:req}, ${8:in2:req}, ${9:tmp0:req}, ${10:tmp1:req}, ${11:tmp2:req}, ${12:more:vararg}"
+		],
+		"description": [
+            "Complex multiply-accumulate, out = in0 * in1 + in2",
+            "xconj: default value 0, conj: default value 0",
+            "if !(CONJ)",
+            "if !(XCONJ)",
+            "    out_r = in0_r * in1_r - in0_i * in1_i + in2_r;",
+            "    out_i = in0_r * in1_i + in0_i * in1_r + in2_i;",
+            "else",
+            "    out_r = in0_r * in1_r + in0_i * in1_i + in2_r;",
+            "    out_i = in0_r * in1_i - in0_i * in1_r + in2_i;",
+            "else",
+            "if !(XCONJ)",
+            "    out_r = in0_r * in1_r + in0_i * in1_i + in2_r;",
+            "    out_i = in2_i - (in0_r * in1_i - in0_i * in1_r);",
+            "else",
+            "    out_r = in0_r * in1_r   - in0_i * in1_i + in2_r;",
+            "    out_i = in2_i - (in0_r * in1_i + in0_i * in1_r);"
+        ]
+	},
+
+	"GSBUTTERFLY": {
+		"prefix": "GSBUTTERFLY",
+		"body": [
+			"GSBUTTERFLY ${1:pre_op}, ${2:suf_op}, ${3:out0}, ${4:out1}, ${5:in0}, ${6:in1}"
+		],
+		"description": "SBUTTERFLY"
+	},
+
+	"GINTERLACE": {
+		"prefix": "GINTERLACE",
+		"body": [
+			"GINTERLACE ${1:pre_op}, ${2:suf_op}, ${3:out0}, ${4:out1}, ${5:in0}, ${6:in1}"
+		],
+		"description": "INTERLACE"
+	},
+
+	"GTRANSPOSE4x4_D": {
+		"prefix": "GTRANSPOSE4x4_D",
+		"body": [
+            "GTRANSPOSE4x4_D ${1:in0}, ${2:in1}, ${3:in2}, ${4:in3}, ${5:out0}, ${6:out1}, ${7:out2}, ${8:out3}, \\",
+            "                ${9:tmp0}, ${10:tmp1}"
+		],
+		"description": "Transpose 4x4_D"
+	},
+
+	"GTRANSPOSE8x8_W": {
+		"prefix": "GTRANSPOSE8x8_W",
+		"body": [
+            "GTRANSPOSE8x8_W ${1:out0}, ${2:out1}, ${3:out2}, ${4:out3}, ${5:out4}, ${6:out5}, ${7:out6}, ${8:out7}, \\",
+            "                ${9:in0},  ${10:in1}, ${11:in2}, ${12:in3}, ${13:in4}, ${14:in5}, ${15:in6}, ${16:in7}, \\",
+            "                ${17:tmp0}, ${18:tmp1}, ${19:tmp2}, ${20:tmp3}"
+		],
+		"description": "Transpose 8x8_w"
+	}
+}
