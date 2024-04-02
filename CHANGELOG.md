@@ -23,4 +23,4 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Highlighting comments
 
 ## [V0.0.4]
-- Avoid using red-colored highlighting for floating-point instructions
+- Avoid using red-colored highlighting for floating-point ins
