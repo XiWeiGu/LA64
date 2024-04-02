@@ -95,6 +95,12 @@
 				},
 				{
 					"include":"#Macro_Op"
+				},
+				{
+					"include": "#Comments"
+				},
+				{
+					"include": "#Loongson_Asm_Macro_Op"
 				}
 			]
 		},
@@ -102,7 +108,7 @@
 		"Base_reg" : {
 			"patterns": [
 				{
-					"name": "string.regexp.la64",
+					"name": "variable.parameter.la64",
 					"match": "(\\$)?r([0-9]|[1-2][0-9]|3[0-1])\\b|(\\$)?(zero|ra|tp|sp|fp)\\b|(\\$)?a[0-7]\\b|\\bt[0-8]\\b|\\$t[0-8]\\b|\\bs[0-8]\\b|\\$s[0-8]\\b"
 				}
 			]
@@ -110,8 +116,8 @@
 		"Arithmetic_Op" : {
 			"patterns": [
 				{
-					"name": "invalid.illegal.la64",
-					"match": "\\b((add|sub|addi|alsl|mul|mulh|div|mod)\\.(w|d))\\b|\\b(addu16i|lu52i|lu32i)\\.d\\b|\\balsl.wu\\b|\\blu12i\\.w\\b|\\b(slt|sltu|slti|sltui|pcaddi|pcaddu12i|pcaddu18i|pcalau12i|and|or|nor|xor|andn|orn|andi|ori|xori)\\b|\\b(mulh|div|mod)\\.(wu|du)\\b|\\bmulw\\.d\\.(w|wu)\\b|\\bnop\\b"
+					"name": "keyword.control.la64",
+					"match": "\\b((add|sub|addi|alsl|mul|mulh|div|mod)\\.(w|d))\\b|\\b(addu16i|lu52i|lu32i)\\.d\\b|\\balsl.wu\\b|\\blu12i\\.w\\b|\\b(slt|sltu|slti|sltui|pcaddi|pcaddu12i|pcaddu18i|pcalau12i|and|or|nor|xor|andn|orn|andi|ori|xori)\\b|\\b(mulh|div|mod)\\.(wu|du)\\b|\\bmulw\\.d\\.(w|wu)\\b|\\bnop\\b|\\bmove\\b"
 				}
 			]
 		},
@@ -119,7 +125,7 @@
 		"Shift_Op" : {
 			"patterns": [
 				{
-					"name": "invalid.illegal.la64",
+					"name": "keyword.control.la64",
 					"match": "\\b(sll|srl|sra|rotr|slli|srli|srai|rotri)\\.(w|d)\\b"
 				}
 			]
@@ -128,7 +134,7 @@
 		"Bitwise_Op" : {
 			"patterns": [
 				{
-					"name": "invalid.illegal.la64",
+					"name": "keyword.control.la64",
 					"match": "\\bext\\.w\\.(b|h)\\b|\\b(clo|clz|cto|ctz|bitrev|bstrins|bstrpick)\\.(w|d)\\b|\\bbytepick\\.(w|d)\\b|\\brevb\\.(2h|4h|2w|d)\\b|\\brevh\\.(2w|d)\\b|\\bbitrev\\.(4b|8b)\\b|\\b(maskeqz|masknez)\\b"
 				}
 			]
@@ -137,7 +143,7 @@
 		"Jump_Op" : {
 			"patterns": [
 				{
-					"name": "invalid.illegal.la64",
+					"name": "keyword.control.la64",
 					"match": "\\b(beq|bne|blt|bge|bltu|bgeu|beqz|bnez|b|bl|jirl)\\b"
 				}
 			]
@@ -146,7 +152,7 @@
 		"Regular_Memory_Access_Op" :{
 			"patterns": [
 				{
-					"name": "invalid.illegal.la64",
+					"name": "keyword.control.la64",
 					"match": "\\b(ld|st|ldx|stx)\\.(b|h|w|d)\\b|\\b(st|ldx)\\.(bu|hu|wu)\\b|\\b(ldptr|stptr)\\.(w|d)\\b|\\b(preld|preldx)\\b"
 				}
 			]
@@ -155,7 +161,7 @@
 		"Bounds_Checking_Memory_Access_Op" :{
 			"patterns": [
 				{
-					"name": "invalid.illegal.la64",
+					"name": "keyword.control.la64",
 					"match": "\\b(ld|st)(gt|le)\\.(b|h|w|d)\\b"
 				}
 			]
@@ -164,7 +170,7 @@
 		"Atomic_Memory_Access" :{
 			"patterns": [
 				{
-					"name": "invalid.illegal.la64",
+					"name": "keyword.control.la64",
 					"match": "\\bam(swap|add|and|or|xor|max|min)\\.(w|d)\\b|\\bam(swap|add|and|or|xor|max|min)_db\\.(w|d)\\b|\\bam(max|min)\\.(wu|du)\\b|\\bam(max|min)_db\\.(wu|du)\\b|\\bam(swap|add)\\.(b|h)\\b|\\bam(swap|add)_db\\.(b|h)\\b|\\bamcas\\.(b|h|w|d)\\b|\\bamcas_db\\.(b|h|w|d)\\b|\\b(ll|sc)\\.(w|d)\\b|\\bsc\\.q\\b|\\bll\\.acq\\.(w|d)\\b|\\bsc\\.rel\\.(w|d)\\b"
 				}
 			]
@@ -173,7 +179,7 @@
 		"Barrier_Op":{
 			"patterns": [
 				{
-					"name": "invalid.illegal.la64",
+					"name": "keyword.control.la64",
 					"match": "\\b(dbar|ibar)\\b"
 				}
 			]
@@ -182,7 +188,7 @@
 		"CRC_Checksum_Op":{
 			"patterns": [
 				{
-					"name": "invalid.illegal.la64",
+					"name": "keyword.control.la64",
 					"match": "\\b(crc|crcc)\\.w\\.(b|h|w|d)\\.w\\b"
 				}
 			]
@@ -191,7 +197,7 @@
 		"Other_Misc_Op" :{
 			"patterns": [
 				{
-					"name": "invalid.illegal.la64",
+					"name": "keyword.control.la64",
 					"match": "\\b(syscall|break|cpucfg)\\b|\\basrt(le|gt)\\.d\\b|\\brdtime(l|h)\\.w\\b|\\brdtime\\.d\\b"
 				}
 			]
@@ -209,7 +215,7 @@
 		"Float_Arithmetic_Op":{
 			"patterns": [
 				{
-					"name": "invalid.la64",
+					"name": "keyword.other.unit.la64",
 					"match": "\\bf(add|sub|mul|div|madd|msub|nmadd|nmsub|max|min|maxa|mina|abs|neg|sqrt|recip|rsqrt|scaleb|logb|copysign|class|recipe|rsqrte)\\.(s|d)\\b"
 				}
 			]
@@ -218,7 +224,7 @@
 		"Float_Comp_Op":{
 			"patterns": [
 				{
-					"name":"invalid.la64",
+					"name":"keyword.other.unit.la64",
 					"match": "\\bfcmp\\.(caf|cun|ceq|cueq|clt|cult|cle|cule|cne|cor|cune|saf|sun|seq|sueq|slt|sult|sle|sule|sne|sor|sune)\\.(s|d)\\b"
 				}
 			]
@@ -227,7 +233,7 @@
 		"Float_Conversion_Op":{
 			"patterns": [
 				{
-					"name":"invalid.la64",
+					"name":"keyword.other.unit.la64",
 					"match": "\\bfcvt\\.s\\.d\\b|\\bfcvt\\.d\\.s\\b|\\bffint\\.(s|d)\\.(w/l)\\b|\\bftint\\.(w|l)\\.(s|d)\\b|\\bftint(rm|rp|rz|rne)\\.(w|l)\\.(s|d)\\b|\\bfrint\\.(s|d)\\b"
 				}
 			]
@@ -236,8 +242,8 @@
 		"Float_Mov_Op":{
 			"patterns": [
 				{
-					"name":"invalid.la64",
-					"match": "\\bfmov.(s|d)\\b|\\bfsel\\b|\\bmovgr2fr\\.(w|d)\\b|\\bmovegr2frh\\.w\\b|\\bmovefr2gr\\.(s|d)\\b|\\bmovefrh2gr.s\\b|\\b(movegr2fcsr|movfcsr2gr|movfr2cf|movcf2fr|movgr2cf|movcf2gr)\\b"
+					"name":"keyword.other.unit.la64",
+					"match": "\\bfmov.(s|d)\\b|\\bfsel\\b|\\bmovgr2fr\\.(w|d)\\b|\\bmovgr2frh\\.w\\b|\\bmovfr2gr\\.(s|d)\\b|\\bmovfrh2gr.s\\b|\\b(movgr2fcsr|movfcsr2gr|movfr2cf|movcf2fr|movgr2cf|movcf2gr)\\b"
 				}
 			]
 		},
@@ -245,7 +251,7 @@
 		"Float_Branch_Op":{
 			"patterns": [
 				{
-					"name":"invalid.la64",
+					"name":"keyword.other.unit.la64",
 					"match": "\\b(bceqz|bcnez)\\b"
 				}
 			]
@@ -254,7 +260,7 @@
 		"Float_Mem_Op":{
 			"patterns": [
 				{
-					"name":"invalid.la64",
+					"name":"keyword.other.unit.la64",
 					"match": "\\b(fld|fst|fldx|fstx)\\.(s|d)\\b"
 				}
 			]
@@ -262,7 +268,7 @@
 		"Float_Bounds_Checking_Mem_Op":{
 			"patterns": [
 				{
-					"name":"invalid.la64",
+					"name":"keyword.other.unit.la64",
 					"match": "\\b(fld|fst)(gt|le)\\.(s|d)\\b"
 				}
 			]
@@ -345,7 +351,7 @@
 			"patterns": [
 				{
 					"name":"constant.character.la64",
-					"match": "\\bvinsgr2vr\\.(b|h|w|d)\\b|\\bxvinsgr2vr\\.(w|d)\\b|vpickve2gr\\.(b|h|w|d)u?\\b|\\bxvpickve2gr\\.(w|d)u?\\b|\\bx?v(replgr2vr|replve)\\,(b|h|w|d)\\b|\\b(vreplvei|xvrepl128vei)\\.(b|h|w|d)\\b|\\bxvreplve0\\.(b|h|w|d|q)\\b|\\b(xvinsve0|xvpickve)\\.(w|d)\\b|\\bx?v(bsll|bsrl)\\.v\\b|\\bx?v(pack|pick)(ev|od)\\.(b|h|w|d)\\b|\\bx?vilv(l|h)\\.(b|h|w|d)\\b|\\bx?vshuf\\.b\\b|\\bx?v(shuf|shuf4i|extrins)\\.(b|h|w|d)\\b|\\bxvperm\\.w\\b|\\bvpermi\\.w\\b|\\bxvpermi\\.(w|d|q)\\b"
+					"match": "\\bvinsgr2vr\\.(b|h|w|d)\\b|\\bxvinsgr2vr\\.(w|d)\\b|vpickve2gr\\.(b|h|w|d)u?\\b|\\bxvpickve2gr\\.(w|d)u?\\b|\\bx?v(replgr2vr|replve)\\,(b|h|w|d)\\b|\\b(vreplvei|xvrepl128vei)\\.(b|h|w|d)\\b|\\bxvreplve0\\.(b|h|w|d|q)\\b|\\b(xvinsve0|xvpickve)\\.(w|d)\\b|\\bx?v(bsll|bsrl)\\.v\\b|\\bx?v(pack|pick)(ev|od)\\.(b|h|w|d)\\b|\\bx?vilv(l|h)\\.(b|h|w|d)\\b|\\bx?vshuf\\.b\\b|\\bx?v(shuf|shuf4i|extrins)\\.(b|h|w|d)\\b|\\bxvperm\\.w\\b|\\bvpermi\\.w\\b|\\bxvpermi\\.(w|d|q)\\b|\\bx?vreplgr2vr\\.(b|h|w|d)\\b"
 				}
 			]
 		},
@@ -359,11 +365,34 @@
 			]
 		},
 
-		"Macro_Op":{
+		"Loongson_Asm_Macro_Op":{
 			"patterns": [
 				{
-					"name":"constant.character.la64",
-					"match":"\\bG(LD|LD_INC|LDX|LDREPL|ST|MUL|MADD|ADD|ADDI|SUB|SLLI|INSVE0|XOR|PERMI|NMSUB|PRELD|ACC|MOV|COMPLEXACC|GCOMPLEXMUL|GCOMPLEXMADD|SBUTTERFLY|TRANSPOSE8x8_W|TRANSPOSE4x4_D|INTERLACE)\\b|\\bREG_(SIZE|LOG)\\b|\\bPTR_(LOG|ADDI|ADD|SUB|LD|ST|SLLI|SRLI|ALSL)\\b|\\bFREG_(SIZE|LOG)\\b|\\bPTR_(FLD|FST)\\b"
+					"name":"markup.bold.la64",
+					"match":"\\bG(LD|LD_INC|LDX|LDREPL|ST|MUL|MADD|ADD|ADDI|SUB|SLLI|INSVE0|XOR|PERMI|NMSUB|PRELD|ACC|MOV|COMPLEXACC|GCOMPLEXMUL|GCOMPLEXMADD|SBUTTERFLY|TRANSPOSE8x8_W|TRANSPOSE4x4_D|INTERLACE)\\b|\\bREG_(SIZE|LOG)\\b|\\bPTR_(LOG|ADDI|ADD|SUB|LD|ST|SLLI|SRLI|ALSL)\\b|\\bFREG_(SIZE|LOG)\\b|\\bPTR_(FLD|FST)\\b|\\b(function|endfunc|const|endconst|push_if_used|pop_if_used)\\b"
+				}
+			]
+		},
+
+		"Macro_Op":{
+			"patterns":[
+				{
+					"name":"support.function.la64",
+					"match":"^\\#(warning|undef|unassert|sccs|pragma|line|include_next|include|import|ifndef|ifdef|if|ident|error|endif|else|elif|define|assert)\\b"
+				}
+			]
+		},
+
+		"Comments":{
+			"patterns":[
+				{
+					"begin": "/\\*",
+					"end": "\\*/",
+					"name": "comment.block.la64"
+				},
+				{
+					"match": "(//.*$)|(#\\s+.*$)",
+					"name": "comment.line.la64"
 				}
 			]
 		}

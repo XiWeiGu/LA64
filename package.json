@@ -1,8 +1,8 @@
 {
   "name": "la64",
   "displayName": "la64",
-  "description": "",
-  "version": "0.0.2",
+  "description": "loongarch64 snippets",
+  "version": "0.0.4",
   "icon": "logo.png",
   "publisher": "guxiwei",
   "engines": {

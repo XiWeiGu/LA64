@@ -1781,7 +1781,7 @@
 			"bnez"
 		],
 		"description": "bnez rj, offs21"
-	},  
+	},
 
 	"b": {
 		"prefix": "b",
@@ -2758,5 +2758,13 @@
 			"cpucfg"
 		],
 		"description": "cpucfg rd, rj"
+	},
+
+	"move": {
+		"prefix": "move",
+		"body": [
+			"move"
+		],
+		"description": "move rd, rj"
 	}
 }
