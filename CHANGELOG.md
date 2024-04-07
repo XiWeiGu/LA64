@@ -24,3 +24,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [V0.0.4]
 - Avoid using red-colored highlighting for floating-point ins
+
+## [V0.0.5]
+- Fixed {xv/v}shuf4i.{b/h/w/d} snippet

@@ -5488,36 +5488,36 @@
 		"description": "vshuf.d vd, vj, vk"
 	},
 
-	"vshu4i.b": {
-		"prefix": "vshu4i.b",
+	"vshuf4i.b": {
+		"prefix": "vshuf4i.b",
 		"body": [
-			"vshu4i.b"
+			"vshuf4i.b"
 		],
-		"description": "vshu4i.b vd, vj, ui8"
+		"description": "vshuf4i.b vd, vj, ui8"
 	},
 
-	"vshu4i.h": {
-		"prefix": "vshu4i.h",
+	"vshuf4i.h": {
+		"prefix": "vshuf4i.h",
 		"body": [
-			"vshu4i.h"
+			"vshuf4i.h"
 		],
-		"description": "vshu4i.h vd, vj, ui8"
+		"description": "vshuf4i.h vd, vj, ui8"
 	},
 
-	"vshu4i.w": {
-		"prefix": "vshu4i.w",
+	"vshuf4i.w": {
+		"prefix": "vshuf4i.w",
 		"body": [
-			"vshu4i.w"
+			"vshuf4i.w"
 		],
-		"description": "vshu4i.w vd, vj, ui8"
+		"description": "vshuf4i.w vd, vj, ui8"
 	},
 
-	"vshu4i.d": {
-		"prefix": "vshu4i.d",
+	"vshuf4i.d": {
+		"prefix": "vshuf4i.d",
 		"body": [
-			"vshu4i.d"
+			"vshuf4i.d"
 		],
-		"description": "vshu4i.d vd, vj, ui8"
+		"description": "vshuf4i.d vd, vj, ui8"
 	},
 
 	"vpermi.w": {

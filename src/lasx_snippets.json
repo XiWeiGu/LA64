@@ -5512,36 +5512,36 @@
 		"description": "xvshuf.d xd, xj, xk"
 	},
 
-	"xvshu4i.b": {
-		"prefix": "xvshu4i.b",
+	"xvshuf4i.b": {
+		"prefix": "xvshuf4i.b",
 		"body": [
-			"xvshu4i.b"
+			"xvshuf4i.b"
 		],
-		"description": "xvshu4i.b xd, xj, ui8"
+		"description": "xvshuf4i.b xd, xj, ui8"
 	},
 
-	"xvshu4i.h": {
-		"prefix": "xvshu4i.h",
+	"xvshuf4i.h": {
+		"prefix": "xvshuf4i.h",
 		"body": [
-			"xvshu4i.h"
+			"xvshuf4i.h"
 		],
-		"description": "xvshu4i.h xd, xj, ui8"
+		"description": "xvshuf4i.h xd, xj, ui8"
 	},
 
-	"xvshu4i.w": {
-		"prefix": "xvshu4i.w",
+	"xvshuf4i.w": {
+		"prefix": "xvshuf4i.w",
 		"body": [
-			"xvshu4i.w"
+			"xvshuf4i.w"
 		],
-		"description": "xvshu4i.w xd, xj, ui8"
+		"description": "xvshuf4i.w xd, xj, ui8"
 	},
 
-	"xvshu4i.d": {
-		"prefix": "xvshu4i.d",
+	"xvshuf4i.d": {
+		"prefix": "xvshuf4i.d",
 		"body": [
-			"xvshu4i.d"
+			"xvshuf4i.d"
 		],
-		"description": "xvshu4i.d xd, xj, ui8"
+		"description": "xvshuf4i.d xd, xj, ui8"
 	},
 
 	"xvperm.w": {
