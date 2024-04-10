@@ -64,6 +64,9 @@
 					"include": "#Float_Bounds_Checking_Mem_Op"
 				},
 				{
+					"include": "#Float_Branch_Op"
+				},
+				{
 					"include": "#LASX_Reg"
 				},
 				{
@@ -234,7 +237,7 @@
 			"patterns": [
 				{
 					"name":"keyword.other.unit.la64",
-					"match": "\\bfcvt\\.s\\.d\\b|\\bfcvt\\.d\\.s\\b|\\bffint\\.(s|d)\\.(w/l)\\b|\\bftint\\.(w|l)\\.(s|d)\\b|\\bftint(rm|rp|rz|rne)\\.(w|l)\\.(s|d)\\b|\\bfrint\\.(s|d)\\b"
+					"match": "\\bfcvt\\.s\\.d\\b|\\bfcvt\\.d\\.s\\b|\\bffint\\.(s|d)\\.(w|l)\\b|\\bftint\\.(w|l)\\.(s|d)\\b|\\bftint(rm|rp|rz|rne)\\.(w|l)\\.(s|d)\\b|\\bfrint\\.(s|d)\\b"
 				}
 			]
 		},

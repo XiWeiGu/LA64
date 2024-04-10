@@ -27,3 +27,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [V0.0.5]
 - Fixed {xv/v}shuf4i.{b/h/w/d} snippet
+
+## [V0.0.6]
+- Fixed highlighting of ffint, bceqz and bcnez
