@@ -30,3 +30,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [V0.0.6]
 - Fixed highlighting of ffint, bceqz and bcnez
+
+## [V0.0.7]
+- Fixed highlighting of {xv/v}haddw and {xv/v}hsubw
