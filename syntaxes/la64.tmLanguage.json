@@ -156,7 +156,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.la64",
-					"match": "\\b(ld|st|ldx|stx)\\.(b|h|w|d)\\b|\\b(st|ldx)\\.(bu|hu|wu)\\b|\\b(ldptr|stptr)\\.(w|d)\\b|\\b(preld|preldx)\\b"
+					"match": "\\b(ld|st|ldx|stx)\\.(b|h|w|d)\\b|\\b(st|ldx)\\.(bu|hu|wu)\\b|\\b(ldptr|stptr)\\.(w|d)\\b|\\b(preld|preldx)\\b|\\b(ld|ldx)\\.(bu|hu|wu)\\b"
 				}
 			]
 		},
