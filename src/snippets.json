@@ -2766,5 +2766,29 @@
 			"move"
 		],
 		"description": "move rd, rj"
+	},
+
+	"li.d": {
+		"prefix": "li.d",
+		"body": [
+			"li.d"
+		],
+		"description": "li.d rd, imm"
+	},
+
+	"la.local": {
+		"prefix": "la.local",
+		"body": [
+			"la.local"
+		],
+		"description": "la.local rd, label"
+	},
+
+	"la.global": {
+		"prefix": "la.global",
+		"body": [
+			"la.global"
+		],
+		"description": "la.global rd, label"
 	}
 }

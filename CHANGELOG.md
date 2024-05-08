@@ -36,3 +36,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [V0.0.8]
 - Fixed highlighting of {ld/ldx}.{hu/bu/wu}
+
+## [V0.0.9]
+- Fixed highlighting of {xv/v}{max/min} li.d and la.{local/global}
